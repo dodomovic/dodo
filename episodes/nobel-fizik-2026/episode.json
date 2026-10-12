@@ -2,7 +2,7 @@
  "date": "2026-10-13",
  "format": "doc",
  "title": "2026 Nobel Fizik Ödülü: Buzun Altındaki Teleskop ve Hayalet Parçacık Nötrino | Francis Halzen & IceCube",
- "description": "2026 Nobel Fizik Ödülü, Güney Kutbu buzunun iki kilometre altına kurulan IceCube Nötrino Gözlemevi'ne ve uzaydan gelen yüksek enerjili nötrinoların keşfine verildi. Ödülü kazanan Francis Halzen'in hikâyesini, nötrinoların ne olduğunu ve keşfin gerçekte neyi kanıtlayıp neyi henüz kanıtlamadığını resmi kaynaklardan anlatıyoruz.\n\nBölümler:\n- 5N1K: Ödülün özeti\n- Nötrino nedir?\n- Evrenin parçacık hızlandırıcıları\n- Buzdan bir teleskop fikri\n- AMANDA'dan IceCube'e\n- Keşif\n- Mantık sorgusu\n- Sırada ne var?\n\nKaynaklar (İsveç Kraliyet Bilimler Akademisi / Nobel Komitesi):\nBasın bülteni: https://www.nobelprize.org/prizes/physics/2026/press-release/\nPopüler bilim metni: https://www.nobelprize.org/prizes/physics/2026/popular-information/\nBilimsel arka plan (PDF): https://www.nobelprize.org/uploads/2026/10/advanced-physicsprize2026.pdf\n\nVideodaki tüm grafikler BosNRoll tarafından çizilmiştir.\nBu videoda kanal sahibinin sesinden yapay zekâ ile üretilmiş seslendirme kullanılmıştır.",
+ "description": "2026 Nobel Fizik Ödülü, Güney Kutbu buzunun iki kilometre altına kurulan IceCube Nötrino Gözlemevi'ne ve uzaydan gelen yüksek enerjili nötrinoların keşfine verildi. Ödülü kazanan Francis Halzen'in hikâyesini, nötrinoların ne olduğunu ve keşfin gerçekte neyi kanıtlayıp neyi henüz kanıtlamadığını resmi kaynaklardan anlatıyoruz.\n\nBölümler:\n- 5N1K: Ödülün özeti\n- Nötrino nedir?\n- Evrenin parçacık hızlandırıcıları\n- Buzdan bir teleskop fikri\n- AMANDA'dan IceCube'e\n- Keşif\n- Mantık sorgusu\n- Sırada ne var?\n\nKaynaklar (İsveç Kraliyet Bilimler Akademisi / Nobel Komitesi):\nBasın bülteni: https://www.nobelprize.org/prizes/physics/2026/press-release/\nPopüler bilim metni: https://www.nobelprize.org/prizes/physics/2026/popular-information/\nBilimsel arka plan (PDF): https://www.nobelprize.org/uploads/2026/10/advanced-physicsprize2026.pdf\n\nFotoğraflar (Wikimedia Commons; kırpılarak, karartılarak ve üzerine yazı eklenerek kullanılmıştır):\n- 85 numaralı deliğe indirilmeyi bekleyen bir IceCube sensörü (DOM), Aralık 2009: Amble, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:ICECUBE_dom_taklampa.jpg\n- IceCube sondaj kampı, Aralık 2009: Amble, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:IceCube_drill_camp_2009.jpg\n- Francis Halzen, 21. Uluslararası Nötrino Teleskopları Çalıştayı, Padova 2025: Mauro Mezzetto, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Halzen-Neutel_(cropped).jpg\n- IceCube Laboratuvarı, Güney Kutbu, 2023: Christopher Michel, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:IceCube_Neutrino_Observatory_in_2023_01.jpg\n- Şafakta IceCube Laboratuvarı, Samanyolu ve kutup ışıkları: John Hardin, CC BY 4.0 — https://commons.wikimedia.org/wiki/File:The_ICL_at_Dawn.jpg\n- Kutup kışında IceCube Laboratuvarı: John Hardin, CC BY 4.0 — https://commons.wikimedia.org/wiki/File:The_ICL_at_Night.jpg\nDiyagramlar ve grafikler BosNRoll tarafından çizilmiştir.\nBu videoda kanal sahibinin sesinden yapay zekâ ile üretilmiş seslendirme kullanılmıştır.",
  "tags": [
   "Nobel Fizik Ödülü 2026",
   "Francis Halzen",
@@ -78,14 +78,16 @@
    "say": "Siz bu cümleyi dinlerken, Güneş'ten gelen yaklaşık 65 milyar nötrino, her saniye serçe parmağınızın tırnağından geçiyor. Hiçbirini hissetmiyorsunuz. Hiçbiri size dokunmuyor bile."
   },
   {
-   "scene": "diagram",
+   "scene": "photo",
    "story": -1,
    "chapter": -1,
    "key": "",
    "q": -1,
    "data": {
-    "name": "earth",
-    "caption": "Nötrinolar Dünya'nın içinden bile geçip gider"
+    "photo": "icl-night",
+    "kicker": "Güney Kutbu",
+    "title": "Buzun 2 km altında bir teleskop",
+    "label": "IceCube Laboratuvarı, kutup kışında"
    },
    "say": "Peki, neredeyse hiçbir şeye çarpmayan bir parçacığı nasıl yakalarsınız? 2026 Nobel Fizik Ödülü'nün cevabı şaşırtıcı: Güney Kutbu'ndaki buzun iki kilometre altına bakarak."
   },
@@ -402,7 +404,8 @@
      "Doktora: 1969, Leuven Katolik Üniversitesi",
      "Profesör: Wisconsin–Madison Üniversitesi, ABD",
      "IceCube'ün en başından beri baş araştırmacısı"
-    ]
+    ],
+    "photo": "halzen"
    },
    "say": "Halzen Belçika'da büyüdü ve 1960'larda parçacık fiziğindeki gelişmelerle bu alana yöneldi. Doktorasından kısa süre sonra Wisconsin-Madison Üniversitesi'ne geçti. Zamanla, uzaydan gelen parçacıkların hem parçacık fiziğine hem de astrofiziğe neler öğretebileceğiyle ilgilenmeye başladı."
   },
@@ -475,20 +478,22 @@
    "say": "Halzen, Hawaii açıklarında okyanusun derinliklerine benzer bir dedektör kurmaya çalışan DUMAND projesinin sözcüsü John Learned'a yazdı. İkili, Güney Kutbu buzunda bir nötrino gözlemevi fikrini ilk kez 1988'de, Polonya'daki bir konferansta sundu."
   },
   {
-   "scene": "list",
+   "scene": "photo",
    "story": -1,
    "chapter": 3,
    "key": "",
    "q": -1,
    "data": {
-    "title": "Neden Güney Kutbu?",
+    "title": "",
     "items": [
      "Hazır araştırma istasyonu ve lojistik",
      "Derinlerde mutlak karanlık, ışık saçan canlı yok",
      "Çok az radyoaktif madde",
      "Jeolojik olarak sakin, deprem yok",
      "Dezavantaj: çalışma sadece kasım–şubat arası"
-    ]
+    ],
+    "photo": "icl-2023",
+    "kicker": "Neden Güney Kutbu?"
    },
    "say": "Güney Kutbu'nun avantajları çoktu. Orada zaten bir araştırma istasyonu vardı. Derinlerde buz kapkaranlık; okyanustaki gibi ışık saçan canlılar yok, radyoaktif madde az. Bölge jeolojik olarak sakin, deprem yok. Dezavantajı ise soğuk: bütün saha çalışmaları, kasım ile şubat arasındaki kısa Antarktika yazına sığmak zorunda."
   },
@@ -543,14 +548,17 @@
    "say": "Önce bir test gerekiyordu. 1991'de Grönland buzundaki sondaj kuyularına indirilen sensörler, buzun bu ışığı taşıyacak kadar şeffaf olduğunu gösterdi."
   },
   {
-   "scene": "timeline",
+   "scene": "photo",
    "story": -1,
    "chapter": 4,
    "key": "",
    "q": -1,
    "data": {
-    "active": 1,
-    "ref": 38
+    "photo": "drill-camp",
+    "layout": "wide",
+    "kicker": "AMANDA · 1993",
+    "title": "Sıcak suyla buzu delmek",
+    "label": "Kilometrelerce derin delikler, sıcak su püskürtülerek eritildi"
    },
    "say": "Sonra Güney Kutbu'nda, IceCube'ün öncülü olan AMANDA kuruldu. Kilometrelerce derinlikteki delikler, buzul bilimcilerden öğrenilen bir yöntemle, sıcak su püskürten dev bir duş başlığıyla eritilerek açıldı. Halzen, 1993 Noel arifesinde yemek masasında, kucağında bilgisayarıyla, ilk sensör kablosunun buza indirildiği haberini beklediğini anlatıyor."
   },
@@ -605,15 +613,17 @@
    "say": "Buzun yüzeyinde ayrıca IceTop adlı bir dedektör dizisi var. Atmosfere çarpan kozmik ışınların oluşturduğu parçacık sağanaklarını ölçüyor ve aşağıdaki dedektöre, yukarıdan gelen gürültüyü ayıklamak için bir tür uyarı sinyali veriyor."
   },
   {
-   "scene": "stat",
+   "scene": "photo",
    "story": -1,
    "chapter": 4,
    "key": "",
    "q": -1,
    "data": {
-    "value": "1 km³",
-    "label": "İzlenen buz hacmi: yaklaşık bir milyar ton",
-    "foot": "IceCube 2011'de tamamlandı · çalışma süresi %99'un üzerinde"
+    "photo": "dom",
+    "layout": "side",
+    "kicker": "Bir IceCube sensörü (DOM)",
+    "title": "Tersine çalışan bir ampul",
+    "label": "Işık yaymak yerine ışığı yakalar ve elektrik sinyaline çevirir · 1 km³ buzda 5.160 tane"
    },
    "say": "Bu, yaklaşık bir milyar tonluk bir buz kütlesi demek. Halzen bu sensörleri tersine çalışan bir ampule benzetiyor: ışık yaymak yerine ışığı yakalıyor ve elektrik sinyaline çeviriyor."
   },
@@ -745,7 +755,7 @@
    "say": "2022'de bir adım daha atıldı. IceCube, Dünya'dan 46 milyon ışık yılı uzaktaki aktif galaksi NGC 1068 yönünden 79 nötrino geldiğini duyurdu. Bu galaksinin merkezindeki kara delik, kalın bir gaz ve toz tabakasıyla örtülü. Yani teleskoplarla göremediğimiz bir bölgeye nötrinolarla bakıyor olabiliriz."
   },
   {
-   "scene": "stat",
+   "scene": "photo",
    "story": -1,
    "chapter": 5,
    "key": "",
@@ -753,7 +763,9 @@
    "data": {
     "value": "Samanyolu",
     "label": "Keşif eşiğini geçen ilk yüksek enerjili nötrino kaynağı",
-    "foot": "2023: 4,5σ · 2026: 12 yıllık veriyle 5,7σ"
+    "foot": "2023: 4,5σ · 2026: 12 yıllık veriyle 5,7σ",
+    "photo": "icl-dawn",
+    "kicker": "2023 · 2026"
    },
    "say": "2023'te ilk kez kendi galaksimiz Samanyolu'ndan gelen yüksek enerjili nötrinolar gösterildi. Bu yıl yayımlanan, 12 yıllık veriye dayanan analizle sonuç 5 sigma eşiğini aştı. Böylece Samanyolu, keşif eşiğini geçen ilk yüksek enerjili nötrino kaynağı oldu."
   },
@@ -864,14 +876,16 @@
    "say": "Hedef, nötrinoları gama ışınları, kozmik ışınlar ve belki kütleçekim dalgalarıyla birleştirip evrenin en şiddetli olaylarının tam resmini çıkarmak. Buna çok habercili astronomi deniyor."
   },
   {
-   "scene": "title",
+   "scene": "photo",
    "story": -1,
    "chapter": 7,
    "key": "",
    "q": -1,
    "data": {
-    "title": "1988 → 2026",
-    "sub": "Bir konferans fikrinden Nobel'e"
+    "photo": "icl-night",
+    "kicker": "1988 → 2026",
+    "title": "Bir konferans fikrinden Nobel'e",
+    "label": "IceCube, zamanın %99'undan fazlasında çalışıyor"
    },
    "say": "1988'de bir konferansta anlatılan, ilk denemeleri hayal kırıklığıyla biten bir fikir, bugün Güney Kutbu'nda zamanın yüzde doksan dokuzundan fazlasında kesintisiz çalışan bir gözlemevine dönüştü. Ve her gün yeni nötrinolar yakalamaya devam ediyor."
   },

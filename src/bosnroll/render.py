@@ -30,7 +30,28 @@ def prepare_episode(episode: dict) -> dict:
             items = data.setdefault("items", items)
             b["data"] = data
         beats.append(b)
-    return {**episode, "beats": beats, "format": episode.get("format", "news"), "date_label": date_label(episode["date"])}
+    credits_file = ASSETS / "photos" / "credits.json"
+    credits = json.loads(credits_file.read_text(encoding="utf-8")) if credits_file.exists() else {}
+    return {
+        **episode,
+        "beats": beats,
+        "format": episode.get("format", "news"),
+        "date_label": date_label(episode["date"]),
+        "photo_credits": credits,
+    }
+
+
+# Arka plan görselleri yüklenmeden kare çekilmesin
+_WAIT_IMAGES = """() => Promise.all([...document.querySelectorAll('.bgphoto, .medal.ph')].map(el => new Promise(done => {
+  const m = getComputedStyle(el).backgroundImage.match(/url\\("?(.*?)"?\\)/);
+  if (!m) return done();
+  const img = new Image(); img.onload = img.onerror = () => img.decode().then(done, done); img.src = m[1];
+})))"""
+
+
+def _draw(page, frame: dict) -> None:
+    page.evaluate("f => render(f)", frame)
+    page.evaluate(_WAIT_IMAGES)
 
 
 def render_preview(episode: dict, out_dir: Path) -> list[Path]:
@@ -47,7 +68,7 @@ def render_preview(episode: dict, out_dir: Path) -> list[Path]:
         page.evaluate("document.fonts.ready")
         for i, beat in enumerate(ep["beats"]):
             sub = split_subtitle(Line(i, split_sentences(beat["say"])[0], 0, 1))[0].text
-            page.evaluate("f => render(f)", {"episode": ep, "beat": beat, "subtitle": sub})
+            _draw(page, {"episode": ep, "beat": beat, "subtitle": sub})
             path = out_dir / f"{i:03d}-{beat['scene']}.png"
             page.screenshot(path=str(path))
             paths.append(path)
@@ -104,7 +125,7 @@ def render_frames(
         page.goto((TEMPLATES / "scene.html").as_uri())
         page.evaluate("document.fonts.ready")
         for i, (beat, text, start, end) in enumerate(timeline):
-            page.evaluate("f => render(f)", {"episode": ep, "beat": beat, "subtitle": text})
+            _draw(page, {"episode": ep, "beat": beat, "subtitle": text})
             path = frames_dir / f"{i:04d}.png"
             page.screenshot(path=str(path))
             out.append((path, end - start))

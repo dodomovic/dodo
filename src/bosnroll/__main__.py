@@ -53,9 +53,16 @@ def cmd_video(cfg: dict, date: str) -> None:
 
     out = episode_dir(date)
     episode = json.loads((out / "episode.json").read_text(encoding="utf-8"))
-    voice = out / "voice.wav"
-    lines = tts.synthesize(episode, cfg, voice)
-    render.save_lines(lines, out / "lines.json")
+    voice, key_file = out / "voice.wav", out / "voice.key"
+    key = tts.voice_key(episode, cfg)
+    if voice.exists() and (out / "lines.json").exists() and key_file.exists() and key_file.read_text() == key:
+        # Seslendirilecek metin ve ses ayarları değişmedi: (VoxCPM2'de saatler süren) sesi yeniden üretme.
+        print("Seslendirme değişmedi, mevcut ses kullanılıyor")
+        lines = render.load_lines(out / "lines.json")
+    else:
+        lines = tts.synthesize(episode, cfg, voice)
+        render.save_lines(lines, out / "lines.json")
+        key_file.write_text(key)
     with wave.open(str(voice)) as w:
         audio_dur = w.getnframes() / w.getframerate()
     print(f"Seslendirme: {audio_dur:.1f} sn")

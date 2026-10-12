@@ -7,6 +7,8 @@
 Her cümle ayrı üretildiği için altyazı zamanlamaları kesin olarak bilinir; ayrıca hizalama modeline gerek kalmaz.
 """
 
+import hashlib
+import json
 import re
 import wave
 from dataclasses import dataclass
@@ -138,6 +140,19 @@ def _trim_silence(audio: np.ndarray, threshold: float = 0.01, pad: float = 0.05)
         return audio
     p = int(pad * SAMPLE_RATE)
     return audio[max(loud[0] - p, 0) : loud[-1] + p]
+
+
+def voice_key(episode: dict, cfg: dict) -> str:
+    """Seslendirmeyi etkileyen her şeyin özeti; değişmediyse ses yeniden üretilmez."""
+    tts_cfg = cfg["tts"]
+    h = hashlib.sha256()
+    h.update(json.dumps([b["say"] for b in episode["beats"]], ensure_ascii=False).encode())
+    h.update(json.dumps({"tts": tts_cfg, "lexicon": cfg.get("lexicon", {})}, sort_keys=True).encode())
+    if tts_cfg["engine"] == "voxcpm":
+        for k in ("reference_wav", "reference_text"):
+            h.update((ROOT / tts_cfg["voxcpm"][k]).read_bytes())
+    h.update(Path(__file__).read_bytes())  # cümle bölme / sayı okuma kuralları
+    return h.hexdigest()
 
 
 def synthesize(episode: dict, cfg: dict, out_wav: Path) -> list[Line]:

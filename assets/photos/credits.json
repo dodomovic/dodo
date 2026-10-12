@@ -1,0 +1,44 @@
+{
+  "halzen": {
+    "file": "halzen.jpg",
+    "author": "Mauro Mezzetto",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Halzen-Neutel_(cropped).jpg",
+    "description": "Francis Halzen, 21. Uluslararası Nötrino Teleskopları Çalıştayı, Padova 2025"
+  },
+  "icl-2023": {
+    "file": "icl-2023.jpg",
+    "author": "Christopher Michel",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:IceCube_Neutrino_Observatory_in_2023_01.jpg",
+    "description": "IceCube Laboratuvarı, Güney Kutbu, 2023"
+  },
+  "icl-dawn": {
+    "file": "icl-dawn.jpg",
+    "author": "John Hardin",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_ICL_at_Dawn.jpg",
+    "description": "Şafakta IceCube Laboratuvarı, Samanyolu ve kutup ışıkları"
+  },
+  "icl-night": {
+    "file": "icl-night.jpg",
+    "author": "John Hardin",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_ICL_at_Night.jpg",
+    "description": "Kutup kışında IceCube Laboratuvarı"
+  },
+  "dom": {
+    "file": "dom.jpg",
+    "author": "Amble",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ICECUBE_dom_taklampa.jpg",
+    "description": "85 numaralı deliğe indirilmeyi bekleyen bir IceCube sensörü (DOM), Aralık 2009"
+  },
+  "drill-camp": {
+    "file": "drill-camp.jpg",
+    "author": "Amble",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:IceCube_drill_camp_2009.jpg",
+    "description": "IceCube sondaj kampı, Aralık 2009"
+  }
+}
