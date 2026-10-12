@@ -17,7 +17,7 @@ RSS haberleri ──► Claude: haber seçimi + 5N1K senaryosu ──► EMA Lig
 | Senaryo | `src/bosnroll/script.py` | Claude API, JSON şemasıyla; haber metni dışında bilgi uydurmaması istenir |
 | Seslendirme | `src/bosnroll/tts.py` | [EMA Lightning](https://huggingface.co/canberkkkkkk/ema-lightning) (Apache 2.0, CPU'da çalışır). Cümle cümle üretildiği için altyazı zamanlaması kesin |
 | Görseller | `src/bosnroll/templates/scene.html` | Kanalın neon turuncu kimliği; giriş, başlık, 5N1K kartları, mantık sorgusu, karar, kapanış ve kapak görseli |
-| Video | `src/bosnroll/render.py` | 1920×1080, altta ilerleme çizgisi, `assets/music.mp3` varsa alttan müzik |
+| Video | `src/bosnroll/render.py` | 4K (3840×2160; `video.scale: 1` ile 1080p), altta ilerleme çizgisi, `assets/music.mp3` varsa alttan müzik |
 | Yükleme | `src/bosnroll/upload.py` | Video **private** yüklenir; YouTube Studio'dan kontrol edip yayınlarsınız |
 
 ## Kurulum (bir kez)

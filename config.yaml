@@ -33,8 +33,8 @@ tts:
   seed: 0
 
 video:
-  width: 1920
-  height: 1080
+  # Sahneler 1920x1080 tasarlanır; scale: 2 → 3840x2160 (4K)
+  scale: 2
   fps: 25
   # assets/music.mp3 varsa bu seviyede alta karıştırılır
   music_volume: 0.08

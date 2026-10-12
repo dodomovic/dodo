@@ -46,7 +46,9 @@ def split_subtitle(line: Line) -> list[Line]:
     return out
 
 
-def render_frames(episode: dict, lines: list[Line], audio_dur: float, frames_dir: Path, thumb_path: Path) -> list[tuple[Path, float]]:
+def render_frames(
+    episode: dict, lines: list[Line], audio_dur: float, frames_dir: Path, thumb_path: Path, scale: int = 1
+) -> list[tuple[Path, float]]:
     """Her altyazı parçası için bir kare çizer. (kare, süre) listesi döner."""
     frames_dir.mkdir(parents=True, exist_ok=True)
     ep = {**episode, "date_label": date_label(episode["date"])}
@@ -63,7 +65,7 @@ def render_frames(episode: dict, lines: list[Line], audio_dur: float, frames_dir
     with sync_playwright() as p:
         # CHROMIUM_PATH: Playwright'ın kendi indirdiği yerine sistemdeki Chromium'u kullanmak için
         browser = p.chromium.launch(executable_path=os.environ.get("CHROMIUM_PATH") or None)
-        page = browser.new_page(viewport={"width": 1920, "height": 1080})
+        page = browser.new_page(viewport={"width": 1920, "height": 1080}, device_scale_factor=scale)
         page.goto((TEMPLATES / "scene.html").as_uri())
         page.evaluate("document.fonts.ready")
         for i, (beat, text, start, end) in enumerate(timeline):
@@ -72,7 +74,14 @@ def render_frames(episode: dict, lines: list[Line], audio_dur: float, frames_dir
             page.screenshot(path=str(path))
             out.append((path, end - start))
 
-        page.set_viewport_size({"width": 1280, "height": 720})
+        browser.close()
+
+    with sync_playwright() as p:
+        # YouTube kapak görseli 1280x720 ve en fazla 2 MB olmalı
+        browser = p.chromium.launch(executable_path=os.environ.get("CHROMIUM_PATH") or None)
+        page = browser.new_page(viewport={"width": 1280, "height": 720})
+        page.goto((TEMPLATES / "scene.html").as_uri())
+        page.evaluate("document.fonts.ready")
         page.evaluate("ep => renderThumb(ep)", ep)
         page.screenshot(path=str(thumb_path), type="jpeg", quality=92)
         browser.close()
@@ -102,7 +111,7 @@ def assemble(frames: list[tuple[Path, float]], audio: Path, out_mp4: Path, cfg: 
     else:
         cmd += ["-vf", vf, "-map", "0:v", "-map", "1:a"]
     cmd += [
-        "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-tune", "stillimage",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-tune", "stillimage",
         "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
         "-movflags", "+faststart", "-shortest", str(out_mp4),
     ]

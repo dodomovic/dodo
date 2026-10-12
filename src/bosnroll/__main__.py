@@ -57,7 +57,9 @@ def cmd_video(cfg: dict, date: str) -> None:
     with wave.open(str(voice)) as w:
         audio_dur = w.getnframes() / w.getframerate()
     print(f"Seslendirme: {audio_dur:.1f} sn")
-    frames = render.render_frames(episode, lines, audio_dur, out / "frames", out / "thumbnail.jpg")
+    frames = render.render_frames(
+        episode, lines, audio_dur, out / "frames", out / "thumbnail.jpg", scale=cfg["video"]["scale"]
+    )
     render.write_srt(lines, out / "subtitles.srt")
     render.assemble(frames, voice, out / "video.mp4", cfg)
     print(f"Video hazır: {out / 'video.mp4'}")
