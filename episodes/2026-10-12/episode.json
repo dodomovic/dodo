@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-12",
+  "title": "Meta'nın Süper Zekâ İddiası, Carl Pei'nin iPhone Duo Çıkışı ve Batarya-Doğal Gaz Yarışı | 5N1K",
+  "description": "Bugün üç teknoloji haberini 5N1K ile anlatıyor, her birinin mantığını sorguluyoruz.\n\n1) Meta ilk büyük modeli Muse Wonder'ı tanıttı. Testleri kim yaptı?\n2) Nothing CEO'su Carl Pei, iPhone Duo'yu eleştirdi. Rakipten gelen eleştiri ne kadar haklı?\n3) \"Bataryalar doğal gazdan ucuz\" başlığı neyi kıyaslıyor?\n\nKaynaklar:\nTechCrunch: https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/\nShiftDelete: https://shiftdelete.net/nothingin-patronu-carl-peiden-iphone-duoya-agir-elestiri-bu-parayi-hak-etmiyor\nDonanımHaber: https://www.donanimhaber.com/carl-pei-apple-i-yerden-yere-vurdu-iphone-duo-para-tuzagi--211533\nDonanımHaber: https://www.donanimhaber.com/dengeler-degisti-bataryalar-artik-dogal-gazdan-daha-ucuz--211539\n\nBu videoda yapay zekâ ile üretilmiş seslendirme kullanılmıştır.",
+  "tags": ["teknoloji haberleri", "5N1K", "Meta", "Muse Wonder", "yapay zeka", "iPhone Duo", "Carl Pei", "Nothing", "Apple", "batarya", "güneş enerjisi", "BosNRoll"],
+  "thumbnail_text": "Kim haklı, kim abartıyor?",
+  "stories": [
+    {
+      "kicker": "YAPAY ZEKÂ",
+      "headline": "Meta ilk büyük modeli Muse Wonder'ı tanıttı",
+      "sources": [{"name": "TechCrunch", "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"}],
+      "w": {
+        "kim": "Meta Superintelligence Lab",
+        "ne": "Muse Wonder ve Muse Wonder Full modelleri",
+        "nerede": "Meta API: 4$ girdi / 20$ çıktı (milyon token)",
+        "ne_zaman": "12 Ekim 2026, Pazartesi",
+        "nasil": "Ohio'daki Prometheus veri merkezinde eğitildi",
+        "neden": "Hedef: \"kişisel süper zekâ\" ve aktif hafıza"
+      },
+      "questions": ["Testleri kim yaptı? Meta'nın kendisi", "Sizi aylarca hatırlayan asistan: kimin işine yarar?"],
+      "verdict": {"label": "ŞÜPHEYLE YAKLAŞ", "text": "Bağımsız testler gelmeden \"zirvede\" demek için erken."}
+    },
+    {
+      "kicker": "TELEFON",
+      "headline": "Carl Pei: iPhone Duo bu parayı hak etmiyor",
+      "sources": [
+        {"name": "ShiftDelete", "url": "https://shiftdelete.net/nothingin-patronu-carl-peiden-iphone-duoya-agir-elestiri-bu-parayi-hak-etmiyor"},
+        {"name": "DonanımHaber", "url": "https://www.donanimhaber.com/carl-pei-apple-i-yerden-yere-vurdu-iphone-duo-para-tuzagi--211533"}
+      ],
+      "w": {
+        "kim": "Nothing'in kurucusu ve CEO'su Carl Pei",
+        "ne": "Apple'ın ilk katlanabilir telefonuna ağır eleştiri",
+        "nerede": "Instagram'da paylaştığı bir video",
+        "ne_zaman": "Ön sipariş 16 Ekim, satış 23 Ekim",
+        "nasil": "Face ID yok, telefoto yok, ön kamera geride",
+        "neden": "Duo 229.999 TL, iPhone 18 Pro 137.999 TL"
+      },
+      "questions": ["Eleştiren kim? Katlanabilir telefonu olmayan bir rakip", "Menteşenin maliyeti nerede?"],
+      "verdict": {"label": "TESPİT DOĞRU, KIYAS EKSİK", "text": "Rakipten gelen eleştiriyi bir tutam tuzla dinleyin."}
+    },
+    {
+      "kicker": "ENERJİ",
+      "headline": "Güneşi depolamak artık doğal gazdan ucuz mu?",
+      "sources": [{"name": "DonanımHaber", "url": "https://www.donanimhaber.com/dengeler-degisti-bataryalar-artik-dogal-gazdan-daha-ucuz--211539"}],
+      "w": {
+        "kim": "48 enerji pazarını inceleyen bir analiz",
+        "ne": "4 saatlik bataryalar, zirve gaz türbinlerinden ucuz",
+        "nerede": "Güneş, 48 pazarın 43'ünde en ucuz yeni kaynak",
+        "ne_zaman": "Bugünün tablosu; batarya fiyatları düşmeye devam",
+        "nasil": "Gündüzün fazla elektriği akşam şebekeye veriliyor",
+        "neden": "Ucuzlayan bataryalar, türbinlerde tedarik sıkıntısı"
+      },
+      "questions": ["Başlık hangi doğal gazı kastediyor?", "Rüzgârsız bir kış haftasında 4 saat yeter mi?"],
+      "verdict": {"label": "YÖN DOĞRU, BAŞLIK ABARTILI", "text": "Bataryalar kazanıyor; ama her yerde ve her koşulda değil."}
+    }
+  ],
+  "beats": [
+    {"scene": "intro", "story": -1, "key": "", "q": -1, "say": "Merhaba, BosNRoll'a hoş geldiniz. Bugün teknoloji gündeminden üç haberi 5N1K ile masaya yatırıyoruz: kim, ne, nerede, ne zaman, nasıl ve neden. Ama sadece anlatmıyoruz; her haberin mantığını da sorguluyoruz. Başlayalım."},
+
+    {"scene": "headline", "story": 0, "key": "", "q": -1, "say": "İlk haberimiz yapay zekâ dünyasından. Meta, ilk büyük ölçekli öncü modelini tanıttı."},
+    {"scene": "w", "story": 0, "key": "kim", "q": -1, "say": "Kim? Meta'nın süper zekâ laboratuvarı. Bu ekip, geçen yılın ağustosunda Alexandr Wang liderliğinde yeniden yapılandırılmıştı."},
+    {"scene": "w", "story": 0, "key": "ne", "q": -1, "say": "Ne? Muse Wonder ve Muse Wonder Full adında iki yeni model. Önceki Muse Spark hafif ve hızlı bir modeldi. Wonder ise daha büyük ve kodlama gibi zor işlerde daha iddialı."},
+    {"scene": "w", "story": 0, "key": "nerede", "q": -1, "say": "Nerede? Wonder, Meta'nın kendi arayüzünden satılıyor. Fiyatı, milyon girdi tokeni için 4 dolar, milyon çıktı tokeni için 20 dolar. Full sürüm ise sadece Muse Code abonelerine açık."},
+    {"scene": "w", "story": 0, "key": "ne_zaman", "q": -1, "say": "Ne zaman? Bugün, 12 Ekim Pazartesi günü duyuruldu."},
+    {"scene": "w", "story": 0, "key": "nasil", "q": -1, "say": "Nasıl? Modeller, bu yıl devreye giren Ohio'daki Prometheus veri merkezinde eğitildi."},
+    {"scene": "w", "story": 0, "key": "neden", "q": -1, "say": "Neden? Meta'nın cevabı net: kişisel süper zekâ. Şirket, modelin sizinle ilgili bilgileri günler, haftalar, hatta aylar boyunca hatırlamasını istiyor. Buna aktif hafıza diyor."},
+    {"scene": "sorgu", "story": 0, "key": "", "q": 0, "say": "Şimdi sorgulayalım. Meta, modellerinin rakiplerle aynı seviyede olduğunu söylüyor. Peki bu testleri kim yaptı? Meta'nın kendisi. Hafıza testinde birinci çıktığı MemoryBench'i öne çıkaran da yine Meta. Kendi seçtiğin sınavda birinci olmak, bağımsız bir sonuç sayılmaz."},
+    {"scene": "sorgu", "story": 0, "key": "", "q": 1, "say": "İkinci soru: sizi aylarca hatırlayan bir asistan kulağa harika geliyor. Ama gelirinin büyük kısmını reklamdan kazanan bir şirketin, sizin hakkınızda bu kadar şeyi hatırlaması ne anlama geliyor? Haberde bu soruya hiç değinilmiyor."},
+    {"scene": "verdict", "story": 0, "key": "", "q": -1, "say": "Kararımız: şüpheyle yaklaşın. Bağımsız testler gelmeden, zirvede demek için erken."},
+
+    {"scene": "headline", "story": 1, "key": "", "q": -1, "say": "İkinci haberimiz telefon dünyasından. Bir şirket patronu, rakibinin yeni telefonunu yerden yere vurdu."},
+    {"scene": "w", "story": 1, "key": "kim", "q": -1, "say": "Kim? Nothing'in kurucusu ve CEO'su Carl Pei."},
+    {"scene": "w", "story": 1, "key": "ne", "q": -1, "say": "Ne? Pei, Apple'ın ilk katlanabilir telefonu iPhone Duo'nun bu parayı hak etmediğini söyledi."},
+    {"scene": "w", "story": 1, "key": "nerede", "q": -1, "say": "Nerede? Instagram hesabında paylaştığı bir videoda."},
+    {"scene": "w", "story": 1, "key": "ne_zaman", "q": -1, "say": "Ne zaman? Duo'nun ön siparişleri 16 Ekim'de başlıyor, satışları 23 Ekim'de. Yani eleştiri tam satış öncesine denk geliyor."},
+    {"scene": "w", "story": 1, "key": "nasil", "q": -1, "say": "Nasıl? Pei üç eksik sayıyor. Face ID yok; parmak izi okuyucu yan tuşta. Ayrı bir telefoto kamera yok. Ön kamera da iPhone 18 Pro seviyesinde değil."},
+    {"scene": "w", "story": 1, "key": "neden", "q": -1, "say": "Neden? Pei'ye göre, ABD'de 1999 dolara satılan bir telefonda bu eksikler kabul edilemez. Türkiye'de Duo 229.999 liradan başlıyor. iPhone 18 Pro ise 137.999 lira."},
+    {"scene": "sorgu", "story": 1, "key": "", "q": 0, "say": "Sorgulayalım. Eleştiriyi yapan kim? Rakip bir şirketin patronu. Üstelik henüz katlanabilir telefonu olmayan bir şirketin. Tarafsız bir yorumcu değil; satışlar başlamadan gündem yakalamak da işine gelir."},
+    {"scene": "sorgu", "story": 1, "key": "", "q": 1, "say": "Ama haksız da sayılmaz; saydığı eksikler teknik olarak doğru. Pei'nin atladığı şey şu: katlanabilir ekran ve menteşe de bir maliyet. Duo'yu alan kişi kameraya değil, katlanan forma para veriyor. Bu yüzden onu düz bir Pro modelle kıyaslamak, eksik bir karşılaştırma."},
+    {"scene": "verdict", "story": 1, "key": "", "q": -1, "say": "Kararımız: tespitler doğru, kıyas eksik. Rakipten gelen eleştiriyi her zaman bir tutam tuzla dinleyin."},
+
+    {"scene": "headline", "story": 2, "key": "", "q": -1, "say": "Son haberimiz enerji dünyasından ve başlığı iddialı: güneş enerjisini depolamak, artık doğal gazdan ucuz."},
+    {"scene": "w", "story": 2, "key": "kim", "q": -1, "say": "Kim? Haber, 48 enerji pazarını inceleyen bir analize dayanıyor."},
+    {"scene": "w", "story": 2, "key": "ne", "q": -1, "say": "Ne? Dört saatlik batarya sistemleri, maliyette bir tür doğal gaz santralini geride bırakıyor: talep zirve yaptığında devreye giren türbinleri."},
+    {"scene": "w", "story": 2, "key": "nerede", "q": -1, "say": "Nerede? Güneş, incelenen 48 pazarın 43'ünde en ucuz yeni elektrik kaynağı. Suudi Arabistan ve Birleşik Arap Emirlikleri'nde maliyetin 2033'e kadar megavatsaat başına 20 doların altına inmesi bekleniyor."},
+    {"scene": "w", "story": 2, "key": "ne_zaman", "q": -1, "say": "Ne zaman? Bu bugünün tablosu. Batarya maliyetlerinin önümüzdeki yıllarda daha da düşmesi bekleniyor."},
+    {"scene": "w", "story": 2, "key": "nasil", "q": -1, "say": "Nasıl? Bataryalar, güneş ve rüzgârın ürettiği fazla elektriği depolayıp, talebin arttığı saatlerde şebekeye veriyor."},
+    {"scene": "w", "story": 2, "key": "neden", "q": -1, "say": "Neden? Batarya fiyatları düşüyor, gaz türbinlerinde ise tedarik sıkıntısı var."},
+    {"scene": "sorgu", "story": 2, "key": "", "q": 0, "say": "Sorgulayalım. Başlık, bataryaların doğal gazdan ucuz olduğunu söylüyor. Ama haberin içine bakınca, kıyaslanan şey tüm doğal gaz santralleri değil. Sadece talep zirve yaptığında kısa süreliğine çalışan açık çevrimli türbinler. Yani başlık, haberin kendisinden daha büyük bir şey iddia ediyor."},
+    {"scene": "sorgu", "story": 2, "key": "", "q": 1, "say": "Ve dört saat önemli bir sınır. Rüzgârsız ve bulutlu bir kış haftasında dört saatlik batarya yetmez. Üstelik haberin kendisi, ABD'de tarifeler yüzünden panel fiyatlarının 2030'a kadar her yıl yüzde 5 kadar artabileceğini söylüyor. Bu tablo her ülke için geçerli değil."},
+    {"scene": "verdict", "story": 2, "key": "", "q": -1, "say": "Kararımız: yön doğru, başlık abartılı. Bataryalar kazanıyor; ama her yerde ve her koşulda değil."},
+
+    {"scene": "outro", "story": -1, "key": "", "q": -1, "say": "Bugünlük bu kadar. Siz hangi haberde farklı düşünüyorsunuz? Yorumlara yazın; en iyi itirazları bir sonraki videoda konuşalım. Kaynakların hepsi açıklamada. Abone olmayı unutmayın, yarın yeni haberlerle görüşmek üzere."}
+  ]
+}

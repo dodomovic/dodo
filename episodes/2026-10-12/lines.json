@@ -1,0 +1,590 @@
+[
+ {
+  "beat": 0,
+  "text": "Merhaba, BosNRoll'a hoş geldiniz.",
+  "start": 0.4,
+  "end": 2.36
+ },
+ {
+  "beat": 0,
+  "text": "Bugün teknoloji gündeminden üç haberi 5N1K ile masaya yatırıyoruz: kim, ne, nerede, ne zaman, nasıl ve neden.",
+  "start": 2.71,
+  "end": 9.629999999999999
+ },
+ {
+  "beat": 0,
+  "text": "Ama sadece anlatmıyoruz; her haberin mantığını da sorguluyoruz.",
+  "start": 9.98,
+  "end": 13.38
+ },
+ {
+  "beat": 0,
+  "text": "Başlayalım.",
+  "start": 13.73,
+  "end": 14.370000000000001
+ },
+ {
+  "beat": 1,
+  "text": "İlk haberimiz yapay zekâ dünyasından.",
+  "start": 15.17,
+  "end": 17.37
+ },
+ {
+  "beat": 1,
+  "text": "Meta, ilk büyük ölçekli öncü modelini tanıttı.",
+  "start": 17.72,
+  "end": 20.439999999999998
+ },
+ {
+  "beat": 2,
+  "text": "Kim?",
+  "start": 21.24,
+  "end": 21.639999999999997
+ },
+ {
+  "beat": 2,
+  "text": "Meta'nın süper zekâ laboratuvarı.",
+  "start": 21.99,
+  "end": 23.869999999999997
+ },
+ {
+  "beat": 2,
+  "text": "Bu ekip, geçen yılın ağustosunda Alexandr Wang liderliğinde yeniden yapılandırılmıştı.",
+  "start": 24.22,
+  "end": 29.02
+ },
+ {
+  "beat": 3,
+  "text": "Ne?",
+  "start": 29.82,
+  "end": 30.14
+ },
+ {
+  "beat": 3,
+  "text": "Muse Wonder ve Muse Wonder Full adında iki yeni model.",
+  "start": 30.490000000000002,
+  "end": 33.57
+ },
+ {
+  "beat": 3,
+  "text": "Önceki Muse Spark hafif ve hızlı bir modeldi.",
+  "start": 33.92,
+  "end": 36.480000000000004
+ },
+ {
+  "beat": 3,
+  "text": "Wonder ise daha büyük ve kodlama gibi zor işlerde daha iddialı.",
+  "start": 36.83,
+  "end": 40.309999999999995
+ },
+ {
+  "beat": 4,
+  "text": "Nerede?",
+  "start": 41.11,
+  "end": 41.63
+ },
+ {
+  "beat": 4,
+  "text": "Wonder, Meta'nın kendi arayüzünden satılıyor.",
+  "start": 41.98,
+  "end": 44.379999999999995
+ },
+ {
+  "beat": 4,
+  "text": "Fiyatı, milyon girdi tokeni için 4 dolar, milyon çıktı tokeni için 20 dolar.",
+  "start": 44.73,
+  "end": 49.37
+ },
+ {
+  "beat": 4,
+  "text": "Full sürüm ise sadece Muse Code abonelerine açık.",
+  "start": 49.72,
+  "end": 52.64
+ },
+ {
+  "beat": 5,
+  "text": "Ne zaman?",
+  "start": 53.44,
+  "end": 54.12
+ },
+ {
+  "beat": 5,
+  "text": "Bugün, 12 Ekim Pazartesi günü duyuruldu.",
+  "start": 54.47,
+  "end": 57.07
+ },
+ {
+  "beat": 6,
+  "text": "Nasıl?",
+  "start": 57.87,
+  "end": 58.349999999999994
+ },
+ {
+  "beat": 6,
+  "text": "Modeller, bu yıl devreye giren Ohio'daki Prometheus veri merkezinde eğitildi.",
+  "start": 58.699999999999996,
+  "end": 62.9
+ },
+ {
+  "beat": 7,
+  "text": "Neden?",
+  "start": 63.699999999999996,
+  "end": 64.14
+ },
+ {
+  "beat": 7,
+  "text": "Meta'nın cevabı net: kişisel süper zekâ.",
+  "start": 64.49,
+  "end": 66.97
+ },
+ {
+  "beat": 7,
+  "text": "Şirket, modelin sizinle ilgili bilgileri günler, haftalar, hatta aylar boyunca hatırlamasını istiyor.",
+  "start": 67.32,
+  "end": 72.55999999999999
+ },
+ {
+  "beat": 7,
+  "text": "Buna aktif hafıza diyor.",
+  "start": 72.91,
+  "end": 74.42999999999999
+ },
+ {
+  "beat": 8,
+  "text": "Şimdi sorgulayalım.",
+  "start": 75.22999999999999,
+  "end": 76.18999999999998
+ },
+ {
+  "beat": 8,
+  "text": "Meta, modellerinin rakiplerle aynı seviyede olduğunu söylüyor.",
+  "start": 76.53999999999999,
+  "end": 79.89999999999999
+ },
+ {
+  "beat": 8,
+  "text": "Peki bu testleri kim yaptı?",
+  "start": 80.24999999999999,
+  "end": 81.96999999999998
+ },
+ {
+  "beat": 8,
+  "text": "Meta'nın kendisi.",
+  "start": 82.31999999999998,
+  "end": 83.35999999999999
+ },
+ {
+  "beat": 8,
+  "text": "Hafıza testinde birinci çıktığı MemoryBench'i öne çıkaran da yine Meta.",
+  "start": 83.70999999999998,
+  "end": 87.54999999999998
+ },
+ {
+  "beat": 8,
+  "text": "Kendi seçtiğin sınavda birinci olmak, bağımsız bir sonuç sayılmaz.",
+  "start": 87.89999999999998,
+  "end": 91.53999999999998
+ },
+ {
+  "beat": 9,
+  "text": "İkinci soru: sizi aylarca hatırlayan bir asistan kulağa harika geliyor.",
+  "start": 92.33999999999997,
+  "end": 96.25999999999998
+ },
+ {
+  "beat": 9,
+  "text": "Ama gelirinin büyük kısmını reklamdan kazanan bir şirketin, sizin hakkınızda bu kadar şeyi hatırlaması ne anlama geliyor?",
+  "start": 96.60999999999997,
+  "end": 102.92999999999998
+ },
+ {
+  "beat": 9,
+  "text": "Haberde bu soruya hiç değinilmiyor.",
+  "start": 103.27999999999997,
+  "end": 105.19999999999997
+ },
+ {
+  "beat": 10,
+  "text": "Kararımız: şüpheyle yaklaşın.",
+  "start": 105.99999999999997,
+  "end": 107.79999999999997
+ },
+ {
+  "beat": 10,
+  "text": "Bağımsız testler gelmeden, zirvede demek için erken.",
+  "start": 108.14999999999998,
+  "end": 111.10999999999997
+ },
+ {
+  "beat": 11,
+  "text": "İkinci haberimiz telefon dünyasından.",
+  "start": 111.90999999999998,
+  "end": 113.94999999999999
+ },
+ {
+  "beat": 11,
+  "text": "Bir şirket patronu, rakibinin yeni telefonunu yerden yere vurdu.",
+  "start": 114.29999999999998,
+  "end": 117.89999999999998
+ },
+ {
+  "beat": 12,
+  "text": "Kim?",
+  "start": 118.69999999999999,
+  "end": 119.1
+ },
+ {
+  "beat": 12,
+  "text": "Nothing'in kurucusu ve CEO'su Carl Pei.",
+  "start": 119.44999999999999,
+  "end": 121.52999999999999
+ },
+ {
+  "beat": 13,
+  "text": "Ne?",
+  "start": 122.32999999999998,
+  "end": 122.64999999999998
+ },
+ {
+  "beat": 13,
+  "text": "Pei, Apple'ın ilk katlanabilir telefonu iPhone Duo'nun bu parayı hak etmediğini söyledi.",
+  "start": 122.99999999999999,
+  "end": 127.63999999999999
+ },
+ {
+  "beat": 14,
+  "text": "Nerede?",
+  "start": 128.44,
+  "end": 128.96
+ },
+ {
+  "beat": 14,
+  "text": "Instagram hesabında paylaştığı bir videoda.",
+  "start": 129.31,
+  "end": 131.71
+ },
+ {
+  "beat": 15,
+  "text": "Ne zaman?",
+  "start": 132.51,
+  "end": 133.19
+ },
+ {
+  "beat": 15,
+  "text": "Duo'nun ön siparişleri 16 Ekim'de başlıyor, satışları 23 Ekim'de.",
+  "start": 133.54,
+  "end": 137.9
+ },
+ {
+  "beat": 15,
+  "text": "Yani eleştiri tam satış öncesine denk geliyor.",
+  "start": 138.25,
+  "end": 140.77
+ },
+ {
+  "beat": 16,
+  "text": "Nasıl?",
+  "start": 141.57,
+  "end": 142.04999999999998
+ },
+ {
+  "beat": 16,
+  "text": "Pei üç eksik sayıyor.",
+  "start": 142.4,
+  "end": 143.84
+ },
+ {
+  "beat": 16,
+  "text": "Face ID yok; parmak izi okuyucu yan tuşta.",
+  "start": 144.19,
+  "end": 146.91
+ },
+ {
+  "beat": 16,
+  "text": "Ayrı bir telefoto kamera yok.",
+  "start": 147.26,
+  "end": 148.89999999999998
+ },
+ {
+  "beat": 16,
+  "text": "Ön kamera da iPhone 18 Pro seviyesinde değil.",
+  "start": 149.25,
+  "end": 152.17
+ },
+ {
+  "beat": 17,
+  "text": "Neden?",
+  "start": 152.97,
+  "end": 153.41
+ },
+ {
+  "beat": 17,
+  "text": "Pei'ye göre, ABD'de 1999 dolara satılan bir telefonda bu eksikler kabul edilemez.",
+  "start": 153.76,
+  "end": 159.76
+ },
+ {
+  "beat": 17,
+  "text": "Türkiye'de Duo 229.999 liradan başlıyor.",
+  "start": 160.10999999999999,
+  "end": 164.39
+ },
+ {
+  "beat": 17,
+  "text": "iPhone 18 Pro ise 137.999 lira.",
+  "start": 164.73999999999998,
+  "end": 169.01999999999998
+ },
+ {
+  "beat": 18,
+  "text": "Sorgulayalım.",
+  "start": 169.82,
+  "end": 170.54
+ },
+ {
+  "beat": 18,
+  "text": "Eleştiriyi yapan kim?",
+  "start": 170.89,
+  "end": 172.17
+ },
+ {
+  "beat": 18,
+  "text": "Rakip bir şirketin patronu.",
+  "start": 172.51999999999998,
+  "end": 174.04
+ },
+ {
+  "beat": 18,
+  "text": "Üstelik henüz katlanabilir telefonu olmayan bir şirketin.",
+  "start": 174.39,
+  "end": 177.35
+ },
+ {
+  "beat": 18,
+  "text": "Tarafsız bir yorumcu değil; satışlar başlamadan gündem yakalamak da işine gelir.",
+  "start": 177.7,
+  "end": 182.01999999999998
+ },
+ {
+  "beat": 19,
+  "text": "Ama haksız da sayılmaz; saydığı eksikler teknik olarak doğru.",
+  "start": 182.82,
+  "end": 186.34
+ },
+ {
+  "beat": 19,
+  "text": "Pei'nin atladığı şey şu: katlanabilir ekran ve menteşe de bir maliyet.",
+  "start": 186.69,
+  "end": 190.73
+ },
+ {
+  "beat": 19,
+  "text": "Duo'yu alan kişi kameraya değil, katlanan forma para veriyor.",
+  "start": 191.07999999999998,
+  "end": 194.44
+ },
+ {
+  "beat": 19,
+  "text": "Bu yüzden onu düz bir Pro modelle kıyaslamak, eksik bir karşılaştırma.",
+  "start": 194.79,
+  "end": 198.87
+ },
+ {
+  "beat": 20,
+  "text": "Kararımız: tespitler doğru, kıyas eksik.",
+  "start": 199.67,
+  "end": 202.23
+ },
+ {
+  "beat": 20,
+  "text": "Rakipten gelen eleştiriyi her zaman bir tutam tuzla dinleyin.",
+  "start": 202.57999999999998,
+  "end": 205.89999999999998
+ },
+ {
+  "beat": 21,
+  "text": "Son haberimiz enerji dünyasından ve başlığı iddialı: güneş enerjisini depolamak, artık doğal gazdan ucuz.",
+  "start": 206.7,
+  "end": 212.54
+ },
+ {
+  "beat": 22,
+  "text": "Kim?",
+  "start": 213.33999999999997,
+  "end": 213.73999999999998
+ },
+ {
+  "beat": 22,
+  "text": "Haber, 48 enerji pazarını inceleyen bir analize dayanıyor.",
+  "start": 214.08999999999997,
+  "end": 217.68999999999997
+ },
+ {
+  "beat": 23,
+  "text": "Ne?",
+  "start": 218.48999999999998,
+  "end": 218.80999999999997
+ },
+ {
+  "beat": 23,
+  "text": "Dört saatlik batarya sistemleri, maliyette bir tür doğal gaz santralini geride bırakıyor: talep zirve yaptığında devreye giren türbinleri.",
+  "start": 219.15999999999997,
+  "end": 226.67999999999998
+ },
+ {
+  "beat": 24,
+  "text": "Nerede?",
+  "start": 227.47999999999996,
+  "end": 227.99999999999997
+ },
+ {
+  "beat": 24,
+  "text": "Güneş, incelenen 48 pazarın 43'ünde en ucuz yeni elektrik kaynağı.",
+  "start": 228.34999999999997,
+  "end": 232.78999999999996
+ },
+ {
+  "beat": 24,
+  "text": "Suudi Arabistan ve Birleşik Arap Emirlikleri'nde maliyetin 2033'e kadar megavatsaat başına 20 doların altına inmesi bekleniyor.",
+  "start": 233.13999999999996,
+  "end": 240.49999999999997
+ },
+ {
+  "beat": 25,
+  "text": "Ne zaman?",
+  "start": 241.29999999999995,
+  "end": 241.97999999999996
+ },
+ {
+  "beat": 25,
+  "text": "Bu bugünün tablosu.",
+  "start": 242.32999999999996,
+  "end": 243.52999999999994
+ },
+ {
+  "beat": 25,
+  "text": "Batarya maliyetlerinin önümüzdeki yıllarda daha da düşmesi bekleniyor.",
+  "start": 243.87999999999997,
+  "end": 247.55999999999997
+ },
+ {
+  "beat": 26,
+  "text": "Nasıl?",
+  "start": 248.35999999999996,
+  "end": 248.83999999999995
+ },
+ {
+  "beat": 26,
+  "text": "Bataryalar, güneş ve rüzgârın ürettiği fazla elektriği depolayıp, talebin arttığı saatlerde şebekeye veriyor.",
+  "start": 249.18999999999997,
+  "end": 254.98999999999998
+ },
+ {
+  "beat": 27,
+  "text": "Neden?",
+  "start": 255.78999999999996,
+  "end": 256.22999999999996
+ },
+ {
+  "beat": 27,
+  "text": "Batarya fiyatları düşüyor, gaz türbinlerinde ise tedarik sıkıntısı var.",
+  "start": 256.58,
+  "end": 260.53999999999996
+ },
+ {
+  "beat": 28,
+  "text": "Sorgulayalım.",
+  "start": 261.34,
+  "end": 262.06
+ },
+ {
+  "beat": 28,
+  "text": "Başlık, bataryaların doğal gazdan ucuz olduğunu söylüyor.",
+  "start": 262.40999999999997,
+  "end": 265.45
+ },
+ {
+  "beat": 28,
+  "text": "Ama haberin içine bakınca, kıyaslanan şey tüm doğal gaz santralleri değil.",
+  "start": 265.79999999999995,
+  "end": 270.0799999999999
+ },
+ {
+  "beat": 28,
+  "text": "Sadece talep zirve yaptığında kısa süreliğine çalışan açık çevrimli türbinler.",
+  "start": 270.42999999999995,
+  "end": 274.46999999999997
+ },
+ {
+  "beat": 28,
+  "text": "Yani başlık, haberin kendisinden daha büyük bir şey iddia ediyor.",
+  "start": 274.81999999999994,
+  "end": 278.37999999999994
+ },
+ {
+  "beat": 29,
+  "text": "Ve dört saat önemli bir sınır.",
+  "start": 279.17999999999995,
+  "end": 280.97999999999996
+ },
+ {
+  "beat": 29,
+  "text": "Rüzgârsız ve bulutlu bir kış haftasında dört saatlik batarya yetmez.",
+  "start": 281.3299999999999,
+  "end": 285.04999999999995
+ },
+ {
+  "beat": 29,
+  "text": "Üstelik haberin kendisi, ABD'de tarifeler yüzünden panel fiyatlarının 2030'a kadar her yıl yüzde 5 kadar artabileceğini söylüyor.",
+  "start": 285.3999999999999,
+  "end": 293.2399999999999
+ },
+ {
+  "beat": 29,
+  "text": "Bu tablo her ülke için geçerli değil.",
+  "start": 293.5899999999999,
+  "end": 295.7899999999999
+ },
+ {
+  "beat": 30,
+  "text": "Kararımız: yön doğru, başlık abartılı.",
+  "start": 296.5899999999999,
+  "end": 299.06999999999994
+ },
+ {
+  "beat": 30,
+  "text": "Bataryalar kazanıyor; ama her yerde ve her koşulda değil.",
+  "start": 299.4199999999999,
+  "end": 302.8199999999999
+ },
+ {
+  "beat": 31,
+  "text": "Bugünlük bu kadar.",
+  "start": 303.6199999999999,
+  "end": 304.7399999999999
+ },
+ {
+  "beat": 31,
+  "text": "Siz hangi haberde farklı düşünüyorsunuz?",
+  "start": 305.0899999999999,
+  "end": 307.1699999999999
+ },
+ {
+  "beat": 31,
+  "text": "Yorumlara yazın; en iyi itirazları bir sonraki videoda konuşalım.",
+  "start": 307.5199999999999,
+  "end": 310.99999999999994
+ },
+ {
+  "beat": 31,
+  "text": "Kaynakların hepsi açıklamada.",
+  "start": 311.3499999999999,
+  "end": 312.9899999999999
+ },
+ {
+  "beat": 31,
+  "text": "Abone olmayı unutmayın, yarın yeni haberlerle görüşmek üzere.",
+  "start": 313.3399999999999,
+  "end": 316.7399999999999
+ }
+]

@@ -1,0 +1,79 @@
+# BosNRoll günlük teknoloji bülteni ayarları
+
+channel:
+  name: BosNRoll
+  language: tr
+
+news:
+  # Son kaç saatin haberleri değerlendirilsin
+  max_age_hours: 30
+  # LLM'e aday olarak gönderilecek en fazla haber sayısı
+  max_candidates: 40
+  feeds:
+    Webtekno: https://www.webtekno.com/rss.xml
+    ShiftDelete: https://shiftdelete.net/feed
+    DonanımHaber: https://www.donanimhaber.com/rss/tum/
+    The Verge: https://www.theverge.com/rss/index.xml
+    TechCrunch: https://techcrunch.com/feed/
+    Ars Technica: https://feeds.arstechnica.com/arstechnica/index
+
+script:
+  model: claude-opus-5-5
+  effort: high
+  stories_per_episode: 3
+  # EMA Lightning ~2,4 kelime/sn okuyor; 5 dakika ≈ 700 kelime
+  target_words: 700
+
+tts:
+  # 1.0 normal hız; 1.05-1.1 haber spikeri temposu
+  speed: 1.0
+  # Cümleler arası ve bölümler arası sessizlik (saniye)
+  sentence_pause: 0.35
+  beat_pause: 0.8
+  seed: 0
+
+video:
+  width: 1920
+  height: 1080
+  fps: 25
+  # assets/music.mp3 varsa bu seviyede alta karıştırılır
+  music_volume: 0.08
+
+youtube:
+  category_id: "28"        # Science & Technology
+  privacy: private         # onaydan sonra public yapılır
+  made_for_kids: false
+  contains_synthetic_media: true
+
+# Seslendirme öncesi yabancı kelimelerin Türkçe okunuşu.
+# Altyazıda orijinal yazım görünür, sadece seslendirmeye uygulanır.
+# Büyük/küçük harf duyarlı, uzun ifadeler önce uygulanır.
+lexicon:
+  BosNRoll: Boşınrol
+  5N1K: beş en bir ka
+  Muse Wonder Full: Miyuz Vandır Ful
+  Muse Wonder: Miyuz Vandır
+  Muse Spark: Miyuz Spark
+  Muse Code: Miyuz Kod
+  MemoryBench: Memori Benç
+  Superintelligence: Süperintelicıns
+  Alexandr Wang: Aleksandr Vang
+  Prometheus: Prometeus
+  Ohio: Ohayo
+  Nothing: Nating
+  Carl Pei: Karl Pey
+  Pei: Pey
+  Apple: Epıl
+  iPhone: ayfon
+  Face ID: Feys ay di
+  Touch ID: Taç ay di
+  Instagram: İnstagram
+  ABD: A Be De
+  YouTube: Yutub
+  Google: Gugıl
+  Microsoft: Maykrosoft
+  OpenAI: Open ey ay
+  ChatGPT: Çet ci pi ti
+  GPT: ci pi ti
+  AI: ey ay
+  CEO: si ay o

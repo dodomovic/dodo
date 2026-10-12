@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: "Oswald"; font-weight: 700; src: url("../../../assets/fonts/Oswald-700-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212; }
+@font-face { font-family: "Oswald"; font-weight: 700; src: url("../../../assets/fonts/Oswald-700.woff2") format("woff2");
+  unicode-range: U+0100-0130, U+0132-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+20A0-20AB, U+20AD-20C0; }
+@font-face { font-family: "Inter"; font-weight: 500; src: url("../../../assets/fonts/Inter-500-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212; }
+@font-face { font-family: "Inter"; font-weight: 500; src: url("../../../assets/fonts/Inter-500.woff2") format("woff2");
+  unicode-range: U+0100-0130, U+0132-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+20A0-20AB, U+20AD-20C0; }
+@font-face { font-family: "Inter"; font-weight: 800; src: url("../../../assets/fonts/Inter-800-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212; }
+@font-face { font-family: "Inter"; font-weight: 800; src: url("../../../assets/fonts/Inter-800.woff2") format("woff2");
+  unicode-range: U+0100-0130, U+0132-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+20A0-20AB, U+20AD-20C0; }
+
+:root {
+  --bg: #08080a;
+  --panel: rgba(255, 255, 255, 0.035);
+  --line: rgba(255, 140, 60, 0.18);
+  --neon: #ff6a1a;
+  --neon-hot: #ffb27a;
+  --text: #f4efe9;
+  --muted: #8d857e;
+  --glow: 0 0 6px rgba(255, 106, 26, .9), 0 0 22px rgba(255, 77, 0, .65), 0 0 60px rgba(255, 77, 0, .35);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; }
+body {
+  background:
+    radial-gradient(900px 600px at 12% 108%, rgba(255, 80, 10, .22), transparent 70%),
+    radial-gradient(700px 500px at 100% -10%, rgba(255, 80, 10, .10), transparent 70%),
+    var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  position: relative;
+}
+body::before { /* ince ızgara dokusu */
+  content: ""; position: absolute; inset: 0;
+  background-image: linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse at center, #000 30%, transparent 80%);
+}
+.oswald { font-family: "Oswald", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: .01em; }
+.neon { color: var(--neon-hot); text-shadow: var(--glow); }
+
+/* Üst bar */
+header { position: absolute; top: 40px; left: 80px; right: 80px; height: 80px; display: flex; align-items: center; gap: 28px; }
+header img { height: 80px; }
+header .show { font-family: "Oswald"; font-weight: 700; font-size: 26px; letter-spacing: .14em; color: var(--muted); }
+header .spacer { flex: 1; }
+header .date { font-size: 24px; color: var(--muted); letter-spacing: .06em; }
+.pills { display: flex; gap: 10px; }
+.pill { width: 54px; height: 8px; border-radius: 4px; background: rgba(255,255,255,.12); }
+.pill.done { background: rgba(255,106,26,.45); }
+.pill.on { background: var(--neon); box-shadow: 0 0 12px var(--neon); }
+
+main { position: absolute; top: 160px; left: 80px; right: 80px; bottom: 210px; }
+
+/* Altyazı */
+.sub {
+  position: absolute; left: 160px; right: 160px; bottom: 56px; min-height: 120px;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  font-weight: 800; font-size: 44px; line-height: 1.25; color: #fff;
+  padding: 18px 40px; border-radius: 14px;
+  background: rgba(0,0,0,.62); border: 1px solid rgba(255,255,255,.06);
+  text-wrap: balance;
+}
+.sub:empty { display: none; }
+
+.kicker { display: inline-block; padding: 8px 18px; border: 2px solid var(--neon); border-radius: 999px;
+  font-family: "Oswald"; font-weight: 700; font-size: 26px; letter-spacing: .12em; color: var(--neon-hot);
+  box-shadow: 0 0 14px rgba(255,106,26,.45), inset 0 0 14px rgba(255,106,26,.25); }
+.source { color: var(--muted); font-size: 26px; margin-top: 28px; }
+.source b { color: var(--text); font-weight: 800; }
+
+/* intro / outro */
+.center { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 26px; }
+.center img { width: 900px; }
+.center .tag { font-size: 34px; letter-spacing: .3em; color: var(--muted); font-family: "Oswald"; font-weight: 700; }
+.toc { display: flex; gap: 24px; margin-top: 18px; }
+.toc div { width: 520px; padding: 22px 26px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line);
+  text-align: left; font-size: 26px; line-height: 1.3; }
+.toc span { display: block; font-family: "Oswald"; font-weight: 700; color: var(--neon); font-size: 22px; letter-spacing: .12em; margin-bottom: 8px; }
+
+/* headline */
+.headline { height: 100%; display: flex; flex-direction: column; justify-content: center; max-width: 1500px; }
+.headline .num { font-family: "Oswald"; font-weight: 700; font-size: 30px; letter-spacing: .2em; color: var(--muted); margin-bottom: 22px; }
+.headline h1 { font-family: "Oswald"; font-weight: 700; font-size: 104px; line-height: 1.04; text-transform: uppercase; margin-top: 28px; }
+
+/* 5N1K ızgarası */
+.wtop { display: flex; align-items: baseline; gap: 22px; margin-bottom: 26px; }
+.wtop h2 { font-family: "Oswald"; font-weight: 700; font-size: 40px; text-transform: uppercase; color: var(--text); opacity: .9;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; height: 590px; }
+.card { position: relative; border-radius: 18px; padding: 30px 32px; background: var(--panel); border: 1.5px solid var(--line);
+  display: flex; flex-direction: column; gap: 16px; transition: none; }
+.card .k { font-family: "Oswald"; font-weight: 700; font-size: 44px; letter-spacing: .06em; color: var(--muted); }
+.card .v { font-size: 34px; line-height: 1.28; font-weight: 800; }
+.card.hidden .v { color: rgba(255,255,255,.12); font-family: "Oswald"; font-size: 90px; line-height: 1; }
+.card.on { border-color: var(--neon); background: rgba(255, 90, 20, .08);
+  box-shadow: 0 0 0 1px var(--neon), 0 0 30px rgba(255,106,26,.45), inset 0 0 40px rgba(255,106,26,.12); }
+.card.on .k { color: var(--neon-hot); text-shadow: var(--glow); }
+
+/* sorgu */
+.sorgu { height: 100%; display: grid; grid-template-columns: 380px 1fr; align-items: center; gap: 60px; }
+.sorgu .q { font-family: "Oswald"; font-weight: 700; font-size: 420px; line-height: 1; text-align: center; }
+.sorgu .label { font-family: "Oswald"; font-weight: 700; font-size: 34px; letter-spacing: .2em; color: var(--neon); margin-bottom: 26px; }
+.sorgu .text { font-family: "Oswald"; font-weight: 700; font-size: 86px; line-height: 1.1; text-transform: uppercase; }
+
+/* karar */
+.verdict { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px; text-align: center; }
+.verdict .label { font-family: "Oswald"; font-weight: 700; font-size: 34px; letter-spacing: .3em; color: var(--muted); }
+.verdict .box { padding: 26px 70px; border: 4px solid var(--neon); border-radius: 22px;
+  box-shadow: 0 0 22px rgba(255,106,26,.7), inset 0 0 22px rgba(255,106,26,.35); }
+.verdict .big { font-family: "Oswald"; font-weight: 700; font-size: 130px; line-height: 1.05; }
+.verdict .text { font-size: 40px; max-width: 1300px; line-height: 1.3; font-weight: 800; }
+
+/* thumbnail */
+body.thumb { width: 1280px; height: 720px; }
+.thumbwrap { position: absolute; inset: 0; padding: 48px 64px; display: flex; flex-direction: column; justify-content: space-between; gap: 18px; }
+.thumbwrap img { width: 420px; margin-left: -20px; }
+.thumbwrap h1 { font-family: "Oswald"; font-weight: 700; font-size: 100px; line-height: 1; text-transform: uppercase; max-width: 900px; }
+.thumbwrap .chip { align-self: flex-start; font-family: "Oswald"; font-weight: 700; font-size: 40px; padding: 8px 22px; background: var(--neon); color: #120800; border-radius: 10px; }
+.thumbwrap .q { position: absolute; right: 40px; top: 10px; font-family: "Oswald"; font-weight: 700; font-size: 520px; line-height: 1; opacity: .9; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const LABELS = { kim: "KİM?", ne: "NE?", nerede: "NEREDE?", ne_zaman: "NE ZAMAN?", nasil: "NASIL?", neden: "NEDEN?" };
+const ORDER = ["kim", "ne", "nerede", "ne_zaman", "nasil", "neden"];
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function header(ep, storyIdx) {
+  const pills = ep.stories.map((_, i) => `<div class="pill ${i === storyIdx ? "on" : i < storyIdx ? "done" : ""}"></div>`).join("");
+  return `<header><img src="../../../assets/logo.png"><div class="show">5N1K · TEKNOLOJİ GÜNDEMİ</div>
+    <div class="spacer"></div><div class="pills">${pills}</div><div class="date">${esc(ep.date_label)}</div></header>`;
+}
+
+function sources(st) {
+  return `<div class="source">Kaynak: ${st.sources.map(s => `<b>${esc(s.name)}</b>`).join(" · ")}</div>`;
+}
+
+function render(f) {
+  const ep = f.episode, b = f.beat, st = b.story >= 0 ? ep.stories[b.story] : null;
+  let main = "";
+  if (b.scene === "intro") {
+    main = `<div class="center"><img src="../../../assets/logo.png"><div class="tag">5N1K · TEKNOLOJİ GÜNDEMİ · ${esc(ep.date_label)}</div>
+      <div class="toc">${ep.stories.map((s, i) => `<div><span>HABER ${i + 1} · ${esc(s.kicker)}</span>${esc(s.headline)}</div>`).join("")}</div></div>`;
+  } else if (b.scene === "outro") {
+    main = `<div class="center"><img src="../../../assets/logo.png"><div class="tag">SİZCE HANGİSİ ABARTILI?</div>
+      <div class="kicker">YORUMLARA YAZIN · ABONE OLUN</div><div class="source">Tüm kaynaklar açıklamada</div></div>`;
+  } else if (b.scene === "headline") {
+    main = `<div class="headline"><div class="num">HABER ${b.story + 1} / ${ep.stories.length}</div>
+      <div><span class="kicker">${esc(st.kicker)}</span></div><h1>${esc(st.headline)}</h1>${sources(st)}</div>`;
+  } else if (b.scene === "w") {
+    const cur = ORDER.indexOf(b.key);
+    const cards = ORDER.map((k, i) => {
+      const cls = i === cur ? "on" : i > cur ? "hidden" : "";
+      return `<div class="card ${cls}"><div class="k">${LABELS[k]}</div><div class="v">${i > cur ? "?" : esc(st.w[k])}</div></div>`;
+    }).join("");
+    main = `<div class="wtop"><span class="kicker">${esc(st.kicker)}</span><h2>${esc(st.headline)}</h2></div><div class="grid">${cards}</div>`;
+  } else if (b.scene === "sorgu") {
+    main = `<div class="sorgu"><div class="q neon">?</div><div>
+      <div class="label">MANTIK SORGUSU ${b.q + 1} / ${st.questions.length}</div>
+      <div class="text">${esc(st.questions[b.q])}</div></div></div>`;
+  } else if (b.scene === "verdict") {
+    main = `<div class="verdict"><div class="label">BOSNROLL KARARI</div>
+      <div class="box"><div class="big neon">${esc(st.verdict.label)}</div></div><div class="text">${esc(st.verdict.text)}</div></div>`;
+  }
+  document.body.className = "";
+  document.getElementById("root").innerHTML =
+    header(ep, b.story) + `<main>${main}</main><div class="sub">${esc(f.subtitle)}</div>`;
+}
+
+function renderThumb(ep) {
+  document.body.className = "thumb";
+  document.getElementById("root").innerHTML = `<div class="thumbwrap"><div class="q neon">?</div>
+    <img src="../../../assets/logo.png"><h1>${esc(ep.thumbnail_text)}</h1><div class="chip">5N1K · ${esc(ep.date_label)}</div></div>`;
+}
+</script>
+</body>
+</html>

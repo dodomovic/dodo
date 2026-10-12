@@ -1,0 +1,10 @@
+anthropic==1.13.0
+ema-lightning==1.1.2
+feedparser==6.0.14
+trafilatura==2.3.1
+playwright==1.63.0
+PyYAML==6.0.3
+numpy==2.5.4
+google-api-python-client==2.201.0
+google-auth==2.62.0
+google-auth-oauthlib==1.5.0
