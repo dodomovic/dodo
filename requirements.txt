@@ -1,5 +1,7 @@
 anthropic==1.13.0
 ema-lightning==1.1.2
+voxcpm==2.0.3
+soundfile==0.14.0
 feedparser==6.0.14
 trafilatura==2.3.1
 playwright==1.63.0

@@ -25,7 +25,21 @@ script:
   target_words: 700
 
 tts:
-  # 1.0 normal hız; 1.05-1.1 haber spikeri temposu
+  # voxcpm: kanal sahibinin klonlanmış sesi (doğal, yavaş) · ema: EMA Lightning hazır ses (hızlı)
+  engine: voxcpm
+  voxcpm:
+    model: openbmb/VoxCPM2
+    # Ses kaydı herkese açık repoda düz durmaz: assets/voice/ref.wav.gpg şifreli saklanır,
+    # iş akışı VOICE_PASSPHRASE secret'ıyla bu yollara açar.
+    reference_wav: assets/voice/ref.wav
+    reference_text: assets/voice/ref.txt
+    cfg_value: 2.0
+    inference_timesteps: 10
+    # İngilizce isimleri kendisi doğru okuyor; sadece gerektiğinde ekleyin
+    lexicon:
+      BosNRoll: Boş'n Roll
+      5N1K: beş en bir ka
+  # Sadece ema motoru için: 1.0 normal hız
   speed: 1.0
   # Cümleler arası ve bölümler arası sessizlik (saniye)
   sentence_pause: 0.35
@@ -45,7 +59,7 @@ youtube:
   made_for_kids: false
   contains_synthetic_media: true
 
-# Seslendirme öncesi yabancı kelimelerin Türkçe okunuşu.
+# EMA Lightning motoru için: seslendirme öncesi yabancı kelimelerin Türkçe okunuşu.
 # Altyazıda orijinal yazım görünür, sadece seslendirmeye uygulanır.
 # Büyük/küçük harf duyarlı, uzun ifadeler önce uygulanır.
 lexicon:

@@ -7,3 +7,8 @@ episodes/*/voice.wav
 episodes/*/video.mp4
 episodes/*/frames/
 episodes/*/frames.txt
+# Kanal sahibinin ses kaydı: sadece şifreli hali (assets/voice/voice.tar.gpg) repoya girer
+assets/voice/ref.wav
+assets/voice/ref.txt
+*.m4a
+samples/deneme-kendi-sesin.mp3

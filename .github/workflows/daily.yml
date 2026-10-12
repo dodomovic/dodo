@@ -21,7 +21,7 @@ concurrency:
 jobs:
   episode:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 150
     env:
       PYTHONPATH: src
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -36,6 +36,8 @@ jobs:
       - name: Bağımlılıklar
         run: |
           sudo apt-get update && sudo apt-get install -y ffmpeg
+          # GPU yok; CUDA'lı torch yerine küçük CPU sürümü
+          pip install --index-url https://download.pytorch.org/whl/cpu torch torchaudio
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
@@ -43,7 +45,14 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
-          key: hf-ema-lightning-v1
+          key: hf-models-v2
+
+      - name: Ses kaydını aç
+        env:
+          VOICE_PASSPHRASE: ${{ secrets.VOICE_PASSPHRASE }}
+        run: |
+          gpg --batch --quiet --pinentry-mode loopback --passphrase "$VOICE_PASSPHRASE" \
+            -d assets/voice/voice.tar.gpg | tar -C assets/voice -xf -
 
       - name: Haber + senaryo
         run: python -m bosnroll script
