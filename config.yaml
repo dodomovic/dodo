@@ -37,7 +37,8 @@ tts:
     inference_timesteps: 10
     # İngilizce isimleri kendisi doğru okuyor; sadece gerektiğinde ekleyin
     lexicon:
-      BosNRoll: Boş'n Roll
+      # Yazılışı BosNRoll, okunuşu "Boşnroll". Ek alınca bozuluyor: senaryoda "BosNRoll kanalı" kullanılır.
+      BosNRoll: Boşn Roll
       5N1K: beş en bir ka
   # Sadece ema motoru için: 1.0 normal hız
   speed: 1.0

@@ -5,8 +5,10 @@ Kullanım:
   python -m bosnroll script           # sadece haber seçimi + senaryo (episodes/<tarih>/episode.json)
   python -m bosnroll video            # mevcut episode.json'dan ses + video üret
   python -m bosnroll upload           # üretilmiş videoyu yükle
+  python -m bosnroll preview          # seslendirmeden her sahnenin bir karesini çiz (tasarım kontrolü)
   python -m bosnroll auth secrets.json  # YouTube refresh token al (bir kez, yerelde)
-Ortak seçenek: --date YYYY-MM-DD (varsayılan: bugün, İstanbul saati)
+Ortak seçenekler: --date YYYY-MM-DD (varsayılan: bugün, İstanbul saati)
+                  --id KLASÖR (episodes/ altındaki klasör; varsayılan tarih. Ör. özel bölümler: --id nobel-fizik-2026)
 """
 
 import argparse
@@ -76,15 +78,25 @@ def cmd_upload(cfg: dict, date: str) -> None:
 
 def main() -> None:
     p = argparse.ArgumentParser(prog="bosnroll")
-    p.add_argument("command", choices=["all", "script", "video", "upload", "auth"])
+    p.add_argument("command", choices=["all", "script", "video", "upload", "preview", "auth"])
     p.add_argument("arg", nargs="?")
     p.add_argument("--date", default=datetime.now(ZoneInfo("Europe/Istanbul")).date().isoformat())
+    p.add_argument("--id", help="episodes/ altındaki klasör adı (varsayılan: --date)")
     a = p.parse_args()
+    if a.id:
+        a.date = a.id
     cfg = load_config()
     if a.command == "auth":
         from .upload import authorize
 
         authorize(a.arg or "client_secret.json")
+        return
+    if a.command == "preview":
+        from .render import render_preview
+
+        out = episode_dir(a.date)
+        episode = json.loads((out / "episode.json").read_text(encoding="utf-8"))
+        print(f"{len(render_preview(episode, out / 'preview'))} önizleme karesi: {out / 'preview'}")
         return
     if a.command in ("all", "script"):
         cmd_script(cfg, a.date)

@@ -22,6 +22,7 @@ Bir 5N1K sorusunun cevabı metinde yoksa bunu açıkça söyle ("Haberde bu beli
 - Haber sitelerinin cümlelerini kopyalama; kendi cümlelerinle, konuşma diliyle yaz.
 - `say` alanları seslendirilecek. Kısa, net, kulağa doğal cümleler kur. Kısaltmaları ve sembolleri \
 okunacak şekilde yaz ("$4" değil "4 dolar", "%5" değil "yüzde 5").
+- Kanal adını seslendirmede hiç ek almadan kullan: "BosNRoll'a" değil "BosNRoll kanalına".
 - Her `w` beat'inin `say` metni o sorunun adıyla başlasın ("Kim? ...", "Ne zaman? ...").
 - Ekran kartları (`w` cevapları, `questions`, `verdict.label`) kısa olsun: kart metinleri en fazla 60 karakter, \
 verdict.label en fazla 26 karakter, thumbnail_text en fazla 30 karakter.

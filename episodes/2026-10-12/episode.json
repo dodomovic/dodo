@@ -55,7 +55,7 @@
     }
   ],
   "beats": [
-    {"scene": "intro", "story": -1, "key": "", "q": -1, "say": "Merhaba, BosNRoll'a hoş geldiniz. Bugün teknoloji gündeminden üç haberi 5N1K ile masaya yatırıyoruz: kim, ne, nerede, ne zaman, nasıl ve neden. Ama sadece anlatmıyoruz; her haberin mantığını da sorguluyoruz. Başlayalım."},
+    {"scene": "intro", "story": -1, "key": "", "q": -1, "say": "Merhaba, BosNRoll kanalına hoş geldiniz. Bugün teknoloji gündeminden üç haberi 5N1K ile masaya yatırıyoruz: kim, ne, nerede, ne zaman, nasıl ve neden. Ama sadece anlatmıyoruz; her haberin mantığını da sorguluyoruz. Başlayalım."},
 
     {"scene": "headline", "story": 0, "key": "", "q": -1, "say": "İlk haberimiz yapay zekâ dünyasından. Meta, ilk büyük ölçekli öncü modelini tanıttı."},
     {"scene": "w", "story": 0, "key": "kim", "q": -1, "say": "Kim? Meta'nın süper zekâ laboratuvarı. Bu ekip, geçen yılın ağustosunda Alexandr Wang liderliğinde yeniden yapılandırılmıştı."},

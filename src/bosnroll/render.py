@@ -20,6 +20,41 @@ def date_label(iso: str) -> str:
     return f"{d} {MONTHS[m - 1]} {y}"
 
 
+def prepare_episode(episode: dict) -> dict:
+    """Şablon için ek alanlar: tarih etiketi; verisi olmayan zaman çizelgesi sahneleri bir öncekinin maddelerini kullanır."""
+    beats, items = [], None
+    for b in episode["beats"]:
+        b = {**b, "chapter": b.get("chapter", -1)}
+        if b["scene"] == "timeline":
+            data = dict(b.get("data", {}))
+            items = data.setdefault("items", items)
+            b["data"] = data
+        beats.append(b)
+    return {**episode, "beats": beats, "format": episode.get("format", "news"), "date_label": date_label(episode["date"])}
+
+
+def render_preview(episode: dict, out_dir: Path) -> list[Path]:
+    """Seslendirme olmadan her sahnenin bir karesini çizer (tasarım kontrolü için)."""
+    from .tts import split_sentences
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    ep = prepare_episode(episode)
+    paths = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(executable_path=os.environ.get("CHROMIUM_PATH") or None)
+        page = browser.new_page(viewport={"width": 1920, "height": 1080})
+        page.goto((TEMPLATES / "scene.html").as_uri())
+        page.evaluate("document.fonts.ready")
+        for i, beat in enumerate(ep["beats"]):
+            sub = split_subtitle(Line(i, split_sentences(beat["say"])[0], 0, 1))[0].text
+            page.evaluate("f => render(f)", {"episode": ep, "beat": beat, "subtitle": sub})
+            path = out_dir / f"{i:03d}-{beat['scene']}.png"
+            page.screenshot(path=str(path))
+            paths.append(path)
+        browser.close()
+    return paths
+
+
 def split_subtitle(line: Line) -> list[Line]:
     """Uzun cümleleri ekrana sığacak parçalara böler; süreyi karakter sayısına göre paylaştırır."""
     if len(line.text) <= MAX_SUB_CHARS:
@@ -51,7 +86,7 @@ def render_frames(
 ) -> list[tuple[Path, float]]:
     """Her altyazı parçası için bir kare çizer. (kare, süre) listesi döner."""
     frames_dir.mkdir(parents=True, exist_ok=True)
-    ep = {**episode, "date_label": date_label(episode["date"])}
+    ep = prepare_episode(episode)
     subs = [s for line in lines for s in split_subtitle(line)]
 
     # Kareler arası boşluk kalmasın: her kare bir sonrakinin başlangıcına kadar sürer.
@@ -59,7 +94,7 @@ def render_frames(
     for i, s in enumerate(subs):
         start = 0.0 if i == 0 else s.start
         end = subs[i + 1].start if i + 1 < len(subs) else audio_dur
-        timeline.append((episode["beats"][s.beat], s.text, start, end))
+        timeline.append((ep["beats"][s.beat], s.text, start, end))
 
     out: list[tuple[Path, float]] = []
     with sync_playwright() as p:

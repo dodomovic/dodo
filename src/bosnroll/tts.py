@@ -48,6 +48,51 @@ def split_sentences(text: str, min_chars: int = 25) -> list[str]:
     return out
 
 
+_ONES = ["", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"]
+_TENS = ["", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"]
+_SCALES = ["", "bin", "milyon", "milyar", "trilyon"]
+# 5.160 · 1988 · 5,7 · 2011'de  (binlik ayırıcı nokta, ondalık virgül)
+_NUMBER = re.compile(r"(?<![\w.,])(\d{1,3}(?:\.\d{3})+|\d+)(?:,(\d+))?(?:'(?=\w))?")
+
+
+def _three(n: int) -> list[str]:
+    h, t, o = n // 100, n // 10 % 10, n % 10
+    words = ([] if h == 0 else ["yüz"] if h == 1 else [_ONES[h], "yüz"]) + [_TENS[t], _ONES[o]]
+    return [w for w in words if w]
+
+
+def number_to_words(n: int) -> str:
+    if n == 0:
+        return "sıfır"
+    groups, words = [], []
+    while n:
+        groups.append(n % 1000)
+        n //= 1000
+    for i in reversed(range(len(groups))):
+        g = groups[i]
+        if not g:
+            continue
+        if i == 1 and g == 1:
+            words.append("bin")  # "bir bin" değil
+        else:
+            words += _three(g) + ([_SCALES[i]] if i else [])
+    return " ".join(words)
+
+
+def spell_numbers(text: str) -> str:
+    """Rakamları Türkçe okunuşa çevirir: "5,7" → "beş virgül yedi", "2011'de" → "iki bin on birde"."""
+
+    def repl(m: re.Match) -> str:
+        words = number_to_words(int(m.group(1).replace(".", "")))
+        if m.group(2):
+            frac = m.group(2)
+            zeros = len(frac) - len(frac.lstrip("0"))
+            words += " virgül " + " ".join(["sıfır"] * zeros + ([number_to_words(int(frac))] if int(frac) else []))
+        return words
+
+    return _NUMBER.sub(repl, text)
+
+
 def apply_lexicon(text: str, lexicon: dict[str, str]) -> str:
     for word in sorted(lexicon, key=len, reverse=True):
         text = re.sub(rf"(?<!\w){re.escape(word)}(?=\W|$)", lexicon[word], text)
@@ -103,6 +148,8 @@ def synthesize(episode: dict, cfg: dict, out_wav: Path) -> list[Line]:
         (i, s) for i, beat in enumerate(episode["beats"]) for s in split_sentences(beat["say"])
     ]
     texts = [apply_lexicon(s, lexicon) for _, s in sentences]
+    if tts_cfg["engine"] == "voxcpm":
+        texts = [spell_numbers(t) for t in texts]
     if tts_cfg["engine"] == "voxcpm":
         audios = _voxcpm(texts, tts_cfg)
     else:

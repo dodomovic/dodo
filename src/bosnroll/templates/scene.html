@@ -127,6 +127,56 @@ body.thumb { width: 1280px; height: 720px; }
 .thumbwrap h1 { font-family: "Oswald"; font-weight: 700; font-size: 100px; line-height: 1; text-transform: uppercase; max-width: 900px; }
 .thumbwrap .chip { align-self: flex-start; font-family: "Oswald"; font-weight: 700; font-size: 40px; padding: 8px 22px; background: var(--neon); color: #120800; border-radius: 10px; }
 .thumbwrap .q { position: absolute; right: 40px; top: 10px; font-family: "Oswald"; font-weight: 700; font-size: 520px; line-height: 1; opacity: .9; }
+
+/* ---------- Belgesel sahneleri ---------- */
+:root { --ice: #7fd6ff; --ice-dim: rgba(127, 214, 255, .35); }
+.dtitle { height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 30px; }
+.dtitle img { width: 620px; margin-left: -24px; }
+.dtitle h1 { font-family: "Oswald"; font-weight: 700; font-size: 150px; line-height: 1; text-transform: uppercase; }
+.dtitle .s { font-size: 40px; color: var(--muted); font-weight: 800; }
+.chap { height: 100%; display: flex; align-items: center; gap: 70px; }
+.chap .n { font-family: "Oswald"; font-weight: 700; font-size: 380px; line-height: .9; }
+.chap .lbl { font-family: "Oswald"; font-weight: 700; font-size: 34px; letter-spacing: .3em; color: var(--neon); }
+.chap h1 { font-family: "Oswald"; font-weight: 700; font-size: 120px; line-height: 1.02; text-transform: uppercase; margin: 14px 0 22px; }
+.chap .s { font-size: 40px; color: var(--muted); font-weight: 800; }
+.stat { height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 34px; }
+.stat .v { font-family: "Oswald"; font-weight: 700; font-size: 220px; line-height: .95; }
+.stat .l { font-size: 52px; font-weight: 800; line-height: 1.25; max-width: 1500px; }
+.stat .f { font-size: 30px; color: var(--muted); }
+.tl { height: 100%; display: flex; flex-direction: column; justify-content: center; }
+.tl .row { position: relative; display: grid; gap: 0; }
+.tl .line { position: absolute; left: 0; right: 0; top: 118px; height: 4px; background: rgba(255,255,255,.12); }
+.tl .item { position: relative; padding: 0 14px; text-align: center; }
+.tl .y { font-family: "Oswald"; font-weight: 700; font-size: 54px; color: var(--muted); height: 90px; display: flex; align-items: flex-end; justify-content: center; }
+.tl .dot { width: 30px; height: 30px; border-radius: 50%; margin: 14px auto 30px; background: #2a2622; border: 3px solid rgba(255,255,255,.2); position: relative; z-index: 1; }
+.tl .t { font-size: 30px; line-height: 1.3; color: var(--muted); font-weight: 800; }
+.tl .item.done .dot { background: rgba(255,106,26,.5); border-color: rgba(255,106,26,.7); }
+.tl .item.done .y { color: #c9b9aa; }
+.tl .item.on .dot { background: var(--neon); border-color: var(--neon-hot); box-shadow: 0 0 22px var(--neon); }
+.tl .item.on .y { color: var(--neon-hot); text-shadow: var(--glow); font-size: 64px; }
+.tl .item.on .t { color: var(--text); font-size: 34px; }
+.dlist { height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 26px; }
+.dlist h2 { font-family: "Oswald"; font-weight: 700; font-size: 84px; text-transform: uppercase; margin-bottom: 14px; }
+.dlist li { list-style: none; font-size: 46px; font-weight: 800; line-height: 1.25; padding-left: 58px; position: relative; }
+.dlist li::before { content: ""; position: absolute; left: 0; top: 18px; width: 22px; height: 22px; border-radius: 50%;
+  background: var(--neon); box-shadow: 0 0 14px var(--neon); }
+.dlist .note { font-size: 32px; color: var(--muted); margin-top: 16px; }
+.dquote { height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 34px; max-width: 1560px; }
+.dquote .mark { font-family: "Oswald"; font-weight: 700; font-size: 260px; line-height: .6; height: 130px; }
+.dquote .t { font-family: "Oswald"; font-weight: 700; font-size: 82px; line-height: 1.15; }
+.dquote .w { font-size: 34px; color: var(--muted); font-weight: 800; }
+.laur { height: 100%; display: grid; grid-template-columns: 420px 1fr; align-items: center; gap: 70px; }
+.laur .medal { width: 400px; height: 400px; border-radius: 50%; border: 6px solid var(--neon); display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 0 40px rgba(255,106,26,.6), inset 0 0 40px rgba(255,106,26,.35); font-family: "Oswald"; font-weight: 700; font-size: 120px; }
+.laur h1 { font-family: "Oswald"; font-weight: 700; font-size: 120px; text-transform: uppercase; margin-bottom: 24px; }
+.laur li { list-style: none; font-size: 40px; font-weight: 800; line-height: 1.5; color: #ddd3c9; }
+.laur li::before { content: "— "; color: var(--neon); }
+.diag { height: 100%; display: flex; flex-direction: column; }
+.diag svg { flex: 1; width: 100%; }
+.diag .cap { font-family: "Oswald"; font-weight: 700; font-size: 46px; color: var(--text); text-align: center; margin-top: 6px; }
+svg text { font-family: "Inter"; font-weight: 800; fill: var(--text); }
+svg .lbl { font-size: 30px; }
+svg .dim { opacity: .28; }
 </style>
 </head>
 <body>
@@ -136,9 +186,12 @@ const LABELS = { kim: "KİM?", ne: "NE?", nerede: "NEREDE?", ne_zaman: "NE ZAMAN
 const ORDER = ["kim", "ne", "nerede", "ne_zaman", "nasil", "neden"];
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-function header(ep, storyIdx) {
-  const pills = ep.stories.map((_, i) => `<div class="pill ${i === storyIdx ? "on" : i < storyIdx ? "done" : ""}"></div>`).join("");
-  return `<header><img src="../../../assets/logo.png"><div class="show">5N1K · TEKNOLOJİ GÜNDEMİ</div>
+function header(ep, b) {
+  const doc = ep.format === "doc";
+  const n = doc ? ep.chapters.length : ep.stories.length, cur = doc ? b.chapter : b.story;
+  const pills = Array.from({ length: n }, (_, i) => `<div class="pill ${i === cur ? "on" : i < cur ? "done" : ""}"></div>`).join("");
+  const show = doc ? `${esc(ep.stories[0].kicker)}${cur >= 0 ? " · " + esc(ep.chapters[cur]).toLocaleUpperCase("tr") : ""}` : "5N1K · TEKNOLOJİ GÜNDEMİ";
+  return `<header><img src="../../../assets/logo.png"><div class="show">${show}</div>
     <div class="spacer"></div><div class="pills">${pills}</div><div class="date">${esc(ep.date_label)}</div></header>`;
 }
 
@@ -153,7 +206,7 @@ function render(f) {
     main = `<div class="center"><img src="../../../assets/logo.png"><div class="tag">5N1K · TEKNOLOJİ GÜNDEMİ · ${esc(ep.date_label)}</div>
       <div class="toc">${ep.stories.map((s, i) => `<div><span>HABER ${i + 1} · ${esc(s.kicker)}</span>${esc(s.headline)}</div>`).join("")}</div></div>`;
   } else if (b.scene === "outro") {
-    main = `<div class="center"><img src="../../../assets/logo.png"><div class="tag">SİZCE HANGİSİ ABARTILI?</div>
+    main = `<div class="center"><img src="../../../assets/logo.png"><div class="tag">${ep.format === "doc" ? "SİZCE?" : "SİZCE HANGİSİ ABARTILI?"}</div>
       <div class="kicker">YORUMLARA YAZIN · ABONE OLUN</div><div class="source">Tüm kaynaklar açıklamada</div></div>`;
   } else if (b.scene === "headline") {
     main = `<div class="headline"><div class="num">HABER ${b.story + 1} / ${ep.stories.length}</div>
@@ -173,15 +226,151 @@ function render(f) {
     main = `<div class="verdict"><div class="label">BOSNROLL KARARI</div>
       <div class="box"><div class="big neon">${esc(st.verdict.label)}</div></div><div class="text">${esc(st.verdict.text)}</div></div>`;
   }
+  else if (DOC[b.scene]) main = DOC[b.scene](b.data || {}, ep, b);
   document.body.className = "";
   document.getElementById("root").innerHTML =
-    header(ep, b.story) + `<main>${main}</main><div class="sub">${esc(f.subtitle)}</div>`;
+    header(ep, b) + `<main>${main}</main><div class="sub">${esc(f.subtitle)}</div>`;
 }
+
+// ---------- Belgesel sahneleri (format: "doc") ----------
+const NEON = "#ff6a1a", HOT = "#ffb27a", ICE = "#7fd6ff", MUTED = "#8d857e";
+const svg = (inner) => `<svg viewBox="0 0 1760 620" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="-100" y="-100" width="1960" height="820"><feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="earthG" cx="40%" cy="35%"><stop offset="0" stop-color="#2b4f6b"/><stop offset="1" stop-color="#0d1a26"/></radialGradient>
+    <radialGradient id="coreG"><stop offset="0" stop-color="#fff3e0"/><stop offset=".25" stop-color="${HOT}"/><stop offset="1" stop-color="rgba(255,106,26,0)"/></radialGradient>
+    <linearGradient id="iceG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16303f"/><stop offset="1" stop-color="#07121a"/></linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${HOT}"/></marker>
+    <marker id="arrI" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${ICE}"/></marker>
+    <marker id="arrM" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${MUTED}"/></marker>
+  </defs>${inner}</svg>`;
+const T = (x, y, t, o = {}) => `<text x="${x}" y="${y}" class="lbl" text-anchor="${o.a || "middle"}" style="font-size:${o.s || 30}px;fill:${o.c || "#f4efe9"}">${esc(t)}</text>`;
+
+function dotsArc(cx, cy, r, n) { let o = ""; for (let i = 0; i < n; i++) { const a = i / n * Math.PI * 2; o += `<circle cx="${cx + r * Math.cos(a)}" cy="${cy + r * Math.sin(a)}" r="3" fill="rgba(255,255,255,.25)"/>`; } return o; }
+
+const DIAGRAMS = {
+  earth: () => svg(`
+    <circle cx="160" cy="310" r="80" fill="url(#coreG)" filter="url(#glow)"/>${T(160, 450, "Güneş", { c: MUTED })}
+    <circle cx="880" cy="310" r="230" fill="url(#earthG)" stroke="${ICE}" stroke-opacity=".4" stroke-width="3"/>${T(880, 590, "Dünya", { c: MUTED })}
+    ${[200, 255, 310, 365, 420].map(y => `<line x1="250" y1="${y}" x2="1560" y2="${y}" stroke="${HOT}" stroke-width="4" stroke-dasharray="14 12" marker-end="url(#arr)" filter="url(#glow)"/>`).join("")}
+    <g transform="translate(1640,250)" fill="none" stroke="#f4efe9" stroke-width="6" stroke-linecap="round">
+      <circle cx="0" cy="0" r="22"/><line x1="0" y1="22" x2="0" y2="110"/><line x1="0" y1="50" x2="-36" y2="90"/><line x1="0" y1="50" x2="36" y2="90"/>
+      <line x1="0" y1="110" x2="-28" y2="170"/><line x1="0" y1="110" x2="28" y2="170"/></g>
+    ${T(1640, 470, "Siz", { c: MUTED })}${T(560, 170, "ν  nötrinolar", { c: HOT, s: 36 })}`),
+
+  messengers: (d) => {
+    const hl = d.highlight || "all", on = k => hl === "all" || hl === k;
+    const g = (k, body) => `<g class="${on(k) ? "" : "dim"}">${body}</g>`;
+    return svg(`
+      <circle cx="170" cy="310" r="120" fill="url(#coreG)" filter="url(#glow)"/>${T(170, 500, "Kozmik hızlandırıcı", { c: MUTED, s: 28 })}
+      <circle cx="1600" cy="310" r="95" fill="url(#earthG)" stroke="${ICE}" stroke-opacity=".5" stroke-width="3"/>${T(1600, 450, "Dünya", { c: MUTED })}
+      ${g("proton", `<path d="M290,250 C520,130 640,380 860,190 S1180,130 1340,170" fill="none" stroke="${MUTED}" stroke-width="6" marker-end="url(#arrM)"/>
+        ${T(820, 90, "Proton · yüklü · manyetik alanda bükülür", { s: 32, c: on("proton") && hl !== "all" ? HOT : "#f4efe9" })}`)}
+      ${g("gamma", `<line x1="295" y1="330" x2="900" y2="330" stroke="${ICE}" stroke-width="6"/>
+        <ellipse cx="980" cy="330" rx="110" ry="70" fill="rgba(140,130,120,.35)"/>${T(980, 342, "toz / gaz", { s: 26, c: "#ddd" })}
+        <line x1="1090" y1="330" x2="1250" y2="330" stroke="${ICE}" stroke-width="3" stroke-opacity=".3" stroke-dasharray="6 10"/>
+        ${T(700, 300, "Gama ışını · yolda soğurulabilir", { s: 32, c: on("gamma") && hl !== "all" ? HOT : "#f4efe9" })}`)}
+      ${g("neutrino", `<line x1="290" y1="420" x2="1500" y2="420" stroke="${HOT}" stroke-width="7" stroke-dasharray="18 12" marker-end="url(#arr)" filter="url(#glow)"/>
+        ${T(880, 480, "Nötrino · yüksüz · dümdüz ve kayıpsız", { s: 32, c: on("neutrino") && hl !== "all" ? HOT : "#f4efe9" })}`)}`);
+  },
+
+  accelerator: () => {
+    const box = (x, y, w, t, c = NEON) => `<rect x="${x}" y="${y}" width="${w}" height="110" rx="18" fill="rgba(255,90,20,.08)" stroke="${c}" stroke-width="3"/>${T(x + w / 2, y + 68, t, { s: 34 })}`;
+    const ar = (x1, y1, x2, y2, m = "arr") => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${HOT}" stroke-width="5" marker-end="url(#${m})"/>`;
+    return svg(`
+      ${box(20, 255, 300, "Hızlı proton")}${ar(330, 310, 420, 310)}
+      ${box(430, 255, 380, "Gaz / ışığa çarpar")}${ar(820, 310, 910, 310)}
+      ${box(920, 255, 220, "Pionlar")}
+      ${ar(1150, 290, 1300, 150)}${ar(1150, 330, 1300, 470)}
+      ${box(1310, 90, 430, "π⁰ → gama ışınları", ICE)}
+      ${box(1310, 410, 430, "π± → nötrinolar", NEON)}
+      <rect x="1310" y="410" width="430" height="110" rx="18" fill="none" stroke="${HOT}" stroke-width="3" filter="url(#glow)"/>`);
+  },
+
+  cherenkov: () => {
+    let sensors = "";
+    for (let x = 200; x <= 1660; x += 160) for (let y = 80; y <= 560; y += 80) {
+      const dx = x - 760, dy = Math.abs(y - 330), lit = dx > 0 && dy < dx * 0.62 + 30 && dy > dx * 0.62 - 120;
+      sensors += `<circle cx="${x}" cy="${y}" r="${lit ? 13 : 8}" fill="${lit ? ICE : "rgba(255,255,255,.18)"}" ${lit ? 'filter="url(#glow)"' : ""}/>`;
+    }
+    return svg(`<rect x="0" y="20" width="1760" height="600" rx="24" fill="url(#iceG)"/>
+      ${sensors}
+      <line x1="40" y1="330" x2="740" y2="330" stroke="${HOT}" stroke-width="5" stroke-dasharray="16 12"/>${T(330, 300, "nötrino (görünmez)", { c: HOT, s: 30 })}
+      <circle cx="760" cy="330" r="22" fill="#fff" filter="url(#glow)"/>${T(760, 400, "çarpışma", { s: 28 })}
+      <line x1="760" y1="330" x2="1700" y2="330" stroke="#fff" stroke-width="6" marker-end="url(#arrI)"/>${T(1250, 312, "müon", { s: 30 })}
+      <path d="M760,330 L1700,${330 - 940 * 0.62} L1700,${330 + 940 * 0.62} Z" fill="${ICE}" fill-opacity=".14" stroke="${ICE}" stroke-opacity=".7" stroke-width="3"/>
+      ${T(1450, 120, "mavi Çerenkov ışığı", { c: ICE, s: 32 })}`);
+  },
+
+  icecube: (d) => {
+    const top = 70, surf = 110, d0 = 300, d1 = 560, xs = [], tops = d.highlight === "icetop";
+    for (let i = 0; i < 9; i++) xs.push(430 + i * 135);
+    const strings = xs.map(x => `<line x1="${x}" y1="${surf}" x2="${x}" y2="${d1}" stroke="rgba(255,255,255,.25)" stroke-width="2"/>` +
+      Array.from({ length: 12 }, (_, j) => `<circle cx="${x}" cy="${d0 + j * (d1 - d0) / 11}" r="7" fill="${ICE}"/>`).join("")).join("");
+    const icetop = xs.map(x => `<rect x="${x - 22}" y="${surf - 26}" width="44" height="22" rx="4" fill="${tops ? NEON : "rgba(255,255,255,.35)"}" ${tops ? 'filter="url(#glow)"' : ""}/>`).join("");
+    return svg(`<rect x="300" y="${surf}" width="1460" height="${620 - surf}" fill="url(#iceG)"/>
+      <line x1="300" y1="${surf}" x2="1760" y2="${surf}" stroke="#fff" stroke-width="3"/>
+      ${strings}${icetop}
+      <rect x="400" y="${d0 - 20}" width="1140" height="${d1 - d0 + 40}" fill="none" stroke="${NEON}" stroke-width="3" stroke-dasharray="10 8" rx="12" class="${tops ? "dim" : ""}"/>
+      ${T(270, surf + 10, "Yüzey · 0 m", { a: "end", s: 28 })}${T(270, d0 + 10, "1.450 m", { a: "end", s: 30, c: HOT })}${T(270, d1 + 10, "2.450 m", { a: "end", s: 30, c: HOT })}
+      ${T(1140, top - 30, tops ? "IceTop: yüzey dedektörleri" : "86 kablo · 5.160 sensör · 1 km³", { s: 34, c: tops ? HOT : "#f4efe9" })}
+      <line x1="${xs[0]}" y1="${d1 + 30}" x2="${xs[1]}" y2="${d1 + 30}" stroke="${HOT}" stroke-width="3" marker-start="url(#arr)" marker-end="url(#arr)"/>${T((xs[0] + xs[1]) / 2, d1 + 52, "125 m", { s: 24, c: HOT })}`);
+  },
+
+  events: () => {
+    const rainbow = ["#ff3b30", "#ff9500", "#ffcc00", "#34c759", "#00c7be", "#0a84ff", "#5e5ce6", "#bf5af2"];
+    let track = "", casc = "";
+    for (let i = 0; i < 16; i++) { const x = 140 + i * 42, y = 520 - i * 26; track += `<circle cx="${x}" cy="${y}" r="${10 + (i % 3) * 4}" fill="${rainbow[Math.floor(i / 2)]}" opacity=".9"/>`; }
+    for (let r = 30; r <= 170; r += 35) for (let a = 0; a < 360; a += 360 / (r / 5)) {
+      const rad = a * Math.PI / 180; casc += `<circle cx="${1320 + r * Math.cos(rad)}" cy="${310 + r * Math.sin(rad)}" r="${Math.max(4, 16 - r / 12)}" fill="${rainbow[Math.min(7, Math.floor(r / 25))]}" opacity=".85"/>`;
+    }
+    return svg(`<rect x="20" y="30" width="820" height="560" rx="22" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.1)"/>
+      <rect x="920" y="30" width="820" height="560" rx="22" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.1)"/>
+      ${track}${casc}
+      ${T(430, 90, "İZ (müon nötrinosu)", { s: 36, c: HOT })}${T(430, 570, "Yön: ~0,3° hassasiyet", { s: 28, c: MUTED })}
+      ${T(1330, 90, "KASKAD (top şeklinde)", { s: 36, c: HOT })}${T(1330, 570, "Enerji: ~%8 hassasiyet", { s: 28, c: MUTED })}`);
+  },
+
+  earthshield: () => svg(`
+    <circle cx="880" cy="290" r="250" fill="url(#earthG)" stroke="${ICE}" stroke-opacity=".4" stroke-width="3"/>
+    ${T(880, 70 - 20, "Kuzey", { c: MUTED, s: 28 })}
+    <rect x="850" y="525" width="60" height="40" rx="6" fill="${NEON}" filter="url(#glow)"/>${T(1010, 600, "IceCube · Güney Kutbu", { s: 28, c: HOT })}
+    ${[800, 880, 960].map(x => `<line x1="${x}" y1="0" x2="${x + (880 - x) * 0.9}" y2="515" stroke="${HOT}" stroke-width="5" stroke-dasharray="16 12" marker-end="url(#arr)" filter="url(#glow)"/>`).join("")}
+    ${T(1270, 210, "Nötrinolar Dünya'nın", { s: 32, c: HOT })}${T(1270, 252, "içinden geçip aşağıdan gelir", { s: 32, c: HOT })}
+    ${[620, 680, 1080, 1140].map(x => `<line x1="${x}" y1="620" x2="${x + (880 - x) * 0.35}" y2="560" stroke="${MUTED}" stroke-width="4" marker-end="url(#arrM)"/>`).join("")}
+    ${T(420, 560, "Atmosferden gelen", { s: 28, c: MUTED })}${T(420, 596, "müonlar ayıklanır", { s: 28, c: MUTED })}`),
+
+  blazar: () => svg(`
+    <ellipse cx="300" cy="310" rx="230" ry="70" fill="rgba(255,140,60,.15)" stroke="rgba(255,140,60,.4)"/>
+    <circle cx="300" cy="310" r="40" fill="url(#coreG)" filter="url(#glow)"/>
+    <path d="M330,295 L760,250 L760,370 L330,325 Z" fill="${HOT}" fill-opacity=".35" filter="url(#glow)"/>
+    ${T(300, 430, "Blazar: jeti bize dönük", { s: 28, c: MUTED })}${T(300, 470, "aktif galaksi", { s: 28, c: MUTED })}
+    <line x1="780" y1="310" x2="1440" y2="310" stroke="${HOT}" stroke-width="7" stroke-dasharray="18 12" marker-end="url(#arr)" filter="url(#glow)"/>
+    ${T(1110, 280, "~290 TeV nötrino", { s: 34, c: HOT })}
+    <circle cx="1560" cy="310" r="90" fill="url(#earthG)" stroke="${ICE}" stroke-opacity=".5" stroke-width="3"/>
+    <rect x="1330" y="430" width="400" height="110" rx="18" fill="rgba(255,90,20,.12)" stroke="${NEON}" stroke-width="3"/>
+    ${T(1530, 475, "1 dakika içinde", { s: 30 })}${T(1530, 515, "dünyaya uyarı", { s: 30 })}
+    ${T(1110, 380, "TXS 0506+056 · yön farkı 0,06°", { s: 28, c: MUTED })}`),
+};
+
+const DOC = {
+  title: (d) => `<div class="dtitle">${d.logo ? '<img src="../../../assets/logo.png">' : ""}<h1 class="${d.logo ? "" : "neon"}">${esc(d.title)}</h1><div class="s">${esc(d.sub)}</div></div>`,
+  chapter: (d) => `<div class="chap"><div class="n neon">${String(d.num).padStart(2, "0")}</div><div>
+    <div class="lbl">BÖLÜM ${d.num}</div><h1>${esc(d.title)}</h1><div class="s">${esc(d.sub || "")}</div></div></div>`,
+  stat: (d) => `<div class="stat"><div class="v neon">${esc(d.value)}</div><div class="l">${esc(d.label)}</div><div class="f">${esc(d.foot || "")}</div></div>`,
+  timeline: (d) => `<div class="tl"><div class="row" style="grid-template-columns:repeat(${d.items.length},1fr)"><div class="line"></div>${d.items.map((it, i) =>
+      `<div class="item ${i === d.active ? "on" : i < d.active ? "done" : ""}"><div class="y">${esc(it.year)}</div><div class="dot"></div><div class="t">${esc(it.text)}</div></div>`).join("")}</div></div>`,
+  list: (d) => `<div class="dlist"><h2>${esc(d.title)}</h2><ul>${d.items.map(i => `<li>${esc(i)}</li>`).join("")}</ul>${d.note ? `<div class="note">${esc(d.note)}</div>` : ""}</div>`,
+  quote: (d) => `<div class="dquote"><div class="mark neon">“</div><div class="t">${esc(d.text)}</div><div class="w">— ${esc(d.who)}</div></div>`,
+  laureate: (d) => `<div class="laur"><div class="medal neon">2026</div><div><h1 lang="en">${esc(d.name)}</h1><ul>${d.facts.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div></div>`,
+  diagram: (d) => `<div class="diag">${DIAGRAMS[d.name](d)}<div class="cap">${esc(d.caption || "")}</div></div>`,
+};
 
 function renderThumb(ep) {
   document.body.className = "thumb";
   document.getElementById("root").innerHTML = `<div class="thumbwrap"><div class="q neon">?</div>
-    <img src="../../../assets/logo.png"><h1>${esc(ep.thumbnail_text)}</h1><div class="chip">5N1K · ${esc(ep.date_label)}</div></div>`;
+    <img src="../../../assets/logo.png"><h1>${esc(ep.thumbnail_text)}</h1><div class="chip">${ep.format === "doc" ? esc(ep.stories[0].kicker) : "5N1K · " + esc(ep.date_label)}</div></div>`;
 }
 </script>
 </body>

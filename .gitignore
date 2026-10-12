@@ -12,3 +12,4 @@ assets/voice/ref.wav
 assets/voice/ref.txt
 *.m4a
 samples/deneme-kendi-sesin.mp3
+episodes/*/preview/
