@@ -1,0 +1,763 @@
+1
+00:00:00,400 --> 00:00:05,960
+Apple bugün oturma odanıza, mutfağınıza ve televizyonunuzun altına yerleşmek için üç yeni ürün tanıttı.
+
+2
+00:00:06,310 --> 00:00:10,990
+Ekranlı bir ev merkezi, yenilenen HomePod mini ve yeni bir Apple TV 4K.
+
+3
+00:00:11,790 --> 00:00:14,510
+Üçünün de ortak bir yıldızı var: Siri AI.
+
+4
+00:00:14,860 --> 00:00:19,860
+Apple'ın sıfırdan yeniden yazdığını söylediği, çok daha yetenekli ve sohbet edebilen yeni Siri.
+
+5
+00:00:20,210 --> 00:00:23,210
+Ama bu hikâyenin Türkiye için önemli bir dipnotu var.
+
+6
+00:00:23,560 --> 00:00:25,240
+Onu da en sona saklıyoruz.
+
+7
+00:00:26,040 --> 00:00:28,320
+Merhaba, BosNRoll kanalına hoş geldiniz.
+
+8
+00:00:28,670 --> 00:00:33,350
+Bugün Apple'ın yeni ev ürünlerini, tamamen Apple'ın kendi resmi duyurularından anlatıyoruz.
+
+9
+00:00:33,700 --> 00:00:39,700
+Önce 5N1K, sonra ürünler tek tek, Türkiye fiyatları ve en sonda her zamanki gibi mantık sorgusu.
+
+10
+00:00:40,500 --> 00:00:44,940
+Kim? Tabii ki Apple. Duyuruları şirketin pazarlamadan sorumlu yöneticileri yaptı.
+
+11
+00:00:45,740 --> 00:00:49,300
+Ne? Üç ürün. Yedi inç ekranlı yeni ev merkezi HomeView.
+
+12
+00:00:49,650 --> 00:00:52,810
+Yeni renkleri ve Siri AI desteğiyle HomePod mini 2.
+
+13
+00:00:53,160 --> 00:00:55,400
+Ve dördüncü nesil Apple TV 4K.
+
+14
+00:00:56,200 --> 00:01:01,800
+Nerede? HomePod mini 2 ve Apple TV 4K, Apple'ın Türkiye mağazasında ön siparişe açıldı.
+
+15
+00:01:02,150 --> 00:01:06,613
+HomeView ise şimdilik sadece Amerika, İngiltere, Kanada, Avustralya, Hindistan,
+
+16
+00:01:06,613 --> 00:01:09,550
+Yeni Zelanda, Singapur ve Güney Afrika'da satılacak.
+
+17
+00:01:09,900 --> 00:01:11,100
+Türkiye listede yok.
+
+18
+00:01:11,900 --> 00:01:14,460
+Ne zaman? Ürünler 13 Ekim'de duyuruldu.
+
+19
+00:01:14,810 --> 00:01:20,730
+HomePod mini 2, 30 Ekim'de; HomeView ve Apple TV 4K ise 13 Kasım'da satışa çıkıyor.
+
+20
+00:01:21,530 --> 00:01:24,290
+Nasıl? Üç ürünün merkezinde Siri AI var.
+
+21
+00:01:24,640 --> 00:01:29,520
+Sizi tanıyan, sohbet edebilen ve evinizdeki akıllı cihazları sesinizle yöneten bir asistan.
+
+22
+00:01:30,320 --> 00:01:35,840
+Neden? Apple'ın kendi ifadesiyle, evin merkezi olmak ve evdeki herkese kişisel bir deneyim sunmak.
+
+23
+00:01:36,190 --> 00:01:40,310
+Yani amaç, telefonunuzdan sonra evinizin de Apple ekosistemine bağlanması.
+
+24
+00:01:41,110 --> 00:01:42,630
+Birinci bölüm: HomeView.
+
+25
+00:01:43,430 --> 00:01:49,036
+HomeView, yedi inçlik bir ekranın, kubbe şeklinde bir hoparlör tabanına paslanmaz çelik bir menteşeyle
+
+26
+00:01:49,036 --> 00:01:50,190
+bağlandığı bir cihaz.
+
+27
+00:01:50,540 --> 00:01:53,780
+Mutfak tezgâhına, komodine ya da yan sehpaya konabiliyor.
+
+28
+00:01:54,130 --> 00:01:58,810
+Ekran, menteşe sayesinde her yükseklikteki masada rahat görülecek şekilde eğilebiliyor.
+
+29
+00:01:59,610 --> 00:02:05,339
+Apple'ın pazarlamadan sorumlu kıdemli başkan yardımcısı Greg Joswiak'a göre HomeView evdeki herkes tarafından
+
+30
+00:02:05,339 --> 00:02:08,650
+paylaşılıyor ama her kullanıcıya tamamen kişisel hissettiriyor.
+
+31
+00:02:09,000 --> 00:02:12,920
+Yüzünüzü tanıyınca ortak ev ekranından sizin kişisel deneyiminize geçiyor.
+
+32
+00:02:13,720 --> 00:02:18,040
+Dört renk seçeneği var: gümüş, yıldız ışığı, gül pembesi ve uzay grisi.
+
+33
+00:02:18,390 --> 00:02:20,590
+Kablosu da cihazla aynı renkte geliyor.
+
+34
+00:02:20,940 --> 00:02:23,420
+Ayrıca duvara monte edilen bir model de var.
+
+35
+00:02:23,770 --> 00:02:27,930
+O model, Schneider Home'un tasarladığı üç farklı duvar bağlantısıyla takılıyor.
+
+36
+00:02:28,730 --> 00:02:35,810
+Ekran parlaklığı, güneş alan bir odada beş yüz nite kadar çıkıyor, gece komodinde ise 0,3 nite kadar iniyor.
+
+37
+00:02:36,160 --> 00:02:40,320
+Arayüz de size olan mesafeye göre değişiyor: uzaktan bakınca sade bilgiler,
+
+38
+00:02:40,320 --> 00:02:42,760
+yaklaştıkça daha fazla ayrıntı görüyorsunuz.
+
+39
+00:02:43,560 --> 00:02:45,920
+HomeView'un en ilginç özelliği yüz tanıma.
+
+40
+00:02:46,270 --> 00:02:51,430
+Evdeki altı kişiye kadar herkesi yüzünden tanıyor ve her birine kendi ana ekranını gösteriyor.
+
+41
+00:02:51,780 --> 00:02:56,500
+Mesajlarınız, takviminiz ya da hatırlatıcılarınız sadece siz ekranın önündeyken görünüyor.
+
+42
+00:02:56,850 --> 00:03:00,290
+Ortak fotoğraf albümleri ve müzik ise herkesle paylaşılabiliyor.
+
+43
+00:03:01,090 --> 00:03:03,290
+HomeView, Siri AI ile geliyor.
+
+44
+00:03:03,640 --> 00:03:07,000
+Apple'a göre yeni Siri çok daha yetenekli ve sohbet edebiliyor.
+
+45
+00:03:07,350 --> 00:03:09,670
+Neredeyse her konuda soru sorabiliyorsunuz.
+
+46
+00:03:10,020 --> 00:03:15,493
+Uyumlu bir iPhone ya da iPad ile eşleşince de mesajlarınızdan ve takviminizden bilgi çekerek size özel
+
+47
+00:03:15,493 --> 00:03:16,620
+cevaplar verebiliyor.
+
+48
+00:03:16,970 --> 00:03:20,330
+HomeView'da başlayan bir sohbete iPhone'da devam etmek de mümkün.
+
+49
+00:03:21,130 --> 00:03:24,050
+Ekranı kişiselleştirmek için farklı saat yüzleri var.
+
+50
+00:03:24,400 --> 00:03:28,160
+Fotoğraflar yüzü, anılarınızı portre derinlik efektiyle canlandırıyor.
+
+51
+00:03:28,510 --> 00:03:34,262
+Ortak bir albüm seçtiğinizde HomeView, uzaktaki aile üyelerinin de fotoğraf ekleyebildiği canlı bir çerçeveye
+
+52
+00:03:34,262 --> 00:03:34,790
+dönüşüyor.
+
+53
+00:03:35,140 --> 00:03:39,340
+Akış adlı yüz hareketinize tepki veren etkileşimli bir sanat eserine dönüşüyor.
+
+54
+00:03:39,690 --> 00:03:44,610
+Ve Snoopy de var: günün saatine, havaya ve spor maçlarına göre değişen animasyonlarla.
+
+55
+00:03:45,410 --> 00:03:51,227
+Ses tarafında, ekranın içinde iki tam aralıklı hoparlör, tabanda ise aşağı bakan bir woofer ve iki pasif
+
+56
+00:03:51,227 --> 00:03:52,290
+radyatör bulunuyor.
+
+57
+00:03:52,640 --> 00:03:54,240
+Uzamsal ses destekleniyor.
+
+58
+00:03:54,590 --> 00:04:00,150
+Birden fazla HomeView, HomePod ya da AirPlay hoparlörüyle evin tamamında aynı anda müzik çalınabiliyor.
+
+59
+00:04:00,950 --> 00:04:04,670
+Apple Music'te hareketli albüm kapakları ve şarkı sözleri gösteriliyor.
+
+60
+00:04:05,020 --> 00:04:08,220
+Podcastler, Apple News ve Apple TV uygulaması da var.
+
+61
+00:04:08,570 --> 00:04:12,322
+Bir de güzel bir ayrıntı: arabada ya da yürüyüşte dinlediğiniz şarkıya,
+
+62
+00:04:12,322 --> 00:04:17,130
+iPhone'unuzu HomeView ekranının önüne tutarak evde kaldığınız yerden devam edebiliyorsunuz.
+
+63
+00:04:17,930 --> 00:04:22,970
+FaceTime görüşmelerinde Center Stage özelliği, odada dolaşsanız bile sizi kadrajda tutuyor.
+
+64
+00:04:23,320 --> 00:04:27,920
+İnterkom ile tek bir odaya ya da bütün eve kısa bir sesli mesaj gönderebiliyorsunuz.
+
+65
+00:04:28,270 --> 00:04:33,310
+Bul uygulamasıyla da konumunu paylaşan aile üyelerinizi ya da kayıp iPhone'unuzu görebiliyorsunuz.
+
+66
+00:04:34,110 --> 00:04:37,630
+Apple, HomeView'u mutfakta bir yardımcı şef olarak da konumluyor.
+
+67
+00:04:37,980 --> 00:04:43,006
+İnternetteki tarifleri adım adım talimatlara çeviriyor, zamanlayıcıları elinizi kullanmadan,
+
+68
+00:04:43,006 --> 00:04:44,700
+sesinizle yönetmenizi sağlıyor.
+
+69
+00:04:45,500 --> 00:04:47,620
+Asıl iddia ise akıllı ev tarafında.
+
+70
+00:04:47,970 --> 00:04:53,650
+HomeView'dan kameraları izleyebiliyor, termostatı ve ışıkları ayarlayabiliyor, kapıları kilitleyebiliyorsunuz.
+
+71
+00:04:54,000 --> 00:04:57,400
+Kamera ekranı aynı anda dokuz kamera görüntüsünü gösterebiliyor.
+
+72
+00:04:57,750 --> 00:05:02,390
+Duman ya da karbon monoksit alarmının sesini duyduğunda da telefonunuza bildirim gönderiyor.
+
+73
+00:05:03,190 --> 00:05:07,590
+Uygun bir iCloud artı aboneliğiyle, uyumlu kameralar insanları, tanıdık yüzleri,
+
+74
+00:05:07,590 --> 00:05:11,990
+evcil hayvanları, paketleri ve araçları uçtan uca şifreli şekilde tanıyabiliyor.
+
+75
+00:05:12,340 --> 00:05:15,100
+Biri kapıya geldiği anda evdekilere bildirim gidiyor.
+
+76
+00:05:15,450 --> 00:05:21,170
+Kamera kayıtları için de yazılı özetler sunuluyor; böylece videoyu izlemeden ne olduğunu anlayabiliyorsunuz.
+
+77
+00:05:21,970 --> 00:05:26,290
+Apple bununla birlikte Apple Home Collection adlı yeni bir ürün ailesi de duyurdu.
+
+78
+00:05:26,640 --> 00:05:30,557
+LG Electronics ve Schneider Electric ile birlikte tasarlanan kameralar,
+
+79
+00:05:30,557 --> 00:05:33,040
+termostatlar ve bir kapı kilidinden oluşuyor.
+
+80
+00:05:33,390 --> 00:05:37,430
+Bu ürünler aralıkta, bir kısmı da 2027'nin başında gelecek.
+
+81
+00:05:38,230 --> 00:05:43,833
+Gizlilik tarafında Apple, A18 çipindeki korumalı bölümlerin kamera ve mikrofon verisini sistemin geri
+
+82
+00:05:43,833 --> 00:05:45,830
+kalanından ayrı işlediğini söylüyor.
+
+83
+00:05:46,180 --> 00:05:50,940
+Bu verilere ne uygulamaların, ne kullanıcının, ne de Apple'ın erişebildiğini iddia ediyor.
+
+84
+00:05:51,290 --> 00:05:56,450
+Siri istekleri ya cihazda ya da Apple'ın Private Cloud Compute adını verdiği sunucularda işleniyor.
+
+85
+00:05:57,250 --> 00:06:01,999
+Çevre tarafında Apple, HomeView'un taban kasasında yüzde yüz geri dönüştürülmüş alüminyum,
+
+86
+00:06:01,999 --> 00:06:07,170
+tüm mıknatıslarında yüzde yüz geri dönüştürülmüş nadir toprak elementleri kullanıldığını söylüyor.
+
+87
+00:06:07,520 --> 00:06:09,440
+Ambalajı da tamamen elyaf bazlı.
+
+88
+00:06:10,240 --> 00:06:15,120
+HomeView'un fiyatı Amerika'da 299 dolar, duvar modeli de aynı fiyatta.
+
+89
+00:06:15,470 --> 00:06:17,070
+Ancak Türkiye'de satılmayacak.
+
+90
+00:06:17,420 --> 00:06:22,900
+Avrupa Birliği'nde de satılmıyor, çünkü Apple'a göre Siri AI şu anda Avrupa Birliği'nde kullanılamıyor.
+
+91
+00:06:23,700 --> 00:06:25,620
+İkinci bölüm: HomePod mini 2.
+
+92
+00:06:26,420 --> 00:06:31,860
+HomePod mini 2, pembe, yeşil, mavi, beyaz ve gece yarısı olmak üzere beş renkte geliyor.
+
+93
+00:06:32,210 --> 00:06:34,090
+İçinde Apple'ın S10 çipi var.
+
+94
+00:06:34,440 --> 00:06:39,440
+Apple'a göre bu çip müziği gerçek zamanlı analiz ederek ses seviyesini ve dinamikleri ayarlıyor.
+
+95
+00:06:40,240 --> 00:06:46,031
+Apple'ın ev ürünleri pazarlamasından sorumlu başkan yardımcısı Kaiann Drance ise HomePod mini 2'yi şöyle
+
+96
+00:06:46,031 --> 00:06:50,040
+özetliyor: Siri AI, yeni renkler ve etkileyici sesi bir araya getiriyor.
+
+97
+00:06:50,390 --> 00:06:55,790
+Tek başına bir odayı dolduruyor, stereo çift ya da çok odalı kurulumda ise ses daha da büyüyor.
+
+98
+00:06:56,590 --> 00:06:59,590
+HomePod mini 2'nin de en büyük özelliği Siri AI.
+
+99
+00:06:59,940 --> 00:07:04,318
+Ama burada önemli bir ayrıntı var: Siri AI, hoparlör satışa çıktığında değil,
+
+100
+00:07:04,318 --> 00:07:06,820
+ileride bir yazılım güncellemesiyle gelecek.
+
+101
+00:07:07,170 --> 00:07:09,250
+Geldiğinde de sadece İngilizce olacak.
+
+102
+00:07:09,600 --> 00:07:13,280
+Hoparlör, evdeki altı kişiye kadar herkesi sesinden tanıyabiliyor.
+
+103
+00:07:14,080 --> 00:07:16,640
+Yeni bir görsel özellik de var: Sound Glow.
+
+104
+00:07:16,990 --> 00:07:20,430
+Hoparlörün üst yüzeyi, müziğin bas ve tizlerine göre ışıldıyor.
+
+105
+00:07:20,780 --> 00:07:23,540
+Renkler, çalan şarkının albüm kapağından seçiliyor.
+
+106
+00:07:23,890 --> 00:07:28,090
+Yağmur gibi bir ses manzarası seçtiğinizde de ona uygun animasyonlar oynuyor.
+
+107
+00:07:28,890 --> 00:07:32,170
+HomePod mini artık bir Mac hoparlörü olarak da kullanılabiliyor.
+
+108
+00:07:32,520 --> 00:07:38,600
+Wi-Fi 6E destekli Mac'lerde filmler, oyunlar ve görüntülü görüşmeler için masaüstü hoparlörü işlevi görüyor.
+
+109
+00:07:39,400 --> 00:07:41,880
+HomePod mini 2 de bir akıllı ev merkezi.
+
+110
+00:07:42,230 --> 00:07:46,790
+Sesinizle kapıyı kilitleyebilir, panjurları indirebilir, termostatı ayarlayabilirsiniz.
+
+111
+00:07:47,140 --> 00:07:51,660
+Duman ya da karbon monoksit alarmının sesini duyduğunda telefonunuza bildirim gönderiyor.
+
+112
+00:07:52,460 --> 00:07:58,043
+HomePod mini 2, Apple Home Collection'daki görüntülü kapı zilleri ve kameralarla da çalışıyor ve yüz tanıma
+
+113
+00:07:58,043 --> 00:08:00,860
+sayesinde kapıda kimin olduğunu sesli olarak söylüyor.
+
+114
+00:08:01,210 --> 00:08:06,490
+Ev uygulaması üzerinden de HomePod mini aracılığıyla evi dinleyip içerideki biriyle konuşabiliyorsunuz.
+
+115
+00:08:07,290 --> 00:08:11,130
+HomePod mini 2'nin Türkiye fiyatı 9.999 lira.
+
+116
+00:08:11,480 --> 00:08:14,200
+Amerika'daki fiyatı ise 149 dolar.
+
+117
+00:08:14,550 --> 00:08:17,230
+Ön siparişler başladı, satışlar 30 Ekim'de.
+
+118
+00:08:18,030 --> 00:08:20,470
+Üçüncü bölüm: yeni Apple TV 4K.
+
+119
+00:08:21,270 --> 00:08:26,190
+Dördüncü nesil Apple TV 4K, iPhone'lardan tanıdığımız A19 çipiyle geliyor.
+
+120
+00:08:26,540 --> 00:08:32,516
+Apple'a göre önceki nesle kıyasla işlemci performansı yüzde elliye kadar, grafik performansı ise iki kata
+
+121
+00:08:32,516 --> 00:08:33,540
+kadar daha yüksek.
+
+122
+00:08:34,340 --> 00:08:37,540
+En büyük yenilik, cihazın içine yerleştirilen üç mikrofon.
+
+123
+00:08:37,890 --> 00:08:41,730
+Artık kumandaya uzanmadan, sadece sesinizle Siri'yi kullanabiliyorsunuz.
+
+124
+00:08:42,080 --> 00:08:48,139
+Siri AI, aile için bir aksiyon filmi bulmak ya da bir arkadaşınızın önerdiği diziyi açmak gibi isteklere cevap
+
+125
+00:08:48,139 --> 00:08:48,800
+verebiliyor.
+
+126
+00:08:49,150 --> 00:08:55,390
+Cihazda 128 gigabayt depolama var ve Dolby Vision, HDR10 artı ile Dolby Atmos destekleniyor.
+
+127
+00:08:56,190 --> 00:09:02,750
+Apple TV 4K'da Apple TV uygulamasının yanı sıra Netflix, Disney artı, Prime Video gibi servisler de var.
+
+128
+00:09:03,100 --> 00:09:07,872
+Apple Fitness artı ile dört ka antrenmanlar, Apple Arcade ile oyunlar oynayabiliyorsunuz;
+
+129
+00:09:07,872 --> 00:09:10,500
+PlayStation ve Xbox kumandaları da destekleniyor.
+
+130
+00:09:10,850 --> 00:09:15,050
+Apple Music Sing ile iPhone'unuzu mikrofon gibi kullanıp karaoke yapabiliyorsunuz.
+
+131
+00:09:15,400 --> 00:09:19,320
+FaceTime görüşmeleri de iPhone kamerası üzerinden televizyona taşınabiliyor.
+
+132
+00:09:20,120 --> 00:09:25,077
+Siri kumandası kaybolursa Bul uygulamasıyla ya da Siri'ye kumandayı bul diyerek ses çıkarmasını
+
+133
+00:09:25,077 --> 00:09:26,120
+sağlayabiliyorsunuz.
+
+134
+00:09:26,470 --> 00:09:31,590
+İki ayrı AirPods'u aynı anda bağlayıp, ayrı ses seviyeleriyle birlikte film izlemek de mümkün.
+
+135
+00:09:32,390 --> 00:09:35,190
+Apple TV 4K de bir akıllı ev merkezi.
+
+136
+00:09:35,540 --> 00:09:39,820
+HomeKit ve Matter uyumlu aksesuarları evden uzaktayken bile yönetmenizi sağlıyor.
+
+137
+00:09:40,170 --> 00:09:44,050
+Ekranda konuşulanları öne çıkaran bir diyalog geliştirme özelliği de var.
+
+138
+00:09:44,400 --> 00:09:46,440
+Böylece fısıltılar bile net duyuluyor.
+
+139
+00:09:47,240 --> 00:09:52,040
+Yeni Apple TV 4K'nın Türkiye fiyatı 22.499 lira.
+
+140
+00:09:52,390 --> 00:09:54,350
+Satışlar 13 Kasım'da başlıyor.
+
+141
+00:09:55,150 --> 00:09:56,870
+Dördüncü bölüm: ev sineması.
+
+142
+00:09:57,670 --> 00:09:59,990
+Bu duyuruların birleştiği yer ev sineması.
+
+143
+00:10:00,340 --> 00:10:06,630
+İlk kez, dört HomePod mini 2 ile yeni Apple TV 4K bir araya gelip dört hoparlörlü bir surround ses sistemi
+
+144
+00:10:06,630 --> 00:10:07,580
+oluşturabiliyor.
+
+145
+00:10:07,930 --> 00:10:13,821
+Apple TV 4K, her hoparlörün odadaki yerini algılayıp ses zamanlamasını ve seviyesini otomatik olarak
+
+146
+00:10:13,821 --> 00:10:14,410
+ayarlıyor.
+
+147
+00:10:14,760 --> 00:10:19,040
+Apple bunu, şimdiye kadarki en etkileyici ev sineması deneyimi olarak tanıtıyor.
+
+148
+00:10:19,840 --> 00:10:22,280
+Peki bu kurulum Türkiye'de kaça mal oluyor?
+
+149
+00:10:22,630 --> 00:10:25,270
+Dört HomePod mini 2, kırk bin liraya yakın.
+
+150
+00:10:25,620 --> 00:10:30,540
+Üstüne Apple TV 4K eklenince toplam 62.495 lira.
+
+151
+00:10:30,890 --> 00:10:32,970
+Ve bu hesaba televizyon dahil değil.
+
+152
+00:10:33,770 --> 00:10:39,157
+Apple'ın dipnotlarına göre bunun için hoparlörlerin ön ve arka olarak eşleşmiş çiftler halinde olması
+
+153
+00:10:39,157 --> 00:10:39,690
+gerekiyor.
+
+154
+00:10:40,040 --> 00:10:43,360
+Ya dört HomePod mini 2, ya da dört ikinci nesil HomePod.
+
+155
+00:10:43,710 --> 00:10:47,270
+Apple TV 4K'nın da yeni, dördüncü nesil olması şart.
+
+156
+00:10:47,620 --> 00:10:51,100
+Yani eski Apple TV'niz varsa bu özelliği kullanamıyorsunuz.
+
+157
+00:10:51,900 --> 00:10:55,380
+Bir de Whole Room Audio, yani tüm oda sesi özelliği var.
+
+158
+00:10:55,730 --> 00:10:59,050
+Bu mod, sesi dört HomePod hoparlöre eşit olarak dağıtıyor.
+
+159
+00:10:59,400 --> 00:11:05,267
+Apple bunu partiler ve maç günleri için öneriyor; odanın neresinde olursanız olun müzik ya da maç anlatımı net
+
+160
+00:11:05,267 --> 00:11:05,800
+duyuluyor.
+
+161
+00:11:06,600 --> 00:11:09,520
+Şimdi gelelim kanalımızın imzasına: mantık sorgusu.
+
+162
+00:11:10,320 --> 00:11:14,040
+Birinci soru: Türkçe konuşmayan bir Siri'ye Türkiye fiyatı mı ödüyoruz?
+
+163
+00:11:14,390 --> 00:11:17,310
+Üç ürünün de tanıtımında yıldız özellik Siri AI.
+
+164
+00:11:17,660 --> 00:11:23,660
+Ama Apple'ın kendi dipnotlarına göre Siri AI şimdilik sadece İngilizce ve sadece belirli ülkelerde çalışıyor.
+
+165
+00:11:24,010 --> 00:11:27,290
+HomePod mini 2'de ise satışta bile yok, ileride gelecek.
+
+166
+00:11:27,640 --> 00:11:34,109
+Yani Türkiye'de 9.999 liralık bir HomePod mini 2 alan biri, tanıtımın en büyük özelliğini Türkçe
+
+167
+00:11:34,109 --> 00:11:35,120
+kullanamayacak.
+
+168
+00:11:35,470 --> 00:11:38,950
+Türkçe desteğin ne zaman geleceğine dair de bir tarih verilmemiş.
+
+169
+00:11:39,300 --> 00:11:44,847
+Üstelik kişisel bilgilerinizi kullanan Siri özellikleri için, Apple Intelligence destekli bir iPhone ya da
+
+170
+00:11:44,847 --> 00:11:46,260
+iPad'iniz olması gerekiyor.
+
+171
+00:11:46,610 --> 00:11:50,690
+Yani bu ürünlerin vaat ettiği deneyim, aslında yeni bir iPhone'u da varsayıyor.
+
+172
+00:11:51,490 --> 00:11:54,450
+İkinci soru: dünyanın en gizli dijital asistanı.
+
+173
+00:11:54,800 --> 00:11:56,640
+Bu cümle iki duyuruda da geçiyor.
+
+174
+00:11:56,990 --> 00:11:59,350
+Peki bunu kim ölçtü? Apple'ın kendisi.
+
+175
+00:11:59,700 --> 00:12:01,660
+Bağımsız bir denetimden söz edilmiyor.
+
+176
+00:12:02,010 --> 00:12:07,633
+Bir de dipnotlarda küçük bir ayrıntı var: sunucuda çalışan bazı yapay zekâ özelliklerinde günlük kullanım
+
+177
+00:12:07,633 --> 00:12:11,650
+sınırı olacağı ve daha fazla kullanımın ileride ücretli sunulacağı yazıyor.
+
+178
+00:12:12,000 --> 00:12:16,200
+Yani bugün ücretsiz olan Siri'nin bazı yetenekleri, ileride paralı olabilir.
+
+179
+00:12:17,000 --> 00:12:19,520
+Üçüncü soru: ev sineması kaça mal oluyor?
+
+180
+00:12:19,870 --> 00:12:23,910
+Apple dört hoparlörlü surround sistemi en etkileyici deneyim olarak tanıtıyor.
+
+181
+00:12:24,260 --> 00:12:30,060
+Ama Türkiye fiyatlarıyla bu kurulum 62.495 lira, üstelik televizyon hariç.
+
+182
+00:12:30,410 --> 00:12:33,730
+Bu parayla bir soundbar ve iyi bir televizyon almak da mümkün.
+
+183
+00:12:34,080 --> 00:12:37,640
+Yani bu sistem, zaten Apple ekosisteminde olanlar için mantıklı.
+
+184
+00:12:37,990 --> 00:12:41,070
+Sıfırdan başlayan biri için ise pahalı bir giriş kapısı.
+
+185
+00:12:41,870 --> 00:12:43,710
+Kararımız: önce Türkçe Siri.
+
+186
+00:12:44,060 --> 00:12:46,460
+Donanım tarafında güçlü ve şık ürünler var.
+
+187
+00:12:46,810 --> 00:12:51,770
+Ama hepsini birbirine bağlayan asıl özellik, yani Siri AI, Türkiye'de henüz çalışmıyor.
+
+188
+00:12:52,120 --> 00:12:54,480
+Türkçe desteği gelene kadar acele etmeyin.
+
+189
+00:12:55,280 --> 00:12:58,640
+Bugünlük bu kadar. Fiyatlar ve kaynakların hepsi açıklamada.
+
+190
+00:12:58,990 --> 00:13:01,630
+Sizce Türkçe Siri olmadan bu ürünler alınır mı?
+
+191
+00:13:01,980 --> 00:13:06,060
+Yorumlarda yazın. BosNRoll kanalına abone olmayı unutmayın, görüşmek üzere.
