@@ -112,11 +112,11 @@
  },
  "thumbnail": {
   "photo": "hv-living",
-  "face": "hp-colors",
   "chip": "APPLE · 13 EKİM 2026",
   "big": "Apple eve geldi",
   "sub": "HomeView · HomePod mini 2 · Apple TV 4K",
-  "foot": "Türkiye fiyatları ve haberlerde anlatılmayanlar"
+  "foot": "Türkiye fiyatları ve haberlerde anlatılmayanlar",
+  "logo": "apple/apple-logo.svg"
  },
  "stories": [
   {
