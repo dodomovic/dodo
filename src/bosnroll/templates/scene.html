@@ -221,6 +221,16 @@ body.clipfull::before { display: none; }
 
 .tlogoimg { position: absolute; right: 110px; top: 50%; transform: translateY(-52%); height: 400px;
   filter: drop-shadow(0 0 14px rgba(255,106,26,.9)) drop-shadow(0 0 40px rgba(255,77,0,.55)); }
+
+body.vthumb { width: 1080px; height: 1920px; }
+.vgrad { position: fixed; inset: 0; background: linear-gradient(180deg, rgba(8,8,10,.55) 0%, rgba(8,8,10,.35) 30%, rgba(8,8,10,.85) 62%, rgba(8,8,10,.95) 100%); }
+.vwrap { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; text-align: center; padding: 0 60px; }
+.vbrand { width: 300px; margin-bottom: 10px; }
+.vlogo { height: 300px; margin: 10px 0 30px; filter: drop-shadow(0 0 16px rgba(255,106,26,.9)) drop-shadow(0 0 50px rgba(255,77,0,.55)); }
+.vwrap .tchip { font-family: "Oswald"; font-weight: 700; font-size: 44px; letter-spacing: .08em; padding: 6px 26px; background: var(--neon); color: #120800; border-radius: 12px; white-space: nowrap; }
+.vbig { font-family: "Oswald"; font-weight: 700; font-size: 150px; line-height: 1; text-transform: uppercase; white-space: nowrap; margin: 10px 0; }
+.vline { font-family: "Oswald"; font-weight: 700; font-size: 72px; line-height: 1.05; text-transform: uppercase; color: #fff; white-space: nowrap; text-shadow: 0 3px 20px rgba(0,0,0,.9); }
+.vfoot { font-size: 34px; color: rgba(255,255,255,.8); margin-top: 18px; white-space: nowrap; }
 </style>
 </head>
 <body>
@@ -460,6 +470,23 @@ function renderRichThumb(ep, t) {
   for (const el of document.querySelectorAll(".rthumb .tbig, .rthumb .tsub, .rthumb .tchip")) {
     let size = parseFloat(getComputedStyle(el).fontSize);
     while (el.scrollWidth > maxW && size > 18) { size -= 2; el.style.fontSize = size + "px"; }
+  }
+}
+
+function renderVerticalThumb(ep, t) {
+  // Instagram Reels/hikâye kapağı 1080x1920; önemli içerik ortadaki 1080x1350 alanda (ızgara kırpması)
+  document.body.className = "vthumb";
+  const bg = t.photo ? `<div class="bgphoto" style="background-image:url('${photoUrl(ep, t.photo)}');background-position:${t.pos || "40% center"}"></div>` : "";
+  document.getElementById("root").innerHTML = `${bg}<div class="vgrad"></div><div class="vwrap" lang="${t.lang || "tr"}">
+    <img class="vbrand" src="../../../assets/logo.png">
+    ${t.logo ? `<img class="vlogo" src="../../../assets/photos/${t.logo}">` : ""}
+    <div class="tchip">${esc(t.chip)}</div>
+    <div class="vbig neon">${esc(t.big)}</div>
+    ${(t.lines || []).map(l => `<div class="vline">${esc(l)}</div>`).join("")}
+    <div class="vfoot">${esc(t.foot || "")}</div></div>`;
+  for (const el of document.querySelectorAll(".vwrap .vbig, .vwrap .vline, .vwrap .tchip")) {
+    let size = parseFloat(getComputedStyle(el).fontSize);
+    while (el.scrollWidth > 960 && size > 18) { size -= 2; el.style.fontSize = size + "px"; }
   }
 }
 

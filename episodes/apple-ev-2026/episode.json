@@ -903,5 +903,18 @@
    "file": "apple/hpm-sound-highlights.mp4",
    "line": "Video: Apple"
   }
+ },
+ "thumbnail_vertical": {
+  "photo": "hv-living",
+  "pos": "38% center",
+  "logo": "apple/apple-logo.svg",
+  "chip": "APPLE · 13 EKİM 2026",
+  "big": "Apple eve geldi",
+  "lines": [
+   "HomeView",
+   "HomePod mini 2",
+   "Apple TV 4K"
+  ],
+  "foot": "Türkiye fiyatları ve haberlerde anlatılmayanlar"
  }
 }
