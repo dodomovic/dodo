@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BosNRoll · YouTube'da izle</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { --bg: #08080a; --neon: #ff6a1a; --text: #f4efe9; --muted: #8d857e; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: var(--bg);
+    color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; padding: 24px; text-align: center; }
+  .box { max-width: 420px; }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  p { color: var(--muted); font-size: 15px; line-height: 1.5; margin: 0 0 24px; }
+  a.btn { display: inline-flex; align-items: center; gap: 12px; padding: 14px 24px; border-radius: 999px; background: #ff0000;
+    color: #fff; font-weight: 700; font-size: 17px; text-decoration: none; }
+  a.btn svg { width: 28px; height: 20px; }
+  .small { margin-top: 18px; font-size: 13px; }
+  .small a { color: var(--neon); }
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>YouTube açılıyor…</h1>
+  <p>Açılmazsa aşağıdaki düğmeye dokun.</p>
+  <a class="btn" id="open" href="#"><svg viewBox="0 0 28 20"><rect width="28" height="20" rx="5.6" fill="#fff"/><path d="M11.2 14.3V5.7L18.5 10z" fill="#ff0000"/></svg>YouTube'da izle</a>
+  <p class="small">Instagram içinde kaldıysan sağ üstteki <b>⋯</b> menüsünden <b>"Tarayıcıda aç"</b> seçeneğine dokun.<br><a id="web" href="#">Tarayıcıda izle</a></p>
+</div>
+<script>
+  // Kullanım: /izle/?v=VIDEO_ID  (varsayılan: son video)
+  const id = (new URLSearchParams(location.search).get("v") || "CnJa5UtD_Zo").replace(/[^A-Za-z0-9_-]/g, "");
+  const web = "https://www.youtube.com/watch?v=" + id;
+  const ua = navigator.userAgent;
+  let app = web;
+  if (/Android/i.test(ua)) {
+    // Android: YouTube uygulamasına intent; uygulama yoksa web'e düşer
+    app = "intent://www.youtube.com/watch?v=" + id + "#Intent;scheme=https;package=com.google.android.youtube;S.browser_fallback_url="
+      + encodeURIComponent(web) + ";end";
+  } else if (/iPhone|iPad|iPod/i.test(ua)) {
+    app = "youtube://www.youtube.com/watch?v=" + id;
+  }
+  document.getElementById("open").href = app;
+  document.getElementById("web").href = web;
+  location.href = app;
+  // Uygulama açılmadıysa web sürümüne geç
+  setTimeout(() => { if (!document.hidden) location.href = web; }, 1800);
+</script>
+</body>
+</html>
