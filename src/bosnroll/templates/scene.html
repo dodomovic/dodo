@@ -209,6 +209,15 @@ svg .dim { opacity: .28; }
 .tface { position: absolute; right: 70px; top: 50%; transform: translateY(-50%); width: 380px; height: 380px; border-radius: 50%;
   background-size: 160%; background-position: 22% 18%; border: 7px solid var(--neon); box-shadow: 0 0 40px rgba(255,106,26,.8), 0 0 90px rgba(255,77,0,.5); }
 body.thumb .bgphoto::after { background: linear-gradient(90deg, rgba(8,8,10,.92) 0%, rgba(8,8,10,.6) 55%, rgba(8,8,10,.25) 100%); }
+
+/* ---------- Video kesiti sahnesi ---------- */
+.clipbox { background: #000; border-radius: 22px; outline: 2px solid var(--line); outline-offset: 0; box-shadow: 0 20px 60px rgba(0,0,0,.6); }
+body.clipfull { background: transparent !important; }
+body.clipfull::before { display: none; }
+.clipgrad { position: fixed; inset: 0; z-index: -1;
+  background: linear-gradient(90deg, rgba(8,8,10,.88) 0%, rgba(8,8,10,.5) 40%, rgba(8,8,10,0) 75%),
+              linear-gradient(0deg, rgba(8,8,10,.85) 0%, rgba(8,8,10,0) 30%),
+              linear-gradient(180deg, rgba(8,8,10,.7) 0%, rgba(8,8,10,0) 16%); }
 </style>
 </head>
 <body>
@@ -262,7 +271,7 @@ function render(f) {
       <div class="box"><div class="big neon">${esc(st.verdict.label)}</div></div><div class="text">${esc(st.verdict.text)}</div></div>`;
   }
   else if (DOC[b.scene]) main = DOC[b.scene](b.data || {}, ep, b);
-  document.body.className = "";
+  document.body.className = b.scene === "clip" && !["side", "wide"].includes((b.data || {}).layout) ? "clipfull" : "";
   document.getElementById("root").innerHTML =
     header(ep, b) + `<main>${main}</main>${f.subtitle ? `<div class="sub"><span>${esc(f.subtitle)}</span></div>` : ""}`;
 }
@@ -399,7 +408,23 @@ function photoInset(d, ep) {
   return `<div class="p${d.layout}">${text}${img}</div>${credit(ep, d.photo)}`;
 }
 
+function clipScene(d, ep) {
+  const c = (ep.clips || {})[d.clip] || {};
+  const cred = c.line ? `<div class="credit">${esc(c.line)}</div>` : "";
+  const text = `<div class="pcontent" style="height:auto">${d.kicker ? `<div class="k">${esc(d.kicker)}</div>` : ""}
+    ${d.title ? `<h1 style="font-size:${d.layout === "wide" ? 84 : 96}px">${esc(d.title)}</h1>` : ""}${d.label ? `<div class="l">${esc(d.label)}</div>` : ""}</div>`;
+  if (d.layout === "side" || d.layout === "wide") {
+    const a = d.aspect || 16 / 9;
+    const w = d.layout === "side" ? Math.min(760, 690 * a) : Math.min(1760, 470 * a);
+    const box = `<div class="clipbox" style="width:${Math.round(w)}px;height:${Math.round(w / a)}px;${d.layout === "wide" ? "margin:0 auto" : ""}"></div>`;
+    return `<div class="p${d.layout}">${text}${box}</div>${cred}`;
+  }
+  return `<div class="clipgrad"></div><div class="pcontent">${d.kicker ? `<div class="k">${esc(d.kicker)}</div>` : ""}${d.value ? `<div class="v neon">${esc(d.value)}</div>` : ""}
+    ${d.title ? `<h1>${esc(d.title)}</h1>` : ""}${d.label ? `<div class="l">${esc(d.label)}</div>` : ""}</div>${cred}`;
+}
+
 const DOC = {
+  clip: (d, ep) => clipScene(d, ep),
   photo: (d, ep) => d.layout === "side" || d.layout === "wide" ? photoInset(d, ep) : `<div class="bgphoto" style="background-image:url('${photoUrl(ep, d.photo)}');background-position:${d.pos || "center"}"></div>
     <div class="pcontent">${d.kicker ? `<div class="k">${esc(d.kicker)}</div>` : ""}${d.value ? `<div class="v neon">${esc(d.value)}</div>` : ""}
     ${d.title ? `<h1>${esc(d.title)}</h1>` : ""}${d.label ? `<div class="l">${esc(d.label)}</div>` : ""}
