@@ -897,5 +897,13 @@
    "q": -1,
    "say": "Bugünlük bu kadar. Kaynakların hepsi açıklamada; özellikle Nobel Komitesi'nin bilimsel raporunu okumanızı öneririm. Sizce büyük ekip projelerinde Nobel tek kişiye verilmeli mi? Yorumlarda tartışalım. BosNRoll kanalına abone olmayı unutmayın, görüşmek üzere."
   }
- ]
+ ],
+ "thumbnail": {
+  "photo": "icl-night",
+  "face": "halzen",
+  "chip": "NOBEL FİZİK 2026",
+  "big": "59 milyon TL",
+  "sub": "Buzun altındaki keşfe verilen ödül",
+  "foot": "12 milyon İsveç kronu · 13 Ekim 2026 kuru"
+ }
 }
