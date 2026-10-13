@@ -915,6 +915,10 @@
    "HomePod mini 2",
    "Apple TV 4K"
   ],
-  "foot": "Türkiye fiyatları ve haberlerde anlatılmayanlar"
+  "foot": "Türkiye fiyatları ve haberlerde anlatılmayanlar",
+  "cta": {
+   "text": "YouTube'da izle",
+   "handle": "@bosnroll"
+  }
  }
 }
