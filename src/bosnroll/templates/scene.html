@@ -417,7 +417,7 @@ function renderRichThumb(ep, t) {
   document.body.className = "thumb";
   const bg = t.photo ? `<div class="bgphoto" style="background-image:url('${photoUrl(ep, t.photo)}')"></div>` : "";
   const face = t.face ? `<div class="tface" style="background-image:url('${photoUrl(ep, t.face)}')"></div>` : "";
-  document.getElementById("root").innerHTML = `${bg}<div class="rthumb">
+  document.getElementById("root").innerHTML = `${bg}<div class="rthumb" lang="${t.lang || "tr"}">
     <img class="tlogo" src="../../../assets/logo.png">
     <div class="tchip">${esc(t.chip)}</div>
     <div class="tbig neon">${esc(t.big)}</div>

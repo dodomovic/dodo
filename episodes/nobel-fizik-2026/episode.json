@@ -905,5 +905,14 @@
   "big": "59 milyon TL",
   "sub": "Buzun altındaki keşfin ödülü",
   "foot": "12 milyon İsveç kronu · 13 Ekim 2026 kuru"
+ },
+ "thumbnail_en": {
+  "lang": "en",
+  "photo": "icl-night",
+  "face": "halzen",
+  "chip": "NOBEL PRIZE IN PHYSICS 2026",
+  "big": "$1.2 million",
+  "sub": "For a discovery under the ice",
+  "foot": "12 million Swedish kronor · Oct 13, 2026 exchange rate"
  }
 }
