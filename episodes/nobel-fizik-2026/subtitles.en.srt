@@ -1,0 +1,815 @@
+1
+00:00:00,400 --> 00:00:06,434
+As you listen to this sentence, about 65 billion neutrinos from the Sun pass every second through the nail of your
+
+2
+00:00:06,434 --> 00:00:07,653
+little finger.
+
+3
+00:00:08,003 --> 00:00:09,562
+You don't feel any of them.
+
+4
+00:00:09,912 --> 00:00:11,620
+None of them even touches you.
+
+5
+00:00:12,420 --> 00:00:16,686
+So how do you catch a particle that hardly ever hits anything?
+
+6
+00:00:17,036 --> 00:00:23,894
+The 2026 Nobel Prize in Physics has a surprising answer: by looking two kilometres down into the ice at the South Pole.
+
+7
+00:00:24,694 --> 00:00:27,362
+Hello, and welcome to the BosNRoll channel.
+
+8
+00:00:27,712 --> 00:00:33,613
+Today we're covering this year's Nobel Prize in Physics, its laureate Francis Halzen, and the shyest particle in the universe:
+
+9
+00:00:33,613 --> 00:00:34,974
+the neutrino.
+
+10
+00:00:35,324 --> 00:00:38,141
+All information comes from the Nobel Committee's official documents.
+
+11
+00:00:38,491 --> 00:00:44,365
+First the 5W1H summary, then the full story, and at the end, as always, our logic check.
+
+12
+00:00:45,165 --> 00:00:48,404
+Who? Belgian-born physicist Francis Halzen.
+
+13
+00:00:48,754 --> 00:00:57,448
+He was born in 1944 in Tienen, Belgium, and completed his PhD at the Catholic University of Leuven in 1969.
+
+14
+00:00:57,798 --> 00:01:01,387
+For many years he has been a professor at the University of Wisconsin–Madison in the United States.
+
+15
+00:01:02,187 --> 00:01:08,602
+What? The Royal Swedish Academy of Sciences awarded the prize for his decisive contributions to the IceCube Neutrino Observatory and
+
+16
+00:01:08,602 --> 00:01:12,267
+the discovery of high-energy neutrinos from space.
+
+17
+00:01:12,617 --> 00:01:15,064
+The prize amount is 12 million Swedish kronor.
+
+18
+00:01:15,864 --> 00:01:18,306
+Where? The discovery was made at the South Pole.
+
+19
+00:01:18,656 --> 00:01:25,501
+Near the Amundsen–Scott research station, between 1,450 and 2,450 metres deep in the ice,
+
+20
+00:01:25,501 --> 00:01:27,855
+sits a detector one cubic kilometre in size.
+
+21
+00:01:28,655 --> 00:01:32,013
+When? The prize was announced on 6 October 2026.
+
+22
+00:01:32,363 --> 00:01:38,046
+The idea itself is much older: Halzen first proposed it in 1988.
+
+23
+00:01:38,396 --> 00:01:41,160
+So this is a story almost forty years in the making.
+
+24
+00:01:41,960 --> 00:01:46,586
+How? 5,160 light sensors were placed deep in the ice.
+
+25
+00:01:46,936 --> 00:01:53,828
+On the rare occasions a neutrino hits an atomic nucleus in the ice, it creates a tiny flash of blue light.
+
+26
+00:01:54,178 --> 00:01:56,316
+The sensors catch exactly that light.
+
+27
+00:01:57,116 --> 00:02:03,352
+Why? Because neutrinos reach us from the most violent events in the universe without changing direction or losing
+
+28
+00:02:03,352 --> 00:02:03,882
+energy.
+
+29
+00:02:04,232 --> 00:02:07,448
+They carry information that can't be obtained in any other way.
+
+30
+00:02:08,248 --> 00:02:10,270
+Chapter one: what is a neutrino?
+
+31
+00:02:11,070 --> 00:02:17,991
+The story begins in 1930. To balance the energy in radioactive decays, physicist Wolfgang Pauli
+
+32
+00:02:17,991 --> 00:02:21,640
+proposed that there must be a new, invisible particle.
+
+33
+00:02:22,440 --> 00:02:26,380
+Its existence was only proven in 1956.
+
+34
+00:02:26,730 --> 00:02:33,023
+Clyde Cowan and Frederick Reines first caught the neutrino with an experiment set up next to a nuclear reactor.
+
+35
+00:02:33,823 --> 00:02:38,105
+The neutrino has no electric charge, and its mass is almost zero.
+
+36
+00:02:38,455 --> 00:02:41,100
+That's why it very rarely interacts with matter.
+
+37
+00:02:41,450 --> 00:02:46,875
+It can enter one side of the Earth and come out the other, and it passes through our bodies unnoticed.
+
+38
+00:02:47,675 --> 00:02:52,925
+Today we know there are three kinds of neutrinos: electron, muon and tau neutrinos.
+
+39
+00:02:53,275 --> 00:02:57,284
+What's more, neutrinos can change from one kind into another as they travel.
+
+40
+00:02:57,634 --> 00:03:02,925
+That discovery won the 2015 Nobel Prize in Physics and showed that neutrinos have mass.
+
+41
+00:03:03,725 --> 00:03:05,829
+Neutrinos had been caught from space before.
+
+42
+00:03:06,179 --> 00:03:10,831
+In the 1960s, Raymond Davis observed neutrinos from the Sun.
+
+43
+00:03:11,181 --> 00:03:18,604
+In 1987, the Kamiokande detector in Japan caught a burst of neutrinos from a star that exploded in our neighbouring galaxy,
+
+44
+00:03:18,604 --> 00:03:20,941
+the Large Magellanic Cloud.
+
+45
+00:03:21,291 --> 00:03:23,709
+This work was awarded the Nobel Prize in 2002.
+
+46
+00:03:24,509 --> 00:03:27,179
+But those neutrinos had relatively low energies.
+
+47
+00:03:27,529 --> 00:03:33,236
+What Halzen was after was something else entirely: neutrinos about a billion times more energetic than solar neutrinos,
+
+48
+00:03:33,236 --> 00:03:35,707
+coming from the depths of the universe.
+
+49
+00:03:36,507 --> 00:03:39,935
+Chapter two: the universe's particle accelerators.
+
+50
+00:03:40,735 --> 00:03:43,571
+Particles constantly rain down on Earth from space.
+
+51
+00:03:43,921 --> 00:03:48,768
+They're called cosmic rays, and they were discovered by Victor Hess in 1912.
+
+52
+00:03:49,118 --> 00:03:53,108
+Most of them are protons, the bare nuclei of hydrogen atoms.
+
+53
+00:03:53,908 --> 00:03:58,003
+Some of these particles have mind-boggling energies.
+
+54
+00:03:58,353 --> 00:04:04,321
+According to the Nobel Committee, natural accelerators in the universe fire out particles with energies up to a million
+
+55
+00:04:04,321 --> 00:04:06,950
+times higher than we can reach in laboratories on Earth.
+
+56
+00:04:07,300 --> 00:04:13,067
+The problem is that we still don't fully know what these accelerators are or where they are.
+
+57
+00:04:13,867 --> 00:04:15,909
+Protons don't show us the way.
+
+58
+00:04:16,259 --> 00:04:20,244
+Because they're electrically charged, their paths bend in magnetic fields in space.
+
+59
+00:04:20,594 --> 00:04:24,224
+By the time they reach Earth, we can no longer tell where they came from.
+
+60
+00:04:25,024 --> 00:04:28,255
+Gamma rays are a better messenger, because they travel in straight lines.
+
+61
+00:04:28,605 --> 00:04:33,608
+But they can weaken along the way by interacting with matter and light, and they can't show us what lies behind thick clouds of dust and
+
+62
+00:04:33,608 --> 00:04:34,424
+gas.
+
+63
+00:04:35,224 --> 00:04:38,939
+Neutrinos, on the other hand, are neither caught by magnetic fields nor absorbed along the way.
+
+64
+00:04:39,289 --> 00:04:41,659
+They travel in a straight line from where they were born.
+
+65
+00:04:42,009 --> 00:04:47,227
+So if you find the direction a neutrino came from, you've found the address of the cosmic accelerator.
+
+66
+00:04:48,027 --> 00:04:49,892
+So how are these neutrinos made?
+
+67
+00:04:50,242 --> 00:04:56,491
+Accelerated protons hit surrounding gas or intense light, producing short-lived particles called
+
+68
+00:04:56,491 --> 00:04:56,945
+pions.
+
+69
+00:04:57,295 --> 00:05:01,578
+Neutral pions decay into gamma rays, while charged pions decay into neutrinos.
+
+70
+00:05:01,928 --> 00:05:05,059
+So the neutrino is the fingerprint of the process that accelerates the protons.
+
+71
+00:05:05,859 --> 00:05:12,608
+Candidate sources include active galaxies, where matter falls into a supermassive black hole at the centre and giant jets
+
+72
+00:05:12,608 --> 00:05:13,528
+are launched into space.
+
+73
+00:05:13,878 --> 00:05:16,902
+Exploding stars and gamma-ray bursts are also on the list.
+
+74
+00:05:17,702 --> 00:05:20,460
+Chapter three: the idea of a telescope made of ice.
+
+75
+00:05:21,260 --> 00:05:27,111
+Halzen grew up in Belgium and was drawn to particle physics by the progress of the 1960s.
+
+76
+00:05:27,461 --> 00:05:31,800
+Shortly after his PhD, he moved to the University of Wisconsin–Madison.
+
+77
+00:05:32,150 --> 00:05:38,571
+Over time, he became interested in what particles from space could teach both particle physics and
+
+78
+00:05:38,571 --> 00:05:39,842
+astrophysics.
+
+79
+00:05:40,642 --> 00:05:45,237
+In the autumn of 1987, Halzen gave a talk at the University of Kansas.
+
+80
+00:05:45,587 --> 00:05:50,457
+A glaciologist in the audience told him that Soviet researchers planned to use the Antarctic ice
+
+81
+00:05:50,457 --> 00:05:55,100
+to capture radio waves emitted by neutrino collisions.
+
+82
+00:05:55,450 --> 00:06:02,010
+Halzen and his colleagues calculated that this method would not be sensitive enough for the neutrinos they were looking for.
+
+83
+00:06:02,810 --> 00:06:06,743
+Instead, he had another idea: not radio waves, but light.
+
+84
+00:06:07,093 --> 00:06:12,486
+Around 1960, some physicists had proposed that water could be used to catch neutrinos.
+
+85
+00:06:12,836 --> 00:06:18,920
+On the rare occasions a neutrino hits an atomic nucleus, a charged particle is created that travels in the same direction,
+
+86
+00:06:18,920 --> 00:06:21,630
+leaving a trail of blue light behind it.
+
+87
+00:06:21,980 --> 00:06:23,915
+This is called Cherenkov light.
+
+88
+00:06:24,715 --> 00:06:31,564
+It forms when a charged particle moves through water or ice faster than light travels in that medium.
+
+89
+00:06:31,914 --> 00:06:38,302
+It's like the shock wave behind a plane that breaks the sound barrier, only with light instead of sound.
+
+90
+00:06:38,652 --> 00:06:43,655
+The angle of the light and the order in which it reaches the sensors reveal the direction the particle came from.
+
+91
+00:06:44,455 --> 00:06:48,279
+What set Halzen apart was using the natural ice of the South Pole instead of water.
+
+92
+00:06:48,629 --> 00:06:54,129
+In his own words: had he known back then what was known about the optical properties of natural ice,
+
+93
+00:06:54,129 --> 00:06:56,487
+he would probably have given up on the idea too.
+
+94
+00:06:57,287 --> 00:07:03,661
+Halzen wrote to John Learned, spokesperson of the DUMAND project, which was trying to build a similar detector deep in the ocean
+
+95
+00:07:03,661 --> 00:07:05,422
+off Hawaii.
+
+96
+00:07:05,771 --> 00:07:13,065
+The two first presented the idea of a neutrino observatory in the South Pole ice in 1988, at a conference in Poland.
+
+97
+00:07:13,865 --> 00:07:16,108
+The South Pole had many advantages.
+
+98
+00:07:16,458 --> 00:07:19,102
+There was already a research station there.
+
+99
+00:07:19,452 --> 00:07:25,975
+Deep down, the ice is pitch dark; there are no light-emitting creatures like in the ocean, and little radioactive material.
+
+100
+00:07:26,325 --> 00:07:28,973
+The region is geologically calm, with no earthquakes.
+
+101
+00:07:29,323 --> 00:07:35,663
+The downside is the cold: all field work has to fit into the short Antarctic summer between November and
+
+102
+00:07:35,663 --> 00:07:36,155
+February.
+
+103
+00:07:36,955 --> 00:07:39,024
+Chapter four: drilling into the ice.
+
+104
+00:07:39,824 --> 00:07:41,423
+First, a test was needed.
+
+105
+00:07:41,773 --> 00:07:49,216
+In 1991, sensors lowered into boreholes in the Greenland ice sheet showed that the ice was clear enough
+
+106
+00:07:49,216 --> 00:07:50,516
+to carry this light.
+
+107
+00:07:51,316 --> 00:07:55,316
+Then AMANDA, the predecessor of IceCube, was built at the South Pole.
+
+108
+00:07:55,666 --> 00:08:00,677
+Kilometre-deep holes were melted open, using a method learned from glaciologists:
+
+109
+00:08:00,677 --> 00:08:04,389
+a giant shower head spraying hot water.
+
+110
+00:08:04,739 --> 00:08:12,301
+Halzen recalls sitting at the dinner table on Christmas Eve 1993, laptop on his lap, waiting for news that the first sensor cable
+
+111
+00:08:12,301 --> 00:08:14,432
+had been lowered into the ice.
+
+112
+00:08:15,232 --> 00:08:17,102
+The first results were disappointing.
+
+113
+00:08:17,452 --> 00:08:22,101
+The upper layers of ice were full of tiny air bubbles that scattered the light in every direction.
+
+114
+00:08:22,451 --> 00:08:24,945
+But deeper down, the ice was extraordinarily clear.
+
+115
+00:08:25,295 --> 00:08:30,107
+Below 1,400 metres, light could travel 300 metres before being absorbed.
+
+116
+00:08:30,457 --> 00:08:32,217
+Much further than anyone expected.
+
+117
+00:08:33,017 --> 00:08:37,754
+AMANDA worked, but it wasn't big enough to catch cosmic neutrinos.
+
+118
+00:08:38,104 --> 00:08:41,262
+What was needed was a cubic kilometre of ice.
+
+119
+00:08:41,612 --> 00:08:49,109
+The IceCube proposal, with Halzen as principal investigator, was submitted in 1999, funding was approved in 2002,
+
+120
+00:08:49,109 --> 00:08:50,943
+and construction began in 2004.
+
+121
+00:08:51,743 --> 00:08:56,948
+Between 2005 and 2010, 86 cables were lowered into holes in the ice.
+
+122
+00:08:57,298 --> 00:09:03,683
+Each cable carries 60 sensors, arranged between 1,450 and 2,450 metres deep.
+
+123
+00:09:04,033 --> 00:09:07,056
+The cables are 125 metres apart.
+
+124
+00:09:07,406 --> 00:09:11,494
+In total, 5,160 sensors watch a full cubic kilometre of ice.
+
+125
+00:09:12,294 --> 00:09:15,564
+On the surface, there is also an array of detectors called IceTop.
+
+126
+00:09:15,914 --> 00:09:21,492
+It measures the particle showers created when cosmic rays hit the atmosphere, and gives the detector below
+
+127
+00:09:21,492 --> 00:09:25,452
+a kind of warning signal to filter out noise from above.
+
+128
+00:09:26,252 --> 00:09:29,185
+That's an ice mass of roughly one billion tonnes.
+
+129
+00:09:29,535 --> 00:09:36,877
+Halzen compares these sensors to a light bulb working in reverse: instead of emitting light, they capture it and turn it into an electrical
+
+130
+00:09:36,877 --> 00:09:38,262
+signal.
+
+131
+00:09:39,062 --> 00:09:41,012
+IceCube sees two kinds of events.
+
+132
+00:09:41,362 --> 00:09:46,809
+Muon neutrinos leave a long track in the ice, from which their direction can be measured very precisely.
+
+133
+00:09:47,159 --> 00:09:50,745
+Other collisions create a ball-shaped burst of light.
+
+134
+00:09:51,095 --> 00:09:54,404
+Their direction is less certain, but their energy is measured very well.
+
+135
+00:09:55,204 --> 00:09:57,879
+The hardest part is finding a needle in a haystack.
+
+136
+00:09:58,229 --> 00:10:03,172
+Every day, IceCube records more than a hundred million particles coming from the atmosphere.
+
+137
+00:10:03,522 --> 00:10:08,313
+It sees about 100,000 neutrinos a year, and most of these are also produced in the atmosphere.
+
+138
+00:10:08,663 --> 00:10:11,971
+Only about 100 a year are expected to come from space.
+
+139
+00:10:12,771 --> 00:10:16,175
+The trick is to use the Earth itself as a shield.
+
+140
+00:10:16,525 --> 00:10:21,668
+If you select tracks coming from the northern hemisphere, that is, from below after passing through the planet,
+
+141
+00:10:21,668 --> 00:10:25,118
+you remove almost all the muons from the atmosphere.
+
+142
+00:10:25,468 --> 00:10:28,348
+Because only neutrinos can pass through the Earth.
+
+143
+00:10:29,148 --> 00:10:31,068
+Chapter five: the discovery.
+
+144
+00:10:31,868 --> 00:10:41,335
+In 2013, two extraordinary events were found in two years of data: two neutrinos with energies of 1.04 and 1.14
+
+145
+00:10:41,335 --> 00:10:42,378
+petaelectronvolts.
+
+146
+00:10:42,728 --> 00:10:49,040
+Interestingly, the team found them by chance while searching for other, even higher-energy neutrinos.
+
+147
+00:10:49,840 --> 00:10:53,735
+The same data revealed 28 more high-energy neutrinos.
+
+148
+00:10:54,085 --> 00:11:01,558
+In 2014, the team rejected the possibility that these neutrinos came only from the atmosphere at a level of 5.7 sigma.
+
+149
+00:11:01,908 --> 00:11:05,938
+In physics, 5 sigma is the accepted threshold for claiming a discovery.
+
+150
+00:11:06,288 --> 00:11:09,768
+High-energy neutrinos from space were now real.
+
+151
+00:11:10,568 --> 00:11:17,081
+So what does sigma mean? Roughly, it describes how unlikely it is that the signal you see appeared by
+
+152
+00:11:17,081 --> 00:11:17,684
+chance.
+
+153
+00:11:18,034 --> 00:11:23,903
+5 sigma means the odds of the result being a fluke are about one in 3.5 million.
+
+154
+00:11:24,253 --> 00:11:28,601
+That's why physicists only use the word discovery after crossing this threshold.
+
+155
+00:11:29,401 --> 00:11:35,663
+The most energetic neutrino IceCube has published so far was recorded on 31 March 2019.
+
+156
+00:11:36,013 --> 00:11:39,213
+Its energy was about 11.4 petaelectronvolts.
+
+157
+00:11:40,013 --> 00:11:43,833
+On 22 September 2017, there was an exciting moment.
+
+158
+00:11:44,183 --> 00:11:48,515
+IceCube caught a neutrino of about 290 teraelectronvolts.
+
+159
+00:11:48,865 --> 00:11:53,345
+Its direction matched almost exactly the position of a blazar called TXS.
+
+160
+00:11:53,695 --> 00:11:57,266
+A blazar is an active galaxy whose jet points directly at us.
+
+161
+00:11:57,616 --> 00:12:02,320
+Within a minute, an alert went out to the world and telescopes turned in that direction.
+
+162
+00:12:03,120 --> 00:12:05,553
+In 2022, another step was taken.
+
+163
+00:12:05,903 --> 00:12:14,638
+IceCube announced that 79 neutrinos had come from the direction of NGC 1068, an active galaxy 46 million light-years away.
+
+164
+00:12:14,988 --> 00:12:19,926
+The black hole at the centre of this galaxy is wrapped in a thick layer of gas and dust.
+
+165
+00:12:20,276 --> 00:12:24,809
+So with neutrinos, we may be looking into a region our telescopes cannot see.
+
+166
+00:12:25,609 --> 00:12:31,680
+In 2023, high-energy neutrinos from our own galaxy, the Milky Way, were shown for the first time.
+
+167
+00:12:32,030 --> 00:12:36,463
+With an analysis published this year based on 12 years of data, the result crossed the 5 sigma threshold.
+
+168
+00:12:36,813 --> 00:12:41,875
+That made the Milky Way the first high-energy neutrino source to pass the discovery threshold.
+
+169
+00:12:42,675 --> 00:12:47,398
+There's more evidence. In 2024, seven high-energy tau neutrinos were published.
+
+170
+00:12:47,748 --> 00:12:54,284
+Tau neutrinos with such high energies can't be produced in the atmosphere, so these must have come from space.
+
+171
+00:12:54,634 --> 00:12:59,230
+The possibility that no tau neutrinos come from space was also rejected at the 5 sigma level.
+
+172
+00:13:00,030 --> 00:13:05,529
+In the words of Mark Pearce, Chair of the Nobel Committee for Physics: Halzen's tenacity and scientific vision
+
+173
+00:13:05,529 --> 00:13:07,886
+paved the way for a new kind of astronomy.
+
+174
+00:13:08,686 --> 00:13:12,024
+Now for our channel's signature: the logic check.
+
+175
+00:13:12,824 --> 00:13:20,284
+Question one. IceCube is run by an international collaboration of about 450 people at 58 institutions in 14
+
+176
+00:13:20,284 --> 00:13:21,144
+countries.
+
+177
+00:13:21,494 --> 00:13:23,373
+Yet the prize went to a single person.
+
+178
+00:13:23,723 --> 00:13:30,208
+Is that fair? The committee's reasoning is that Halzen came up with the idea and has been principal investigator from the very start.
+
+179
+00:13:30,558 --> 00:13:37,405
+Nobel rules limit each prize to at most three people, so this debate is unavoidable for big team projects.
+
+180
+00:13:37,755 --> 00:13:43,197
+The committee doesn't hide it either, and specifically stresses that Halzen led an international team.
+
+181
+00:13:43,997 --> 00:13:46,983
+Question two: have the cosmic accelerators been found?
+
+182
+00:13:47,333 --> 00:13:49,253
+No, and that distinction matters.
+
+183
+00:13:49,603 --> 00:13:54,355
+The prize was awarded for discovering that high-energy neutrinos from space exist.
+
+184
+00:13:54,705 --> 00:13:58,265
+Where these neutrinos come from is still largely unknown.
+
+185
+00:13:58,615 --> 00:14:04,631
+Even the committee's own text says the evidence is not yet strong enough to confirm NGC 1068 as a
+
+186
+00:14:04,631 --> 00:14:05,763
+source.
+
+187
+00:14:06,113 --> 00:14:10,487
+So if you see headlines saying the secret of the universe has been solved, be a little cautious.
+
+188
+00:14:11,287 --> 00:14:14,294
+Our verdict: the prize was awarded for a solid discovery.
+
+189
+00:14:14,644 --> 00:14:19,250
+But the real question, where exactly these neutrinos come from, is still open.
+
+190
+00:14:20,050 --> 00:14:21,894
+Final chapter: what's next?
+
+191
+00:14:22,694 --> 00:14:24,941
+Neutrino astronomy is only just beginning.
+
+192
+00:14:25,291 --> 00:14:30,030
+At the South Pole, an eight-cubic-kilometre IceCube-Gen2 is being planned.
+
+193
+00:14:30,380 --> 00:14:37,797
+KM3NeT in the Mediterranean, Baikal-GVD in Lake Baikal in Siberia, P-ONE off the coast of Canada, and in the South China Sea
+
+194
+00:14:37,797 --> 00:14:41,162
+TRIDENT are building similar telescopes in water.
+
+195
+00:14:41,962 --> 00:14:48,083
+The goal is to combine neutrinos with gamma rays, cosmic rays and perhaps gravitational waves to build a complete picture of the universe's most
+
+196
+00:14:48,083 --> 00:14:50,555
+violent events.
+
+197
+00:14:50,905 --> 00:14:52,915
+This is called multi-messenger astronomy.
+
+198
+00:14:53,715 --> 00:14:59,054
+An idea first presented at a conference in 1988, whose first attempts ended in disappointment,
+
+199
+00:14:59,054 --> 00:15:05,837
+has become an observatory at the South Pole that runs without interruption more than ninety-nine percent of the time.
+
+200
+00:15:06,187 --> 00:15:09,086
+And every day, it keeps catching new neutrinos.
+
+201
+00:15:09,886 --> 00:15:16,214
+That's all for today. All sources are in the description; I especially recommend reading the Nobel Committee's scientific
+
+202
+00:15:16,214 --> 00:15:16,756
+report.
+
+203
+00:15:17,106 --> 00:15:20,786
+Do you think the Nobel Prize should go to a single person in big team projects?
+
+204
+00:15:21,136 --> 00:15:25,894
+Let's discuss in the comments. Don't forget to subscribe to the BosNRoll channel. See you next time.
