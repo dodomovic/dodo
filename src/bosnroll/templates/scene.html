@@ -451,6 +451,12 @@ function renderRichThumb(ep, t) {
     <div class="tbig neon">${esc(t.big)}</div>
     <div class="tsub">${esc(t.sub)}</div>
     <div class="tfoot">${esc(t.foot || "")}</div></div>${face}`;
+  // Yazılar daireye taşmasın: sığana kadar küçült (tek satır kalır)
+  const maxW = t.face ? 760 : 1160;
+  for (const el of document.querySelectorAll(".rthumb .tbig, .rthumb .tsub, .rthumb .tchip")) {
+    let size = parseFloat(getComputedStyle(el).fontSize);
+    while (el.scrollWidth > maxW && size > 18) { size -= 2; el.style.fontSize = size + "px"; }
+  }
 }
 
 function renderThumb(ep) {
