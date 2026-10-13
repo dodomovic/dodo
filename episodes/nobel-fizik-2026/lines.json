@@ -1,0 +1,1022 @@
+[
+ {
+  "beat": 0,
+  "text": "Siz bu cümleyi dinlerken, Güneş'ten gelen yaklaşık 65 milyar nötrino, her saniye serçe parmağınızın tırnağından geçiyor.",
+  "start": 0.4,
+  "end": 7.652666666666667
+ },
+ {
+  "beat": 0,
+  "text": "Hiçbirini hissetmiyorsunuz.",
+  "start": 8.002666666666666,
+  "end": 9.561541666666667
+ },
+ {
+  "beat": 0,
+  "text": "Hiçbiri size dokunmuyor bile.",
+  "start": 9.911541666666666,
+  "end": 11.620354166666667
+ },
+ {
+  "beat": 1,
+  "text": "Peki, neredeyse hiçbir şeye çarpmayan bir parçacığı nasıl yakalarsınız?",
+  "start": 12.420354166666666,
+  "end": 16.686083333333332
+ },
+ {
+  "beat": 1,
+  "text": "2026 Nobel Fizik Ödülü'nün cevabı şaşırtıcı: Güney Kutbu'ndaki buzun iki kilometre altına bakarak.",
+  "start": 17.036083333333334,
+  "end": 23.893895833333332
+ },
+ {
+  "beat": 2,
+  "text": "Merhaba, BosNRoll kanalına hoş geldiniz.",
+  "start": 24.693895833333336,
+  "end": 27.361979166666668
+ },
+ {
+  "beat": 2,
+  "text": "Bugün bu yılın Nobel Fizik Ödülü'nü, ödülü kazanan Francis Halzen'i ve evrenin en utangaç parçacığı olan nötrinoları anlatıyoruz.",
+  "start": 27.71197916666667,
+  "end": 34.9741875
+ },
+ {
+  "beat": 2,
+  "text": "Tüm bilgiler Nobel Komitesi'nin resmi belgelerinden.",
+  "start": 35.3241875,
+  "end": 38.141104166666665
+ },
+ {
+  "beat": 2,
+  "text": "Önce 5N1K, sonra hikâyenin tamamı, en sonda da her zamanki gibi mantık sorgusu.",
+  "start": 38.491104166666666,
+  "end": 44.3651875
+ },
+ {
+  "beat": 3,
+  "text": "Kim? Belçika doğumlu fizikçi Francis Halzen.",
+  "start": 45.1651875,
+  "end": 48.40410416666667
+ },
+ {
+  "beat": 3,
+  "text": "1944'te Belçika'nın Tienen kentinde doğdu, doktorasını 1969'da Leuven Katolik Üniversitesi'nde tamamladı.",
+  "start": 48.75410416666667,
+  "end": 57.44808333333334
+ },
+ {
+  "beat": 3,
+  "text": "Uzun yıllardır Amerika'daki Wisconsin-Madison Üniversitesi'nde profesör.",
+  "start": 57.79808333333334,
+  "end": 61.387104166666674
+ },
+ {
+  "beat": 4,
+  "text": "Ne? İsveç Kraliyet Bilimler Akademisi ödülü, IceCube Nötrino Gözlemevi'ne yaptığı belirleyici katkılar ve uzaydan gelen yüksek enerjili nötrinoların keşfi için verdi.",
+  "start": 62.18710416666667,
+  "end": 72.26710416666667
+ },
+ {
+  "beat": 4,
+  "text": "Ödülün tutarı 12 milyon İsveç kronu.",
+  "start": 72.61710416666668,
+  "end": 75.06368750000001
+ },
+ {
+  "beat": 5,
+  "text": "Nerede? Keşfin yapıldığı yer Güney Kutbu.",
+  "start": 75.86368750000001,
+  "end": 78.30587500000001
+ },
+ {
+  "beat": 5,
+  "text": "Amundsen-Scott araştırma istasyonunun yakınında, buzun 1.450 ile 2.450 metre derinliği arasında, bir kilometreküplük bir dedektör.",
+  "start": 78.65587500000001,
+  "end": 87.85452083333334
+ },
+ {
+  "beat": 6,
+  "text": "Ne zaman? Ödül 6 Ekim 2026'da açıklandı.",
+  "start": 88.65452083333334,
+  "end": 92.01316666666666
+ },
+ {
+  "beat": 6,
+  "text": "Fikrin kendisi ise çok daha eski: Halzen onu ilk kez 1988'de ortaya attı.",
+  "start": 92.36316666666667,
+  "end": 98.046125
+ },
+ {
+  "beat": 6,
+  "text": "Yani karşımızda yaklaşık kırk yıllık bir hikâye var.",
+  "start": 98.39612500000001,
+  "end": 101.16016666666668
+ },
+ {
+  "beat": 7,
+  "text": "Nasıl? Buzun derinliklerine 5.160 ışık sensörü yerleştirildi.",
+  "start": 101.96016666666668,
+  "end": 106.58577083333334
+ },
+ {
+  "beat": 7,
+  "text": "Nadir de olsa bir nötrino buzdaki bir atom çekirdeğine çarptığında, küçük mavi bir ışık parlaması oluşuyor.",
+  "start": 106.93577083333335,
+  "end": 113.82833333333335
+ },
+ {
+  "beat": 7,
+  "text": "Sensörler işte bu ışığı yakalıyor.",
+  "start": 114.17833333333336,
+  "end": 116.31566666666669
+ },
+ {
+  "beat": 8,
+  "text": "Neden? Çünkü nötrinolar evrenin en şiddetli olaylarından, hiç yön değiştirmeden ve enerji kaybetmeden bize ulaşıyor.",
+  "start": 117.11566666666668,
+  "end": 123.88164583333335
+ },
+ {
+  "beat": 8,
+  "text": "Başka hiçbir yolla elde edilemeyecek bilgiyi taşıyorlar.",
+  "start": 124.23164583333335,
+  "end": 127.44841666666667
+ },
+ {
+  "beat": 9,
+  "text": "Birinci bölüm: nötrino nedir?",
+  "start": 128.24841666666669,
+  "end": 130.2699166666667
+ },
+ {
+  "beat": 10,
+  "text": "Hikâye 1930'da başlıyor. Fizikçi Wolfgang Pauli, radyoaktif bozunmalardaki bir enerji hesabını tutturmak için, görünmeyen yeni bir parçacık olması gerektiğini öne sürdü.",
+  "start": 131.06991666666667,
+  "end": 141.63970833333335
+ },
+ {
+  "beat": 11,
+  "text": "Bu parçacığın varlığı ancak 1956'da kanıtlandı.",
+  "start": 142.43970833333333,
+  "end": 146.38010416666665
+ },
+ {
+  "beat": 11,
+  "text": "Clyde Cowan ve Frederick Reines, bir nükleer reaktörün yanına kurdukları deneyle nötrinoyu ilk kez yakaladı.",
+  "start": 146.73010416666665,
+  "end": 153.023375
+ },
+ {
+  "beat": 12,
+  "text": "Nötrinonun elektrik yükü yok, kütlesi ise neredeyse sıfır.",
+  "start": 153.82337499999997,
+  "end": 158.10524999999998
+ },
+ {
+  "beat": 12,
+  "text": "Bu yüzden maddeyle çok nadiren etkileşiyor.",
+  "start": 158.45524999999998,
+  "end": 161.10043749999997
+ },
+ {
+  "beat": 12,
+  "text": "Dünya'nın bir ucundan girip öbür ucundan çıkabiliyor; bizim vücudumuzdan da fark edilmeden geçiyor.",
+  "start": 161.45043749999996,
+  "end": 166.8752083333333
+ },
+ {
+  "beat": 13,
+  "text": "Bugün üç farklı nötrino türü olduğunu biliyoruz: elektron, müon ve tau nötrinoları.",
+  "start": 167.6752083333333,
+  "end": 172.92518749999996
+ },
+ {
+  "beat": 13,
+  "text": "Üstelik nötrinolar yolculuk sırasında bir türden diğerine dönüşebiliyor.",
+  "start": 173.27518749999996,
+  "end": 177.28397916666663
+ },
+ {
+  "beat": 13,
+  "text": "Bu keşif 2015 Nobel Fizik Ödülü'nü getirdi ve nötrinoların kütlesi olduğunu gösterdi.",
+  "start": 177.63397916666662,
+  "end": 182.92497916666662
+ },
+ {
+  "beat": 14,
+  "text": "Nötrinolar uzaydan da yakalanmıştı.",
+  "start": 183.72497916666663,
+  "end": 185.82912499999995
+ },
+ {
+  "beat": 14,
+  "text": "1960'larda Raymond Davis, Güneş'ten gelen nötrinoları gözledi.",
+  "start": 186.17912499999997,
+  "end": 190.83056249999998
+ },
+ {
+  "beat": 14,
+  "text": "1987'de Japonya'daki Kamiokande dedektörü, komşu galaksimiz Büyük Macellan Bulutu'nda patlayan bir yıldızdan gelen nötrino sağanağını yakaladı.",
+  "start": 191.18056249999998,
+  "end": 200.94056249999997
+ },
+ {
+  "beat": 14,
+  "text": "Bu çalışmalar 2002'de Nobel ödülü aldı.",
+  "start": 201.29056249999996,
+  "end": 203.7091458333333
+ },
+ {
+  "beat": 15,
+  "text": "Ama bu nötrinolar görece düşük enerjiliydi.",
+  "start": 204.5091458333333,
+  "end": 207.1794583333333
+ },
+ {
+  "beat": 15,
+  "text": "Halzen'in peşine düştüğü şey bambaşkaydı: Güneş nötrinolarından yaklaşık milyar kat daha enerjik, evrenin derinliklerinden gelen nötrinolar.",
+  "start": 207.52945833333328,
+  "end": 215.70689583333328
+ },
+ {
+  "beat": 16,
+  "text": "İkinci bölüm: evrenin parçacık hızlandırıcıları.",
+  "start": 216.5068958333333,
+  "end": 219.93547916666662
+ },
+ {
+  "beat": 17,
+  "text": "Dünya'ya uzaydan sürekli parçacıklar yağıyor.",
+  "start": 220.7354791666666,
+  "end": 223.5706458333333
+ },
+ {
+  "beat": 17,
+  "text": "Bunlara kozmik ışınlar deniyor ve 1912'de Victor Hess tarafından keşfedildiler.",
+  "start": 223.92064583333328,
+  "end": 228.7679791666666
+ },
+ {
+  "beat": 17,
+  "text": "Çoğu proton, yani hidrojen atomunun çıplak çekirdeği.",
+  "start": 229.1179791666666,
+  "end": 233.10806249999993
+ },
+ {
+  "beat": 18,
+  "text": "Bu parçacıkların bazıları akıl almaz enerjilere sahip.",
+  "start": 233.90806249999994,
+  "end": 238.00254166666662
+ },
+ {
+  "beat": 18,
+  "text": "Nobel Komitesi'ne göre evrendeki doğal hızlandırıcılar, Dünya'daki laboratuvarlarda ulaşabildiğimizden milyon kat daha yüksek enerjili parçacıklar fırlatıyor.",
+  "start": 238.3525416666666,
+  "end": 246.94968749999995
+ },
+ {
+  "beat": 18,
+  "text": "Sorun şu: bu hızlandırıcıların ne olduğunu ve nerede olduklarını hâlâ tam olarak bilmiyoruz.",
+  "start": 247.29968749999995,
+  "end": 253.0673333333333
+ },
+ {
+  "beat": 19,
+  "text": "Protonlar bize yol göstermiyor.",
+  "start": 253.86733333333328,
+  "end": 255.90866666666662
+ },
+ {
+  "beat": 19,
+  "text": "Elektrik yükleri olduğu için uzaydaki manyetik alanlarda yolları bükülüyor.",
+  "start": 256.2586666666666,
+  "end": 260.2441666666666
+ },
+ {
+  "beat": 19,
+  "text": "Dünya'ya vardıklarında, nereden geldiklerini artık söyleyemiyoruz.",
+  "start": 260.59416666666664,
+  "end": 264.2244583333333
+ },
+ {
+  "beat": 20,
+  "text": "Gama ışınları daha iyi bir haberci, çünkü dümdüz ilerliyorlar.",
+  "start": 265.0244583333333,
+  "end": 268.2545833333333
+ },
+ {
+  "beat": 20,
+  "text": "Ama yolda madde ve ışıkla etkileşip zayıflayabiliyorlar; kalın toz ve gaz bulutlarının arkasını da gösteremiyorlar.",
+  "start": 268.6045833333333,
+  "end": 274.4244166666667
+ },
+ {
+  "beat": 21,
+  "text": "Nötrinolar ise ne manyetik alana takılıyor ne de yolda soğuruluyor.",
+  "start": 275.2244166666667,
+  "end": 278.93941666666666
+ },
+ {
+  "beat": 21,
+  "text": "Çıktıkları yerden dümdüz geliyorlar.",
+  "start": 279.2894166666667,
+  "end": 281.65902083333333
+ },
+ {
+  "beat": 21,
+  "text": "Yani bir nötrinonun geldiği yönü bulursanız, kozmik hızlandırıcının adresini de bulmuş olursunuz.",
+  "start": 282.00902083333335,
+  "end": 287.22714583333334
+ },
+ {
+  "beat": 22,
+  "text": "Peki bu nötrinolar nasıl oluşuyor?",
+  "start": 288.02714583333335,
+  "end": 289.8921666666667
+ },
+ {
+  "beat": 22,
+  "text": "Hızlandırılan protonlar çevredeki gaza ya da yoğun ışığa çarpıyor ve pion denen kısa ömürlü parçacıklar ortaya çıkıyor.",
+  "start": 290.24216666666666,
+  "end": 296.94543749999997
+ },
+ {
+  "beat": 22,
+  "text": "Yüksüz pionlar gama ışınlarına, yüklü pionlar ise nötrinolara bozunuyor.",
+  "start": 297.2954375,
+  "end": 301.57758333333334
+ },
+ {
+  "beat": 22,
+  "text": "Yani nötrino, protonu hızlandıran sürecin parmak izi.",
+  "start": 301.9275833333333,
+  "end": 305.0591458333333
+ },
+ {
+  "beat": 23,
+  "text": "Aday kaynaklar arasında, merkezindeki süper kütleli kara deliğe madde düşen ve uzaya dev jetler fırlatan aktif galaksiler var.",
+  "start": 305.8591458333333,
+  "end": 313.5278958333333
+ },
+ {
+  "beat": 23,
+  "text": "Patlayan yıldızlar ve gama ışını patlamaları da listede.",
+  "start": 313.8778958333333,
+  "end": 316.9020833333333
+ },
+ {
+  "beat": 24,
+  "text": "Üçüncü bölüm: buzdan bir teleskop fikri.",
+  "start": 317.7020833333333,
+  "end": 320.4596041666666
+ },
+ {
+  "beat": 25,
+  "text": "Halzen Belçika'da büyüdü ve 1960'larda parçacık fiziğindeki gelişmelerle bu alana yöneldi.",
+  "start": 321.25960416666663,
+  "end": 327.1112708333333
+ },
+ {
+  "beat": 25,
+  "text": "Doktorasından kısa süre sonra Wisconsin-Madison Üniversitesi'ne geçti.",
+  "start": 327.4612708333333,
+  "end": 331.80004166666663
+ },
+ {
+  "beat": 25,
+  "text": "Zamanla, uzaydan gelen parçacıkların hem parçacık fiziğine hem de astrofiziğe neler öğretebileceğiyle ilgilenmeye başladı.",
+  "start": 332.1500416666666,
+  "end": 339.84237499999995
+ },
+ {
+  "beat": 26,
+  "text": "1987 sonbaharında Halzen, Kansas Üniversitesi'nde bir konuşma yaptı.",
+  "start": 340.6423749999999,
+  "end": 345.2370624999999
+ },
+ {
+  "beat": 26,
+  "text": "Dinleyiciler arasındaki bir buzul bilimci, Sovyet araştırmacıların Antarktika buzunda, nötrino çarpışmalarının yaydığı radyo dalgalarını yakalamayı planladığını anlattı.",
+  "start": 345.5870624999999,
+  "end": 355.09960416666655
+ },
+ {
+  "beat": 26,
+  "text": "Halzen ve meslektaşları, bu yöntemin aradıkları nötrinolar için yeterince hassas olmayacağını hesapladı.",
+  "start": 355.4496041666666,
+  "end": 362.0096041666666
+ },
+ {
+  "beat": 27,
+  "text": "Bunun yerine aklına başka bir fikir geldi: radyo dalgası değil, ışık.",
+  "start": 362.8096041666666,
+  "end": 366.7429374999999
+ },
+ {
+  "beat": 27,
+  "text": "1960 civarında bazı fizikçiler, suyun nötrino yakalamak için kullanılabileceğini önermişti.",
+  "start": 367.09293749999995,
+  "end": 372.4859374999999
+ },
+ {
+  "beat": 27,
+  "text": "Bir nötrino nadiren de olsa bir atom çekirdeğine çarptığında, aynı yönde ilerleyen yüklü bir parçacık oluşuyor ve bu parçacık arkasında mavi bir ışık bırakıyor.",
+  "start": 372.83593749999994,
+  "end": 381.6301666666666
+ },
+ {
+  "beat": 27,
+  "text": "Buna Çerenkov ışığı deniyor.",
+  "start": 381.9801666666666,
+  "end": 383.9152291666666
+ },
+ {
+  "beat": 28,
+  "text": "Bu ışık, yüklü parçacık suyun ya da buzun içinde, ışığın o ortamdaki hızından daha hızlı gittiğinde oluşuyor.",
+  "start": 384.71522916666663,
+  "end": 391.56429166666663
+ },
+ {
+  "beat": 28,
+  "text": "Ses hızını aşan bir uçağın arkasında oluşan şok dalgasına benziyor; sadece burada ses yerine ışık var.",
+  "start": 391.91429166666666,
+  "end": 398.30174999999997
+ },
+ {
+  "beat": 28,
+  "text": "Işığın açısı ve sensörlere varış sırası, parçacığın hangi yönden geldiğini ele veriyor.",
+  "start": 398.65175,
+  "end": 403.65483333333333
+ },
+ {
+  "beat": 29,
+  "text": "Halzen'in farkı, su yerine Güney Kutbu'nun doğal buzunu kullanmaktı.",
+  "start": 404.45483333333334,
+  "end": 408.2785625
+ },
+ {
+  "beat": 29,
+  "text": "Kendi sözleriyle: eğer o zaman doğal buzun optik özellikleri hakkında bilinenleri bilseydi, muhtemelen o da bu fikirden vazgeçerdi.",
+  "start": 408.6285625,
+  "end": 416.48664583333334
+ },
+ {
+  "beat": 30,
+  "text": "Halzen, Hawaii açıklarında okyanusun derinliklerine benzer bir dedektör kurmaya çalışan DUMAND projesinin sözcüsü John Learned'a yazdı.",
+  "start": 417.2866458333333,
+  "end": 425.4215
+ },
+ {
+  "beat": 30,
+  "text": "İkili, Güney Kutbu buzunda bir nötrino gözlemevi fikrini ilk kez 1988'de, Polonya'daki bir konferansta sundu.",
+  "start": 425.77149999999995,
+  "end": 433.06460416666664
+ },
+ {
+  "beat": 31,
+  "text": "Güney Kutbu'nun avantajları çoktu.",
+  "start": 433.8646041666666,
+  "end": 436.10764583333327
+ },
+ {
+  "beat": 31,
+  "text": "Orada zaten bir araştırma istasyonu vardı.",
+  "start": 436.4576458333333,
+  "end": 439.1017083333333
+ },
+ {
+  "beat": 31,
+  "text": "Derinlerde buz kapkaranlık; okyanustaki gibi ışık saçan canlılar yok, radyoaktif madde az.",
+  "start": 439.4517083333333,
+  "end": 445.9749791666666
+ },
+ {
+  "beat": 31,
+  "text": "Bölge jeolojik olarak sakin, deprem yok.",
+  "start": 446.3249791666666,
+  "end": 448.9726458333333
+ },
+ {
+  "beat": 31,
+  "text": "Dezavantajı ise soğuk: bütün saha çalışmaları, kasım ile şubat arasındaki kısa Antarktika yazına sığmak zorunda.",
+  "start": 449.32264583333324,
+  "end": 456.15491666666657
+ },
+ {
+  "beat": 32,
+  "text": "Dördüncü bölüm: buzu delmek.",
+  "start": 456.9549166666666,
+  "end": 459.02449999999993
+ },
+ {
+  "beat": 33,
+  "text": "Önce bir test gerekiyordu.",
+  "start": 459.8244999999999,
+  "end": 461.42252083333324
+ },
+ {
+  "beat": 33,
+  "text": "1991'de Grönland buzundaki sondaj kuyularına indirilen sensörler, buzun bu ışığı taşıyacak kadar şeffaf olduğunu gösterdi.",
+  "start": 461.7725208333332,
+  "end": 470.51641666666654
+ },
+ {
+  "beat": 34,
+  "text": "Sonra Güney Kutbu'nda, IceCube'ün öncülü olan AMANDA kuruldu.",
+  "start": 471.31641666666656,
+  "end": 475.31641666666656
+ },
+ {
+  "beat": 34,
+  "text": "Kilometrelerce derinlikteki delikler, buzul bilimcilerden öğrenilen bir yöntemle, sıcak su püskürten dev bir duş başlığıyla eritilerek açıldı.",
+  "start": 475.6664166666666,
+  "end": 484.3887916666666
+ },
+ {
+  "beat": 34,
+  "text": "Halzen, 1993 Noel arifesinde yemek masasında, kucağında bilgisayarıyla, ilk sensör kablosunun buza indirildiği haberini beklediğini anlatıyor.",
+  "start": 484.7387916666666,
+  "end": 494.4316041666666
+ },
+ {
+  "beat": 35,
+  "text": "İlk sonuçlar hayal kırıklığıydı.",
+  "start": 495.2316041666666,
+  "end": 497.10181249999994
+ },
+ {
+  "beat": 35,
+  "text": "Üst katmanlardaki buz minik hava kabarcıklarıyla doluydu ve ışığı her yöne saçıyordu.",
+  "start": 497.45181249999996,
+  "end": 502.10056249999997
+ },
+ {
+  "beat": 35,
+  "text": "Ama daha derinde buz olağanüstü berraktı.",
+  "start": 502.45056249999993,
+  "end": 504.9454999999999
+ },
+ {
+  "beat": 35,
+  "text": "1.400 metrenin altında ışık, emilmeden önce 300 metre yol alabiliyordu.",
+  "start": 505.29549999999995,
+  "end": 510.10708333333326
+ },
+ {
+  "beat": 35,
+  "text": "Kimsenin beklemediği kadar uzağa.",
+  "start": 510.4570833333333,
+  "end": 512.2170833333333
+ },
+ {
+  "beat": 36,
+  "text": "AMANDA çalıştı ama kozmik nötrinoları yakalamak için yeterince büyük değildi.",
+  "start": 513.0170833333333,
+  "end": 517.7536875
+ },
+ {
+  "beat": 36,
+  "text": "Gereken şey bir kilometreküplük bir buz hacmiydi.",
+  "start": 518.1036875,
+  "end": 521.2623333333333
+ },
+ {
+  "beat": 36,
+  "text": "Halzen'in baş araştırmacı olduğu IceCube önerisi 1999'da sunuldu, finansman 2002'de onaylandı, inşaat 2004'te başladı.",
+  "start": 521.6123333333334,
+  "end": 530.9432083333334
+ },
+ {
+  "beat": 37,
+  "text": "2005 ile 2010 arasında, 86 kablo buzdaki deliklere indirildi.",
+  "start": 531.7432083333333,
+  "end": 536.9483958333333
+ },
+ {
+  "beat": 37,
+  "text": "Her kabloda 60 sensör var ve sensörler 1.450 ile 2.450 metre derinlik arasında diziliyor.",
+  "start": 537.2983958333333,
+  "end": 543.6827083333333
+ },
+ {
+  "beat": 37,
+  "text": "Kablolar arasındaki mesafe 125 metre.",
+  "start": 544.0327083333333,
+  "end": 547.0557916666667
+ },
+ {
+  "beat": 37,
+  "text": "Toplam 5.160 sensör, tam bir kilometreküp buzu izliyor.",
+  "start": 547.4057916666666,
+  "end": 551.4937291666665
+ },
+ {
+  "beat": 38,
+  "text": "Buzun yüzeyinde ayrıca IceTop adlı bir dedektör dizisi var.",
+  "start": 552.2937291666666,
+  "end": 555.5635416666665
+ },
+ {
+  "beat": 38,
+  "text": "Atmosfere çarpan kozmik ışınların oluşturduğu parçacık sağanaklarını ölçüyor ve aşağıdaki dedektöre, yukarıdan gelen gürültüyü ayıklamak için bir tür uyarı sinyali veriyor.",
+  "start": 555.9135416666666,
+  "end": 565.4523749999998
+ },
+ {
+  "beat": 39,
+  "text": "Bu, yaklaşık bir milyar tonluk bir buz kütlesi demek.",
+  "start": 566.2523749999999,
+  "end": 569.1845833333332
+ },
+ {
+  "beat": 39,
+  "text": "Halzen bu sensörleri tersine çalışan bir ampule benzetiyor: ışık yaymak yerine ışığı yakalıyor ve elektrik sinyaline çeviriyor.",
+  "start": 569.5345833333332,
+  "end": 578.2623333333332
+ },
+ {
+  "beat": 40,
+  "text": "IceCube iki tür olay görüyor.",
+  "start": 579.0623333333332,
+  "end": 581.0121458333332
+ },
+ {
+  "beat": 40,
+  "text": "Müon nötrinoları buzda uzun bir iz bırakıyor; bu izden geliş yönü çok hassas ölçülebiliyor.",
+  "start": 581.3621458333332,
+  "end": 586.8093749999999
+ },
+ {
+  "beat": 40,
+  "text": "Diğer çarpışmalar ise top şeklinde bir ışık patlaması oluşturuyor.",
+  "start": 587.1593749999998,
+  "end": 590.7450416666665
+ },
+ {
+  "beat": 40,
+  "text": "Bunların yönü daha belirsiz ama enerjisi çok iyi ölçülüyor.",
+  "start": 591.0950416666665,
+  "end": 594.4044374999999
+ },
+ {
+  "beat": 41,
+  "text": "İşin en zor kısmı samanlıkta iğne aramak.",
+  "start": 595.2044374999998,
+  "end": 597.8786666666665
+ },
+ {
+  "beat": 41,
+  "text": "IceCube her gün, atmosferden gelen yüz milyonu aşkın parçacık kaydediyor.",
+  "start": 598.2286666666665,
+  "end": 603.1723541666665
+ },
+ {
+  "beat": 41,
+  "text": "Yılda yaklaşık 100.000 nötrino görüyor ve bunların büyük çoğunluğu da atmosferde üretiliyor.",
+  "start": 603.5223541666666,
+  "end": 608.3134166666665
+ },
+ {
+  "beat": 41,
+  "text": "Uzaydan gelmesi beklenenler ise yılda sadece 100 kadar.",
+  "start": 608.6634166666665,
+  "end": 611.9708541666665
+ },
+ {
+  "beat": 42,
+  "text": "Buradaki hile, Dünya'nın kendisini kalkan olarak kullanmak.",
+  "start": 612.7708541666665,
+  "end": 616.1746666666664
+ },
+ {
+  "beat": 42,
+  "text": "Kuzey yarımküreden, yani gezegenin içinden geçip aşağıdan gelen izleri seçerseniz, atmosferdeki müonları neredeyse tamamen ayıklıyorsunuz.",
+  "start": 616.5246666666665,
+  "end": 625.1183749999998
+ },
+ {
+  "beat": 42,
+  "text": "Çünkü Dünya'nın içinden sadece nötrinolar geçebilir.",
+  "start": 625.4683749999998,
+  "end": 628.3481249999998
+ },
+ {
+  "beat": 43,
+  "text": "Beşinci bölüm: keşif.",
+  "start": 629.1481249999998,
+  "end": 631.0681249999998
+ },
+ {
+  "beat": 44,
+  "text": "2013'te, iki yıllık verinin içinde iki olağanüstü olay bulundu: enerjileri 1,04 ve 1,14 petaelektronvolt olan iki nötrino.",
+  "start": 631.8681249999998,
+  "end": 642.3777708333332
+ },
+ {
+  "beat": 44,
+  "text": "İşin ilginci, ekip aslında çok daha yüksek enerjili başka nötrinoları ararken bunları tesadüfen buldu.",
+  "start": 642.7277708333332,
+  "end": 649.0395833333332
+ },
+ {
+  "beat": 45,
+  "text": "Aynı veride 28 yüksek enerjili nötrino daha ortaya çıktı.",
+  "start": 649.8395833333333,
+  "end": 653.7350208333332
+ },
+ {
+  "beat": 45,
+  "text": "2014'te ekip, bu nötrinoların yalnızca atmosferden gelmiş olabileceği ihtimalini 5,7 sigma düzeyinde reddetti.",
+  "start": 654.0850208333333,
+  "end": 661.5575624999999
+ },
+ {
+  "beat": 45,
+  "text": "Fizikte 5 sigma, keşif ilan etmek için kabul edilen eşik.",
+  "start": 661.9075624999999,
+  "end": 665.9375208333332
+ },
+ {
+  "beat": 45,
+  "text": "Uzaydan gelen yüksek enerjili nötrinolar artık gerçekti.",
+  "start": 666.2875208333332,
+  "end": 669.7677916666665
+ },
+ {
+  "beat": 46,
+  "text": "Peki sigma ne demek? Kabaca, gördüğünüz sinyalin şans eseri ortaya çıkma ihtimalinin ne kadar küçük olduğunu anlatıyor.",
+  "start": 670.5677916666666,
+  "end": 677.6838541666666
+ },
+ {
+  "beat": 46,
+  "text": "5 sigma, sonucun tesadüf olma ihtimalinin yaklaşık 3,5 milyonda bir olduğu anlamına geliyor.",
+  "start": 678.0338541666666,
+  "end": 683.903375
+ },
+ {
+  "beat": 46,
+  "text": "Fizikçiler keşif kelimesini bu yüzden ancak bu eşiği geçtikten sonra kullanıyor.",
+  "start": 684.253375,
+  "end": 688.6006041666667
+ },
+ {
+  "beat": 47,
+  "text": "IceCube'ün bugüne kadar yayımladığı en enerjili nötrino ise 31 Mart 2019'da kaydedildi.",
+  "start": 689.4006041666667,
+  "end": 695.6627291666666
+ },
+ {
+  "beat": 47,
+  "text": "Enerjisi yaklaşık 11,4 petaelektronvolt.",
+  "start": 696.0127291666666,
+  "end": 699.2127291666667
+ },
+ {
+  "beat": 48,
+  "text": "22 Eylül 2017'de ise heyecan verici bir an yaşandı.",
+  "start": 700.0127291666666,
+  "end": 703.8331458333333
+ },
+ {
+  "beat": 48,
+  "text": "IceCube, yaklaşık 290 teraelektronvoltluk bir nötrino yakaladı.",
+  "start": 704.1831458333334,
+  "end": 708.5145416666667
+ },
+ {
+  "beat": 48,
+  "text": "Geldiği yön, TXS adlı bir blazarın konumuyla neredeyse birebir örtüşüyordu.",
+  "start": 708.8645416666667,
+  "end": 713.3445416666667
+ },
+ {
+  "beat": 48,
+  "text": "Blazar, jeti doğrudan bize dönük bir aktif galaksi.",
+  "start": 713.6945416666667,
+  "end": 717.2663541666667
+ },
+ {
+  "beat": 48,
+  "text": "Bir dakika içinde dünyaya uyarı gönderildi ve teleskoplar o yöne çevrildi.",
+  "start": 717.6163541666667,
+  "end": 722.319875
+ },
+ {
+  "beat": 49,
+  "text": "2022'de bir adım daha atıldı.",
+  "start": 723.1198750000001,
+  "end": 725.5534375000001
+ },
+ {
+  "beat": 49,
+  "text": "IceCube, Dünya'dan 46 milyon ışık yılı uzaktaki aktif galaksi NGC 1068 yönünden 79 nötrino geldiğini duyurdu.",
+  "start": 725.9034375000001,
+  "end": 734.6382291666667
+ },
+ {
+  "beat": 49,
+  "text": "Bu galaksinin merkezindeki kara delik, kalın bir gaz ve toz tabakasıyla örtülü.",
+  "start": 734.9882291666668,
+  "end": 739.9259791666668
+ },
+ {
+  "beat": 49,
+  "text": "Yani teleskoplarla göremediğimiz bir bölgeye nötrinolarla bakıyor olabiliriz.",
+  "start": 740.2759791666667,
+  "end": 744.8088958333334
+ },
+ {
+  "beat": 50,
+  "text": "2023'te ilk kez kendi galaksimiz Samanyolu'ndan gelen yüksek enerjili nötrinolar gösterildi.",
+  "start": 745.6088958333333,
+  "end": 751.67975
+ },
+ {
+  "beat": 50,
+  "text": "Bu yıl yayımlanan, 12 yıllık veriye dayanan analizle sonuç 5 sigma eşiğini aştı.",
+  "start": 752.02975,
+  "end": 756.462875
+ },
+ {
+  "beat": 50,
+  "text": "Böylece Samanyolu, keşif eşiğini geçen ilk yüksek enerjili nötrino kaynağı oldu.",
+  "start": 756.8128750000001,
+  "end": 761.8753333333334
+ },
+ {
+  "beat": 51,
+  "text": "Bir kanıt daha var. 2024'te yedi yüksek enerjili tau nötrinosu yayımlandı.",
+  "start": 762.6753333333334,
+  "end": 767.3980208333334
+ },
+ {
+  "beat": 51,
+  "text": "Atmosferde bu kadar yüksek enerjili tau nötrinosu oluşamıyor; yani bunlar kesinlikle uzaydan gelmiş olmalı.",
+  "start": 767.7480208333334,
+  "end": 774.2837916666667
+ },
+ {
+  "beat": 51,
+  "text": "Uzaydan tau nötrinosu gelmediği ihtimali de 5 sigma düzeyinde reddedildi.",
+  "start": 774.6337916666668,
+  "end": 779.2302291666667
+ },
+ {
+  "beat": 52,
+  "text": "Nobel Fizik Komitesi Başkanı Mark Pearce'ın sözleriyle: Halzen'in azmi ve bilimsel vizyonu, yeni bir astronomi türünün yolunu açtı.",
+  "start": 780.0302291666668,
+  "end": 787.8860833333334
+ },
+ {
+  "beat": 53,
+  "text": "Şimdi gelelim kanalımızın imzasına: mantık sorgusu.",
+  "start": 788.6860833333335,
+  "end": 792.0242708333335
+ },
+ {
+  "beat": 54,
+  "text": "Birinci soru. IceCube, 14 ülkeden 58 kurumda çalışan yaklaşık 450 kişilik bir uluslararası iş birliğiyle işletiliyor.",
+  "start": 792.8242708333335,
+  "end": 801.1442708333335
+ },
+ {
+  "beat": 54,
+  "text": "Ödül ise tek bir kişiye verildi.",
+  "start": 801.4942708333334,
+  "end": 803.3733958333335
+ },
+ {
+  "beat": 54,
+  "text": "Bu adil mi? Komitenin gerekçesi, Halzen'in fikrin sahibi ve en başından beri baş araştırmacı olması.",
+  "start": 803.7233958333334,
+  "end": 810.2081458333333
+ },
+ {
+  "beat": 54,
+  "text": "Nobel kuralları ise bir ödülü en fazla üç kişiyle sınırlıyor; büyük ekip projelerinde bu tartışma kaçınılmaz.",
+  "start": 810.5581458333334,
+  "end": 817.4054583333334
+ },
+ {
+  "beat": 54,
+  "text": "Komite de bunu saklamıyor ve Halzen'in uluslararası bir ekibe liderlik ettiğini özellikle vurguluyor.",
+  "start": 817.7554583333333,
+  "end": 823.1973333333333
+ },
+ {
+  "beat": 55,
+  "text": "İkinci soru: kozmik hızlandırıcılar bulundu mu?",
+  "start": 823.9973333333334,
+  "end": 826.98325
+ },
+ {
+  "beat": 55,
+  "text": "Hayır, ve bu ayrım önemli.",
+  "start": 827.33325,
+  "end": 829.25325
+ },
+ {
+  "beat": 55,
+  "text": "Ödül, uzaydan gelen yüksek enerjili nötrinoların varlığının keşfi için verildi.",
+  "start": 829.60325,
+  "end": 834.3554166666667
+ },
+ {
+  "beat": 55,
+  "text": "Bu nötrinoların kaynakları ise hâlâ büyük ölçüde bilinmiyor.",
+  "start": 834.7054166666667,
+  "end": 838.2648958333333
+ },
+ {
+  "beat": 55,
+  "text": "Komitenin kendi metni bile, NGC 1068'in kaynak olarak kesinleşmesi için kanıtın henüz yeterince güçlü olmadığını yazıyor.",
+  "start": 838.6148958333333,
+  "end": 845.7626875
+ },
+ {
+  "beat": 55,
+  "text": "Yani evrenin sırrı çözüldü gibi başlıklar görürseniz, biraz temkinli olun.",
+  "start": 846.1126875,
+  "end": 850.4867708333334
+ },
+ {
+  "beat": 56,
+  "text": "Kararımız: ödül, sağlam bir keşfe verilmiş.",
+  "start": 851.2867708333333,
+  "end": 854.2938958333333
+ },
+ {
+  "beat": 56,
+  "text": "Ama asıl soru, yani bu nötrinoların tam olarak nereden geldiği, hâlâ açık.",
+  "start": 854.6438958333333,
+  "end": 859.2499375
+ },
+ {
+  "beat": 57,
+  "text": "Son bölüm: sırada ne var?",
+  "start": 860.0499374999999,
+  "end": 861.8943541666666
+ },
+ {
+  "beat": 58,
+  "text": "Nötrino astronomisi daha yeni başlıyor.",
+  "start": 862.6943541666666,
+  "end": 864.9413333333332
+ },
+ {
+  "beat": 58,
+  "text": "Güney Kutbu'nda, sekiz kilometreküplük IceCube-Gen2 planlanıyor.",
+  "start": 865.2913333333332,
+  "end": 870.0302916666666
+ },
+ {
+  "beat": 58,
+  "text": "Akdeniz'de KM3NeT, Sibirya'daki Baykal Gölü'nde Baikal-GVD, Kanada açıklarında P-ONE ve Güney Çin Denizi'nde TRIDENT, suyun içinde benzer teleskoplar kuruyor.",
+  "start": 870.3802916666666,
+  "end": 881.1617708333333
+ },
+ {
+  "beat": 59,
+  "text": "Hedef, nötrinoları gama ışınları, kozmik ışınlar ve belki kütleçekim dalgalarıyla birleştirip evrenin en şiddetli olaylarının tam resmini çıkarmak.",
+  "start": 881.9617708333333,
+  "end": 890.555
+ },
+ {
+  "beat": 59,
+  "text": "Buna çok habercili astronomi deniyor.",
+  "start": 890.905,
+  "end": 892.9153958333333
+ },
+ {
+  "beat": 60,
+  "text": "1988'de bir konferansta anlatılan, ilk denemeleri hayal kırıklığıyla biten bir fikir, bugün Güney Kutbu'nda zamanın yüzde doksan dokuzundan fazlasında kesintisiz çalışan bir gözlemevine dönüştü.",
+  "start": 893.7153958333333,
+  "end": 905.8366875
+ },
+ {
+  "beat": 60,
+  "text": "Ve her gün yeni nötrinolar yakalamaya devam ediyor.",
+  "start": 906.1866875,
+  "end": 909.0865
+ },
+ {
+  "beat": 61,
+  "text": "Bugünlük bu kadar. Kaynakların hepsi açıklamada; özellikle Nobel Komitesi'nin bilimsel raporunu okumanızı öneririm.",
+  "start": 909.8865,
+  "end": 916.7564583333333
+ },
+ {
+  "beat": 61,
+  "text": "Sizce büyük ekip projelerinde Nobel tek kişiye verilmeli mi?",
+  "start": 917.1064583333333,
+  "end": 920.7864583333333
+ },
+ {
+  "beat": 61,
+  "text": "Yorumlarda tartışalım. BosNRoll kanalına abone olmayı unutmayın, görüşmek üzere.",
+  "start": 921.1364583333333,
+  "end": 925.8935833333333
+ }
+]

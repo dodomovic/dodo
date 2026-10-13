@@ -1,0 +1,815 @@
+1
+00:00:00,400 --> 00:00:06,434
+Siz bu cümleyi dinlerken, Güneş'ten gelen yaklaşık 65 milyar nötrino, her saniye serçe parmağınızın
+
+2
+00:00:06,434 --> 00:00:07,653
+tırnağından geçiyor.
+
+3
+00:00:08,003 --> 00:00:09,562
+Hiçbirini hissetmiyorsunuz.
+
+4
+00:00:09,912 --> 00:00:11,620
+Hiçbiri size dokunmuyor bile.
+
+5
+00:00:12,420 --> 00:00:16,686
+Peki, neredeyse hiçbir şeye çarpmayan bir parçacığı nasıl yakalarsınız?
+
+6
+00:00:17,036 --> 00:00:23,894
+2026 Nobel Fizik Ödülü'nün cevabı şaşırtıcı: Güney Kutbu'ndaki buzun iki kilometre altına bakarak.
+
+7
+00:00:24,694 --> 00:00:27,362
+Merhaba, BosNRoll kanalına hoş geldiniz.
+
+8
+00:00:27,712 --> 00:00:33,613
+Bugün bu yılın Nobel Fizik Ödülü'nü, ödülü kazanan Francis Halzen'i ve evrenin en utangaç parçacığı olan
+
+9
+00:00:33,613 --> 00:00:34,974
+nötrinoları anlatıyoruz.
+
+10
+00:00:35,324 --> 00:00:38,141
+Tüm bilgiler Nobel Komitesi'nin resmi belgelerinden.
+
+11
+00:00:38,491 --> 00:00:44,365
+Önce 5N1K, sonra hikâyenin tamamı, en sonda da her zamanki gibi mantık sorgusu.
+
+12
+00:00:45,165 --> 00:00:48,404
+Kim? Belçika doğumlu fizikçi Francis Halzen.
+
+13
+00:00:48,754 --> 00:00:57,448
+1944'te Belçika'nın Tienen kentinde doğdu, doktorasını 1969'da Leuven Katolik Üniversitesi'nde tamamladı.
+
+14
+00:00:57,798 --> 00:01:01,387
+Uzun yıllardır Amerika'daki Wisconsin-Madison Üniversitesi'nde profesör.
+
+15
+00:01:02,187 --> 00:01:08,602
+Ne? İsveç Kraliyet Bilimler Akademisi ödülü, IceCube Nötrino Gözlemevi'ne yaptığı belirleyici katkılar ve
+
+16
+00:01:08,602 --> 00:01:12,267
+uzaydan gelen yüksek enerjili nötrinoların keşfi için verdi.
+
+17
+00:01:12,617 --> 00:01:15,064
+Ödülün tutarı 12 milyon İsveç kronu.
+
+18
+00:01:15,864 --> 00:01:18,306
+Nerede? Keşfin yapıldığı yer Güney Kutbu.
+
+19
+00:01:18,656 --> 00:01:25,501
+Amundsen-Scott araştırma istasyonunun yakınında, buzun 1.450 ile 2.450 metre derinliği arasında,
+
+20
+00:01:25,501 --> 00:01:27,855
+bir kilometreküplük bir dedektör.
+
+21
+00:01:28,655 --> 00:01:32,013
+Ne zaman? Ödül 6 Ekim 2026'da açıklandı.
+
+22
+00:01:32,363 --> 00:01:38,046
+Fikrin kendisi ise çok daha eski: Halzen onu ilk kez 1988'de ortaya attı.
+
+23
+00:01:38,396 --> 00:01:41,160
+Yani karşımızda yaklaşık kırk yıllık bir hikâye var.
+
+24
+00:01:41,960 --> 00:01:46,586
+Nasıl? Buzun derinliklerine 5.160 ışık sensörü yerleştirildi.
+
+25
+00:01:46,936 --> 00:01:53,828
+Nadir de olsa bir nötrino buzdaki bir atom çekirdeğine çarptığında, küçük mavi bir ışık parlaması oluşuyor.
+
+26
+00:01:54,178 --> 00:01:56,316
+Sensörler işte bu ışığı yakalıyor.
+
+27
+00:01:57,116 --> 00:02:03,352
+Neden? Çünkü nötrinolar evrenin en şiddetli olaylarından, hiç yön değiştirmeden ve enerji kaybetmeden bize
+
+28
+00:02:03,352 --> 00:02:03,882
+ulaşıyor.
+
+29
+00:02:04,232 --> 00:02:07,448
+Başka hiçbir yolla elde edilemeyecek bilgiyi taşıyorlar.
+
+30
+00:02:08,248 --> 00:02:10,270
+Birinci bölüm: nötrino nedir?
+
+31
+00:02:11,070 --> 00:02:17,991
+Hikâye 1930'da başlıyor. Fizikçi Wolfgang Pauli, radyoaktif bozunmalardaki bir enerji hesabını tutturmak için,
+
+32
+00:02:17,991 --> 00:02:21,640
+görünmeyen yeni bir parçacık olması gerektiğini öne sürdü.
+
+33
+00:02:22,440 --> 00:02:26,380
+Bu parçacığın varlığı ancak 1956'da kanıtlandı.
+
+34
+00:02:26,730 --> 00:02:33,023
+Clyde Cowan ve Frederick Reines, bir nükleer reaktörün yanına kurdukları deneyle nötrinoyu ilk kez yakaladı.
+
+35
+00:02:33,823 --> 00:02:38,105
+Nötrinonun elektrik yükü yok, kütlesi ise neredeyse sıfır.
+
+36
+00:02:38,455 --> 00:02:41,100
+Bu yüzden maddeyle çok nadiren etkileşiyor.
+
+37
+00:02:41,450 --> 00:02:46,875
+Dünya'nın bir ucundan girip öbür ucundan çıkabiliyor; bizim vücudumuzdan da fark edilmeden geçiyor.
+
+38
+00:02:47,675 --> 00:02:52,925
+Bugün üç farklı nötrino türü olduğunu biliyoruz: elektron, müon ve tau nötrinoları.
+
+39
+00:02:53,275 --> 00:02:57,284
+Üstelik nötrinolar yolculuk sırasında bir türden diğerine dönüşebiliyor.
+
+40
+00:02:57,634 --> 00:03:02,925
+Bu keşif 2015 Nobel Fizik Ödülü'nü getirdi ve nötrinoların kütlesi olduğunu gösterdi.
+
+41
+00:03:03,725 --> 00:03:05,829
+Nötrinolar uzaydan da yakalanmıştı.
+
+42
+00:03:06,179 --> 00:03:10,831
+1960'larda Raymond Davis, Güneş'ten gelen nötrinoları gözledi.
+
+43
+00:03:11,181 --> 00:03:18,604
+1987'de Japonya'daki Kamiokande dedektörü, komşu galaksimiz Büyük Macellan Bulutu'nda patlayan bir yıldızdan
+
+44
+00:03:18,604 --> 00:03:20,941
+gelen nötrino sağanağını yakaladı.
+
+45
+00:03:21,291 --> 00:03:23,709
+Bu çalışmalar 2002'de Nobel ödülü aldı.
+
+46
+00:03:24,509 --> 00:03:27,179
+Ama bu nötrinolar görece düşük enerjiliydi.
+
+47
+00:03:27,529 --> 00:03:33,236
+Halzen'in peşine düştüğü şey bambaşkaydı: Güneş nötrinolarından yaklaşık milyar kat daha enerjik,
+
+48
+00:03:33,236 --> 00:03:35,707
+evrenin derinliklerinden gelen nötrinolar.
+
+49
+00:03:36,507 --> 00:03:39,935
+İkinci bölüm: evrenin parçacık hızlandırıcıları.
+
+50
+00:03:40,735 --> 00:03:43,571
+Dünya'ya uzaydan sürekli parçacıklar yağıyor.
+
+51
+00:03:43,921 --> 00:03:48,768
+Bunlara kozmik ışınlar deniyor ve 1912'de Victor Hess tarafından keşfedildiler.
+
+52
+00:03:49,118 --> 00:03:53,108
+Çoğu proton, yani hidrojen atomunun çıplak çekirdeği.
+
+53
+00:03:53,908 --> 00:03:58,003
+Bu parçacıkların bazıları akıl almaz enerjilere sahip.
+
+54
+00:03:58,353 --> 00:04:04,321
+Nobel Komitesi'ne göre evrendeki doğal hızlandırıcılar, Dünya'daki laboratuvarlarda ulaşabildiğimizden milyon
+
+55
+00:04:04,321 --> 00:04:06,950
+kat daha yüksek enerjili parçacıklar fırlatıyor.
+
+56
+00:04:07,300 --> 00:04:13,067
+Sorun şu: bu hızlandırıcıların ne olduğunu ve nerede olduklarını hâlâ tam olarak bilmiyoruz.
+
+57
+00:04:13,867 --> 00:04:15,909
+Protonlar bize yol göstermiyor.
+
+58
+00:04:16,259 --> 00:04:20,244
+Elektrik yükleri olduğu için uzaydaki manyetik alanlarda yolları bükülüyor.
+
+59
+00:04:20,594 --> 00:04:24,224
+Dünya'ya vardıklarında, nereden geldiklerini artık söyleyemiyoruz.
+
+60
+00:04:25,024 --> 00:04:28,255
+Gama ışınları daha iyi bir haberci, çünkü dümdüz ilerliyorlar.
+
+61
+00:04:28,605 --> 00:04:33,608
+Ama yolda madde ve ışıkla etkileşip zayıflayabiliyorlar; kalın toz ve gaz bulutlarının arkasını da
+
+62
+00:04:33,608 --> 00:04:34,424
+gösteremiyorlar.
+
+63
+00:04:35,224 --> 00:04:38,939
+Nötrinolar ise ne manyetik alana takılıyor ne de yolda soğuruluyor.
+
+64
+00:04:39,289 --> 00:04:41,659
+Çıktıkları yerden dümdüz geliyorlar.
+
+65
+00:04:42,009 --> 00:04:47,227
+Yani bir nötrinonun geldiği yönü bulursanız, kozmik hızlandırıcının adresini de bulmuş olursunuz.
+
+66
+00:04:48,027 --> 00:04:49,892
+Peki bu nötrinolar nasıl oluşuyor?
+
+67
+00:04:50,242 --> 00:04:56,491
+Hızlandırılan protonlar çevredeki gaza ya da yoğun ışığa çarpıyor ve pion denen kısa ömürlü parçacıklar ortaya
+
+68
+00:04:56,491 --> 00:04:56,945
+çıkıyor.
+
+69
+00:04:57,295 --> 00:05:01,578
+Yüksüz pionlar gama ışınlarına, yüklü pionlar ise nötrinolara bozunuyor.
+
+70
+00:05:01,928 --> 00:05:05,059
+Yani nötrino, protonu hızlandıran sürecin parmak izi.
+
+71
+00:05:05,859 --> 00:05:12,608
+Aday kaynaklar arasında, merkezindeki süper kütleli kara deliğe madde düşen ve uzaya dev jetler fırlatan aktif
+
+72
+00:05:12,608 --> 00:05:13,528
+galaksiler var.
+
+73
+00:05:13,878 --> 00:05:16,902
+Patlayan yıldızlar ve gama ışını patlamaları da listede.
+
+74
+00:05:17,702 --> 00:05:20,460
+Üçüncü bölüm: buzdan bir teleskop fikri.
+
+75
+00:05:21,260 --> 00:05:27,111
+Halzen Belçika'da büyüdü ve 1960'larda parçacık fiziğindeki gelişmelerle bu alana yöneldi.
+
+76
+00:05:27,461 --> 00:05:31,800
+Doktorasından kısa süre sonra Wisconsin-Madison Üniversitesi'ne geçti.
+
+77
+00:05:32,150 --> 00:05:38,571
+Zamanla, uzaydan gelen parçacıkların hem parçacık fiziğine hem de astrofiziğe neler öğretebileceğiyle
+
+78
+00:05:38,571 --> 00:05:39,842
+ilgilenmeye başladı.
+
+79
+00:05:40,642 --> 00:05:45,237
+1987 sonbaharında Halzen, Kansas Üniversitesi'nde bir konuşma yaptı.
+
+80
+00:05:45,587 --> 00:05:50,457
+Dinleyiciler arasındaki bir buzul bilimci, Sovyet araştırmacıların Antarktika buzunda,
+
+81
+00:05:50,457 --> 00:05:55,100
+nötrino çarpışmalarının yaydığı radyo dalgalarını yakalamayı planladığını anlattı.
+
+82
+00:05:55,450 --> 00:06:02,010
+Halzen ve meslektaşları, bu yöntemin aradıkları nötrinolar için yeterince hassas olmayacağını hesapladı.
+
+83
+00:06:02,810 --> 00:06:06,743
+Bunun yerine aklına başka bir fikir geldi: radyo dalgası değil, ışık.
+
+84
+00:06:07,093 --> 00:06:12,486
+1960 civarında bazı fizikçiler, suyun nötrino yakalamak için kullanılabileceğini önermişti.
+
+85
+00:06:12,836 --> 00:06:18,920
+Bir nötrino nadiren de olsa bir atom çekirdeğine çarptığında, aynı yönde ilerleyen yüklü bir parçacık oluşuyor
+
+86
+00:06:18,920 --> 00:06:21,630
+ve bu parçacık arkasında mavi bir ışık bırakıyor.
+
+87
+00:06:21,980 --> 00:06:23,915
+Buna Çerenkov ışığı deniyor.
+
+88
+00:06:24,715 --> 00:06:31,564
+Bu ışık, yüklü parçacık suyun ya da buzun içinde, ışığın o ortamdaki hızından daha hızlı gittiğinde oluşuyor.
+
+89
+00:06:31,914 --> 00:06:38,302
+Ses hızını aşan bir uçağın arkasında oluşan şok dalgasına benziyor; sadece burada ses yerine ışık var.
+
+90
+00:06:38,652 --> 00:06:43,655
+Işığın açısı ve sensörlere varış sırası, parçacığın hangi yönden geldiğini ele veriyor.
+
+91
+00:06:44,455 --> 00:06:48,279
+Halzen'in farkı, su yerine Güney Kutbu'nun doğal buzunu kullanmaktı.
+
+92
+00:06:48,629 --> 00:06:54,129
+Kendi sözleriyle: eğer o zaman doğal buzun optik özellikleri hakkında bilinenleri bilseydi,
+
+93
+00:06:54,129 --> 00:06:56,487
+muhtemelen o da bu fikirden vazgeçerdi.
+
+94
+00:06:57,287 --> 00:07:03,661
+Halzen, Hawaii açıklarında okyanusun derinliklerine benzer bir dedektör kurmaya çalışan DUMAND projesinin
+
+95
+00:07:03,661 --> 00:07:05,422
+sözcüsü John Learned'a yazdı.
+
+96
+00:07:05,771 --> 00:07:13,065
+İkili, Güney Kutbu buzunda bir nötrino gözlemevi fikrini ilk kez 1988'de, Polonya'daki bir konferansta sundu.
+
+97
+00:07:13,865 --> 00:07:16,108
+Güney Kutbu'nun avantajları çoktu.
+
+98
+00:07:16,458 --> 00:07:19,102
+Orada zaten bir araştırma istasyonu vardı.
+
+99
+00:07:19,452 --> 00:07:25,975
+Derinlerde buz kapkaranlık; okyanustaki gibi ışık saçan canlılar yok, radyoaktif madde az.
+
+100
+00:07:26,325 --> 00:07:28,973
+Bölge jeolojik olarak sakin, deprem yok.
+
+101
+00:07:29,323 --> 00:07:35,663
+Dezavantajı ise soğuk: bütün saha çalışmaları, kasım ile şubat arasındaki kısa Antarktika yazına sığmak
+
+102
+00:07:35,663 --> 00:07:36,155
+zorunda.
+
+103
+00:07:36,955 --> 00:07:39,024
+Dördüncü bölüm: buzu delmek.
+
+104
+00:07:39,824 --> 00:07:41,423
+Önce bir test gerekiyordu.
+
+105
+00:07:41,773 --> 00:07:49,216
+1991'de Grönland buzundaki sondaj kuyularına indirilen sensörler, buzun bu ışığı taşıyacak kadar şeffaf
+
+106
+00:07:49,216 --> 00:07:50,516
+olduğunu gösterdi.
+
+107
+00:07:51,316 --> 00:07:55,316
+Sonra Güney Kutbu'nda, IceCube'ün öncülü olan AMANDA kuruldu.
+
+108
+00:07:55,666 --> 00:08:00,677
+Kilometrelerce derinlikteki delikler, buzul bilimcilerden öğrenilen bir yöntemle,
+
+109
+00:08:00,677 --> 00:08:04,389
+sıcak su püskürten dev bir duş başlığıyla eritilerek açıldı.
+
+110
+00:08:04,739 --> 00:08:12,301
+Halzen, 1993 Noel arifesinde yemek masasında, kucağında bilgisayarıyla, ilk sensör kablosunun buza indirildiği
+
+111
+00:08:12,301 --> 00:08:14,432
+haberini beklediğini anlatıyor.
+
+112
+00:08:15,232 --> 00:08:17,102
+İlk sonuçlar hayal kırıklığıydı.
+
+113
+00:08:17,452 --> 00:08:22,101
+Üst katmanlardaki buz minik hava kabarcıklarıyla doluydu ve ışığı her yöne saçıyordu.
+
+114
+00:08:22,451 --> 00:08:24,945
+Ama daha derinde buz olağanüstü berraktı.
+
+115
+00:08:25,295 --> 00:08:30,107
+1.400 metrenin altında ışık, emilmeden önce 300 metre yol alabiliyordu.
+
+116
+00:08:30,457 --> 00:08:32,217
+Kimsenin beklemediği kadar uzağa.
+
+117
+00:08:33,017 --> 00:08:37,754
+AMANDA çalıştı ama kozmik nötrinoları yakalamak için yeterince büyük değildi.
+
+118
+00:08:38,104 --> 00:08:41,262
+Gereken şey bir kilometreküplük bir buz hacmiydi.
+
+119
+00:08:41,612 --> 00:08:49,109
+Halzen'in baş araştırmacı olduğu IceCube önerisi 1999'da sunuldu, finansman 2002'de onaylandı,
+
+120
+00:08:49,109 --> 00:08:50,943
+inşaat 2004'te başladı.
+
+121
+00:08:51,743 --> 00:08:56,948
+2005 ile 2010 arasında, 86 kablo buzdaki deliklere indirildi.
+
+122
+00:08:57,298 --> 00:09:03,683
+Her kabloda 60 sensör var ve sensörler 1.450 ile 2.450 metre derinlik arasında diziliyor.
+
+123
+00:09:04,033 --> 00:09:07,056
+Kablolar arasındaki mesafe 125 metre.
+
+124
+00:09:07,406 --> 00:09:11,494
+Toplam 5.160 sensör, tam bir kilometreküp buzu izliyor.
+
+125
+00:09:12,294 --> 00:09:15,564
+Buzun yüzeyinde ayrıca IceTop adlı bir dedektör dizisi var.
+
+126
+00:09:15,914 --> 00:09:21,492
+Atmosfere çarpan kozmik ışınların oluşturduğu parçacık sağanaklarını ölçüyor ve aşağıdaki dedektöre,
+
+127
+00:09:21,492 --> 00:09:25,452
+yukarıdan gelen gürültüyü ayıklamak için bir tür uyarı sinyali veriyor.
+
+128
+00:09:26,252 --> 00:09:29,185
+Bu, yaklaşık bir milyar tonluk bir buz kütlesi demek.
+
+129
+00:09:29,535 --> 00:09:36,877
+Halzen bu sensörleri tersine çalışan bir ampule benzetiyor: ışık yaymak yerine ışığı yakalıyor ve elektrik
+
+130
+00:09:36,877 --> 00:09:38,262
+sinyaline çeviriyor.
+
+131
+00:09:39,062 --> 00:09:41,012
+IceCube iki tür olay görüyor.
+
+132
+00:09:41,362 --> 00:09:46,809
+Müon nötrinoları buzda uzun bir iz bırakıyor; bu izden geliş yönü çok hassas ölçülebiliyor.
+
+133
+00:09:47,159 --> 00:09:50,745
+Diğer çarpışmalar ise top şeklinde bir ışık patlaması oluşturuyor.
+
+134
+00:09:51,095 --> 00:09:54,404
+Bunların yönü daha belirsiz ama enerjisi çok iyi ölçülüyor.
+
+135
+00:09:55,204 --> 00:09:57,879
+İşin en zor kısmı samanlıkta iğne aramak.
+
+136
+00:09:58,229 --> 00:10:03,172
+IceCube her gün, atmosferden gelen yüz milyonu aşkın parçacık kaydediyor.
+
+137
+00:10:03,522 --> 00:10:08,313
+Yılda yaklaşık 100.000 nötrino görüyor ve bunların büyük çoğunluğu da atmosferde üretiliyor.
+
+138
+00:10:08,663 --> 00:10:11,971
+Uzaydan gelmesi beklenenler ise yılda sadece 100 kadar.
+
+139
+00:10:12,771 --> 00:10:16,175
+Buradaki hile, Dünya'nın kendisini kalkan olarak kullanmak.
+
+140
+00:10:16,525 --> 00:10:21,668
+Kuzey yarımküreden, yani gezegenin içinden geçip aşağıdan gelen izleri seçerseniz,
+
+141
+00:10:21,668 --> 00:10:25,118
+atmosferdeki müonları neredeyse tamamen ayıklıyorsunuz.
+
+142
+00:10:25,468 --> 00:10:28,348
+Çünkü Dünya'nın içinden sadece nötrinolar geçebilir.
+
+143
+00:10:29,148 --> 00:10:31,068
+Beşinci bölüm: keşif.
+
+144
+00:10:31,868 --> 00:10:41,335
+2013'te, iki yıllık verinin içinde iki olağanüstü olay bulundu: enerjileri 1,04 ve 1,14 petaelektronvolt olan
+
+145
+00:10:41,335 --> 00:10:42,378
+iki nötrino.
+
+146
+00:10:42,728 --> 00:10:49,040
+İşin ilginci, ekip aslında çok daha yüksek enerjili başka nötrinoları ararken bunları tesadüfen buldu.
+
+147
+00:10:49,840 --> 00:10:53,735
+Aynı veride 28 yüksek enerjili nötrino daha ortaya çıktı.
+
+148
+00:10:54,085 --> 00:11:01,558
+2014'te ekip, bu nötrinoların yalnızca atmosferden gelmiş olabileceği ihtimalini 5,7 sigma düzeyinde reddetti.
+
+149
+00:11:01,908 --> 00:11:05,938
+Fizikte 5 sigma, keşif ilan etmek için kabul edilen eşik.
+
+150
+00:11:06,288 --> 00:11:09,768
+Uzaydan gelen yüksek enerjili nötrinolar artık gerçekti.
+
+151
+00:11:10,568 --> 00:11:17,081
+Peki sigma ne demek? Kabaca, gördüğünüz sinyalin şans eseri ortaya çıkma ihtimalinin ne kadar küçük olduğunu
+
+152
+00:11:17,081 --> 00:11:17,684
+anlatıyor.
+
+153
+00:11:18,034 --> 00:11:23,903
+5 sigma, sonucun tesadüf olma ihtimalinin yaklaşık 3,5 milyonda bir olduğu anlamına geliyor.
+
+154
+00:11:24,253 --> 00:11:28,601
+Fizikçiler keşif kelimesini bu yüzden ancak bu eşiği geçtikten sonra kullanıyor.
+
+155
+00:11:29,401 --> 00:11:35,663
+IceCube'ün bugüne kadar yayımladığı en enerjili nötrino ise 31 Mart 2019'da kaydedildi.
+
+156
+00:11:36,013 --> 00:11:39,213
+Enerjisi yaklaşık 11,4 petaelektronvolt.
+
+157
+00:11:40,013 --> 00:11:43,833
+22 Eylül 2017'de ise heyecan verici bir an yaşandı.
+
+158
+00:11:44,183 --> 00:11:48,515
+IceCube, yaklaşık 290 teraelektronvoltluk bir nötrino yakaladı.
+
+159
+00:11:48,865 --> 00:11:53,345
+Geldiği yön, TXS adlı bir blazarın konumuyla neredeyse birebir örtüşüyordu.
+
+160
+00:11:53,695 --> 00:11:57,266
+Blazar, jeti doğrudan bize dönük bir aktif galaksi.
+
+161
+00:11:57,616 --> 00:12:02,320
+Bir dakika içinde dünyaya uyarı gönderildi ve teleskoplar o yöne çevrildi.
+
+162
+00:12:03,120 --> 00:12:05,553
+2022'de bir adım daha atıldı.
+
+163
+00:12:05,903 --> 00:12:14,638
+IceCube, Dünya'dan 46 milyon ışık yılı uzaktaki aktif galaksi NGC 1068 yönünden 79 nötrino geldiğini duyurdu.
+
+164
+00:12:14,988 --> 00:12:19,926
+Bu galaksinin merkezindeki kara delik, kalın bir gaz ve toz tabakasıyla örtülü.
+
+165
+00:12:20,276 --> 00:12:24,809
+Yani teleskoplarla göremediğimiz bir bölgeye nötrinolarla bakıyor olabiliriz.
+
+166
+00:12:25,609 --> 00:12:31,680
+2023'te ilk kez kendi galaksimiz Samanyolu'ndan gelen yüksek enerjili nötrinolar gösterildi.
+
+167
+00:12:32,030 --> 00:12:36,463
+Bu yıl yayımlanan, 12 yıllık veriye dayanan analizle sonuç 5 sigma eşiğini aştı.
+
+168
+00:12:36,813 --> 00:12:41,875
+Böylece Samanyolu, keşif eşiğini geçen ilk yüksek enerjili nötrino kaynağı oldu.
+
+169
+00:12:42,675 --> 00:12:47,398
+Bir kanıt daha var. 2024'te yedi yüksek enerjili tau nötrinosu yayımlandı.
+
+170
+00:12:47,748 --> 00:12:54,284
+Atmosferde bu kadar yüksek enerjili tau nötrinosu oluşamıyor; yani bunlar kesinlikle uzaydan gelmiş olmalı.
+
+171
+00:12:54,634 --> 00:12:59,230
+Uzaydan tau nötrinosu gelmediği ihtimali de 5 sigma düzeyinde reddedildi.
+
+172
+00:13:00,030 --> 00:13:05,529
+Nobel Fizik Komitesi Başkanı Mark Pearce'ın sözleriyle: Halzen'in azmi ve bilimsel vizyonu,
+
+173
+00:13:05,529 --> 00:13:07,886
+yeni bir astronomi türünün yolunu açtı.
+
+174
+00:13:08,686 --> 00:13:12,024
+Şimdi gelelim kanalımızın imzasına: mantık sorgusu.
+
+175
+00:13:12,824 --> 00:13:20,284
+Birinci soru. IceCube, 14 ülkeden 58 kurumda çalışan yaklaşık 450 kişilik bir uluslararası iş birliğiyle
+
+176
+00:13:20,284 --> 00:13:21,144
+işletiliyor.
+
+177
+00:13:21,494 --> 00:13:23,373
+Ödül ise tek bir kişiye verildi.
+
+178
+00:13:23,723 --> 00:13:30,208
+Bu adil mi? Komitenin gerekçesi, Halzen'in fikrin sahibi ve en başından beri baş araştırmacı olması.
+
+179
+00:13:30,558 --> 00:13:37,405
+Nobel kuralları ise bir ödülü en fazla üç kişiyle sınırlıyor; büyük ekip projelerinde bu tartışma kaçınılmaz.
+
+180
+00:13:37,755 --> 00:13:43,197
+Komite de bunu saklamıyor ve Halzen'in uluslararası bir ekibe liderlik ettiğini özellikle vurguluyor.
+
+181
+00:13:43,997 --> 00:13:46,983
+İkinci soru: kozmik hızlandırıcılar bulundu mu?
+
+182
+00:13:47,333 --> 00:13:49,253
+Hayır, ve bu ayrım önemli.
+
+183
+00:13:49,603 --> 00:13:54,355
+Ödül, uzaydan gelen yüksek enerjili nötrinoların varlığının keşfi için verildi.
+
+184
+00:13:54,705 --> 00:13:58,265
+Bu nötrinoların kaynakları ise hâlâ büyük ölçüde bilinmiyor.
+
+185
+00:13:58,615 --> 00:14:04,631
+Komitenin kendi metni bile, NGC 1068'in kaynak olarak kesinleşmesi için kanıtın henüz yeterince güçlü
+
+186
+00:14:04,631 --> 00:14:05,763
+olmadığını yazıyor.
+
+187
+00:14:06,113 --> 00:14:10,487
+Yani evrenin sırrı çözüldü gibi başlıklar görürseniz, biraz temkinli olun.
+
+188
+00:14:11,287 --> 00:14:14,294
+Kararımız: ödül, sağlam bir keşfe verilmiş.
+
+189
+00:14:14,644 --> 00:14:19,250
+Ama asıl soru, yani bu nötrinoların tam olarak nereden geldiği, hâlâ açık.
+
+190
+00:14:20,050 --> 00:14:21,894
+Son bölüm: sırada ne var?
+
+191
+00:14:22,694 --> 00:14:24,941
+Nötrino astronomisi daha yeni başlıyor.
+
+192
+00:14:25,291 --> 00:14:30,030
+Güney Kutbu'nda, sekiz kilometreküplük IceCube-Gen2 planlanıyor.
+
+193
+00:14:30,380 --> 00:14:37,797
+Akdeniz'de KM3NeT, Sibirya'daki Baykal Gölü'nde Baikal-GVD, Kanada açıklarında P-ONE ve Güney Çin Denizi'nde
+
+194
+00:14:37,797 --> 00:14:41,162
+TRIDENT, suyun içinde benzer teleskoplar kuruyor.
+
+195
+00:14:41,962 --> 00:14:48,083
+Hedef, nötrinoları gama ışınları, kozmik ışınlar ve belki kütleçekim dalgalarıyla birleştirip evrenin en
+
+196
+00:14:48,083 --> 00:14:50,555
+şiddetli olaylarının tam resmini çıkarmak.
+
+197
+00:14:50,905 --> 00:14:52,915
+Buna çok habercili astronomi deniyor.
+
+198
+00:14:53,715 --> 00:14:59,054
+1988'de bir konferansta anlatılan, ilk denemeleri hayal kırıklığıyla biten bir fikir,
+
+199
+00:14:59,054 --> 00:15:05,837
+bugün Güney Kutbu'nda zamanın yüzde doksan dokuzundan fazlasında kesintisiz çalışan bir gözlemevine dönüştü.
+
+200
+00:15:06,187 --> 00:15:09,086
+Ve her gün yeni nötrinolar yakalamaya devam ediyor.
+
+201
+00:15:09,886 --> 00:15:16,214
+Bugünlük bu kadar. Kaynakların hepsi açıklamada; özellikle Nobel Komitesi'nin bilimsel raporunu okumanızı
+
+202
+00:15:16,214 --> 00:15:16,756
+öneririm.
+
+203
+00:15:17,106 --> 00:15:20,786
+Sizce büyük ekip projelerinde Nobel tek kişiye verilmeli mi?
+
+204
+00:15:21,136 --> 00:15:25,894
+Yorumlarda tartışalım. BosNRoll kanalına abone olmayı unutmayın, görüşmek üzere.
