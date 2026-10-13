@@ -37,7 +37,7 @@ def prepare_episode(episode: dict) -> dict:
         "beats": beats,
         "format": episode.get("format", "news"),
         "date_label": date_label(episode["date"]),
-        "photo_credits": credits,
+        "photo_credits": {**credits, **episode.get("photo_credits", {})},
     }
 
 

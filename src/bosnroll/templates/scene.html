@@ -216,7 +216,10 @@ body.thumb .bgphoto::after { background: linear-gradient(90deg, rgba(8,8,10,.92)
 <script>
 const LABELS = { kim: "KİM?", ne: "NE?", nerede: "NEREDE?", ne_zaman: "NE ZAMAN?", nasil: "NASIL?", neden: "NEDEN?" };
 const ORDER = ["kim", "ne", "nerede", "ne_zaman", "nasil", "neden"];
-const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+// Büyük harfe çevrilen yerlerde İngilizce marka adları Türkçe kurala göre "İ" almasın (HOMEVIEW, SIRI)
+const EN_WORDS = /\b(HomeView|HomePod|mini|Siri|iPhone|iPad|Wi-Fi|FaceTime|Fitness|Arcade|Disney|Netflix|Prime Video|Music Sing|Sound Glow|Whole Room Audio|Home Collection|Center Stage|AirPods|AirPlay|HomeKit|Dolby Vision|Francis|IceCube|Private Cloud Compute|Secure Exclaves|Snoopy|Edition|Vision)\b/g;
+const escPlain = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const esc = s => escPlain(s).replace(EN_WORDS, '<span lang="en">$1</span>');
 
 function header(ep, b) {
   const doc = ep.format === "doc";
@@ -261,7 +264,7 @@ function render(f) {
   else if (DOC[b.scene]) main = DOC[b.scene](b.data || {}, ep, b);
   document.body.className = "";
   document.getElementById("root").innerHTML =
-    header(ep, b) + `<main>${main}</main><div class="sub">${esc(f.subtitle)}</div>`;
+    header(ep, b) + `<main>${main}</main>${f.subtitle ? `<div class="sub"><span>${esc(f.subtitle)}</span></div>` : ""}`;
 }
 
 // ---------- Belgesel sahneleri (format: "doc") ----------
@@ -277,7 +280,7 @@ const svg = (inner) => `<svg viewBox="0 0 1760 620" preserveAspectRatio="xMidYMi
     <marker id="arrI" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${ICE}"/></marker>
     <marker id="arrM" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${MUTED}"/></marker>
   </defs>${inner}</svg>`;
-const T = (x, y, t, o = {}) => `<text x="${x}" y="${y}" class="lbl" text-anchor="${o.a || "middle"}" style="font-size:${o.s || 30}px;fill:${o.c || "#f4efe9"}">${esc(t)}</text>`;
+const T = (x, y, t, o = {}) => `<text x="${x}" y="${y}" class="lbl" text-anchor="${o.a || "middle"}" style="font-size:${o.s || 30}px;fill:${o.c || "#f4efe9"}">${escPlain(t)}</text>`;
 
 function dotsArc(cx, cy, r, n) { let o = ""; for (let i = 0; i < n; i++) { const a = i / n * Math.PI * 2; o += `<circle cx="${cx + r * Math.cos(a)}" cy="${cy + r * Math.sin(a)}" r="3" fill="rgba(255,255,255,.25)"/>`; } return o; }
 
@@ -386,7 +389,7 @@ const DIAGRAMS = {
     ${T(1110, 380, "TXS 0506+056 · yön farkı 0,06°", { s: 28, c: MUTED })}`),
 };
 
-const credit = (ep, id) => { const c = (ep.photo_credits || {})[id]; return c ? `<div class="credit">Fotoğraf: ${esc(c.author)} · ${esc(c.license)} · Wikimedia Commons</div>` : ""; };
+const credit = (ep, id) => { const c = (ep.photo_credits || {})[id]; return c ? `<div class="credit">${c.line ? esc(c.line) : `Fotoğraf: ${esc(c.author)} · ${esc(c.license)} · Wikimedia Commons`}</div>` : ""; };
 const photoUrl = (ep, id) => `../../../assets/photos/${ep.photo_credits[id].file}`;
 
 function photoInset(d, ep) {

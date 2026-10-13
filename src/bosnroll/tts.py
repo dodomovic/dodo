@@ -144,7 +144,7 @@ def _trim_silence(audio: np.ndarray, threshold: float = 0.01, pad: float = 0.05)
 
 def voice_key(episode: dict, cfg: dict) -> str:
     """Seslendirmeyi etkileyen her şeyin özeti; değişmediyse ses yeniden üretilmez."""
-    tts_cfg = cfg["tts"]
+    tts_cfg = {**cfg["tts"], "engine": episode.get("tts_engine", cfg["tts"]["engine"])}
     h = hashlib.sha256()
     h.update(json.dumps([b["say"] for b in episode["beats"]], ensure_ascii=False).encode())
     h.update(json.dumps({"tts": tts_cfg, "lexicon": cfg.get("lexicon", {})}, sort_keys=True).encode())
@@ -156,7 +156,8 @@ def voice_key(episode: dict, cfg: dict) -> str:
 
 
 def synthesize(episode: dict, cfg: dict, out_wav: Path) -> list[Line]:
-    tts_cfg = cfg["tts"]
+    # Bölüm kendi motorunu seçebilir (ör. "tts_engine": "ema")
+    tts_cfg = {**cfg["tts"], "engine": episode.get("tts_engine", cfg["tts"]["engine"])}
     # VoxCPM2 çok dilli; İngilizce isimleri kendisi doğru okuyor, o yüzden kendi küçük sözlüğünü kullanır.
     lexicon = tts_cfg["voxcpm"].get("lexicon", {}) if tts_cfg["engine"] == "voxcpm" else cfg.get("lexicon", {})
     sentences: list[tuple[int, str]] = [

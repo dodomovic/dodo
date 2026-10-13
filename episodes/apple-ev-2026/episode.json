@@ -1,0 +1,861 @@
+{
+ "date": "2026-10-13",
+ "format": "doc",
+ "title": "APPLE EVE GELDİ: HOMEVIEW, HOMEPOD MINI 2 VE YENİ APPLE TV 4K",
+ "description": "Apple, 13 Ekim 2026'da evin merkezine yerleşmek için üç ürün tanıttı: ekranlı ev merkezi HomeView, HomePod mini 2 ve yeni Apple TV 4K. Hepsini Apple'ın resmi duyurularından 5N1K ile anlatıyor, Türkiye fiyatlarını ve haberlerde anlatılmayanları sorguluyoruz.\n\nTürkiye fiyatları (Apple Türkiye, 13 Ekim 2026):\n- HomePod mini 2: 9.999 TL (satış 30 Ekim)\n- Apple TV 4K (4. nesil): 22.499 TL (satış 13 Kasım)\n- HomeView: Türkiye'de satılmıyor (ABD fiyatı 299 dolar)\n\nKaynaklar:\nApple Newsroom – HomeView: https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/\nApple Newsroom – HomePod mini 2: https://www.apple.com/newsroom/2026/10/apple-announces-the-next-generation-of-homepod-mini/\nApple TV 4K: https://www.apple.com/apple-tv-4k/\nApple Türkiye mağazası: https://www.apple.com/tr/shop/buy-tv/apple-tv-4k · https://www.apple.com/tr/shop/buy-homepod/homepod-mini\n\nGörseller: Apple (Apple Newsroom basın görselleri ve apple.com).\nBu videoda yapay zekâ ile üretilmiş seslendirme kullanılmıştır.\n\n#Apple #HomePodmini #AppleTV",
+ "tags": [
+  "Apple",
+  "HomeView",
+  "HomePod mini 2",
+  "Apple TV 4K",
+  "Siri AI",
+  "Apple Intelligence",
+  "akıllı ev",
+  "Apple yeni ürünler",
+  "HomePod mini 2 Türkiye fiyatı",
+  "Apple TV 4K Türkiye fiyatı",
+  "teknoloji haberleri",
+  "5N1K",
+  "BosNRoll"
+ ],
+ "thumbnail_text": "Apple eve geldi",
+ "chapters": [
+  "5N1K",
+  "HomeView",
+  "HomePod mini 2",
+  "Apple TV 4K",
+  "Ev sineması",
+  "Sorgu",
+  "Karar"
+ ],
+ "photo_credits": {
+  "hv-living": {
+   "file": "apple/hv-living.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-kitchen": {
+   "file": "apple/hv-kitchen.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-dining": {
+   "file": "apple/hv-dining.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-colors": {
+   "file": "apple/hv-colors.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-angles": {
+   "file": "apple/hv-angles.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-touch": {
+   "file": "apple/hv-touch.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-siri": {
+   "file": "apple/hv-siri.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-knowledge": {
+   "file": "apple/hv-knowledge.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-personal": {
+   "file": "apple/hv-personal.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-music": {
+   "file": "apple/hv-music.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-facetime": {
+   "file": "apple/hv-facetime.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-cooking": {
+   "file": "apple/hv-cooking.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-acoustic": {
+   "file": "apple/hv-acoustic.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hv-collection": {
+   "file": "apple/hv-collection.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hp-colors": {
+   "file": "apple/hp-colors.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hp-home": {
+   "file": "apple/hp-home.jpg",
+   "line": "Görsel: Apple"
+  },
+  "hp-mac": {
+   "file": "apple/hp-mac.jpg",
+   "line": "Görsel: Apple"
+  },
+  "tv-theater": {
+   "file": "apple/tv-theater.jpg",
+   "line": "Görsel: Apple"
+  },
+  "tv-hero": {
+   "file": "apple/tv-hero.jpg",
+   "line": "Görsel: Apple"
+  },
+  "tv-hardware": {
+   "file": "apple/tv-hardware.png",
+   "line": "Görsel: Apple"
+  }
+ },
+ "thumbnail": {
+  "photo": "hv-living",
+  "face": "hp-colors",
+  "chip": "APPLE · 13 EKİM 2026",
+  "big": "Apple eve geldi",
+  "sub": "HomeView · HomePod mini 2 · Apple TV 4K",
+  "foot": "Türkiye fiyatları ve haberlerde anlatılmayanlar"
+ },
+ "stories": [
+  {
+   "kicker": "APPLE · AKILLI EV",
+   "headline": "HomeView, HomePod mini 2 ve yeni Apple TV 4K",
+   "sources": [
+    {
+     "name": "Apple Newsroom",
+     "url": "https://www.apple.com/newsroom/"
+    }
+   ],
+   "w": {
+    "kim": "Apple",
+    "ne": "HomeView, HomePod mini 2, Apple TV 4K (4. nesil)",
+    "nerede": "HomePod mini 2 ve Apple TV 4K Türkiye'de; HomeView değil",
+    "ne_zaman": "Duyuru 13 Ekim · satış 30 Ekim ve 13 Kasım",
+    "nasil": "Hepsinin merkezinde yeni Siri AI",
+    "neden": "Apple: \"evin merkezi\" olmak"
+   },
+   "questions": [
+    "Türkçe konuşmayan Siri'ye Türkiye fiyatı?",
+    "\"En gizli asistan\": bunu kim ölçtü?",
+    "Ev sineması kaça mal oluyor?"
+   ],
+   "verdict": {
+    "label": "ÖNCE TÜRKÇE SİRİ",
+    "text": "Donanım güçlü; ama asıl özellik Türkiye'de henüz çalışmıyor."
+   }
+  }
+ ],
+ "beats": [
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-living",
+    "kicker": "Apple · 13 Ekim 2026",
+    "title": "Apple eve geldi"
+   },
+   "say": "Apple bugün oturma odanıza, mutfağınıza ve televizyonunuzun altına yerleşmek için üç yeni ürün tanıttı. Ekranlı bir ev merkezi, yenilenen HomePod mini ve yeni bir Apple TV 4K."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-siri",
+    "layout": "side",
+    "kicker": "Ortak nokta",
+    "title": "Siri AI",
+    "label": "Üç ürünün de merkezinde Apple'ın yepyeni asistanı var"
+   },
+   "say": "Üçünün de ortak bir yıldızı var: Siri AI. Apple'ın sıfırdan yeniden yazdığını söylediği, çok daha yetenekli ve sohbet edebilen yeni Siri. Ama bu hikâyenin Türkiye için önemli bir dipnotu var. Onu da en sona saklıyoruz."
+  },
+  {
+   "scene": "title",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "BosNRoll",
+    "sub": "Bugün: Apple'ın yeni ev ürünleri · resmi kaynaklardan",
+    "logo": true
+   },
+   "say": "Merhaba, BosNRoll kanalına hoş geldiniz. Bugün Apple'ın yeni ev ürünlerini, tamamen Apple'ın kendi resmi duyurularından anlatıyoruz. Önce 5N1K, sonra ürünler tek tek, Türkiye fiyatları ve en sonda her zamanki gibi mantık sorgusu."
+  },
+  {
+   "scene": "w",
+   "story": 0,
+   "chapter": 0,
+   "key": "kim",
+   "q": -1,
+   "say": "Kim? Tabii ki Apple. Duyuruları şirketin pazarlamadan sorumlu yöneticileri yaptı."
+  },
+  {
+   "scene": "w",
+   "story": 0,
+   "chapter": 0,
+   "key": "ne",
+   "q": -1,
+   "say": "Ne? Üç ürün. Yedi inç ekranlı yeni ev merkezi HomeView. Yeni renkleri ve Siri AI desteğiyle HomePod mini 2. Ve dördüncü nesil Apple TV 4K."
+  },
+  {
+   "scene": "w",
+   "story": 0,
+   "chapter": 0,
+   "key": "nerede",
+   "q": -1,
+   "say": "Nerede? HomePod mini 2 ve Apple TV 4K, Apple'ın Türkiye mağazasında ön siparişe açıldı. HomeView ise şimdilik sadece Amerika, İngiltere, Kanada, Avustralya, Hindistan, Yeni Zelanda, Singapur ve Güney Afrika'da satılacak. Türkiye listede yok."
+  },
+  {
+   "scene": "w",
+   "story": 0,
+   "chapter": 0,
+   "key": "ne_zaman",
+   "q": -1,
+   "say": "Ne zaman? Ürünler 13 Ekim'de duyuruldu. HomePod mini 2, 30 Ekim'de; HomeView ve Apple TV 4K ise 13 Kasım'da satışa çıkıyor."
+  },
+  {
+   "scene": "w",
+   "story": 0,
+   "chapter": 0,
+   "key": "nasil",
+   "q": -1,
+   "say": "Nasıl? Üç ürünün merkezinde Siri AI var. Sizi tanıyan, sohbet edebilen ve evinizdeki akıllı cihazları sesinizle yöneten bir asistan."
+  },
+  {
+   "scene": "w",
+   "story": 0,
+   "chapter": 0,
+   "key": "neden",
+   "q": -1,
+   "say": "Neden? Apple'ın kendi ifadesiyle, evin merkezi olmak ve evdeki herkese kişisel bir deneyim sunmak. Yani amaç, telefonunuzdan sonra evinizin de Apple ekosistemine bağlanması."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 1,
+    "title": "HomeView",
+    "sub": "Apple'ın ilk ekranlı ev merkezi"
+   },
+   "say": "Birinci bölüm: HomeView."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-kitchen",
+    "kicker": "HomeView",
+    "title": "7 inç ekran, hoparlör tabanı",
+    "label": "Masaya konur ya da duvara asılır"
+   },
+   "say": "HomeView, yedi inçlik bir ekranın, kubbe şeklinde bir hoparlör tabanına paslanmaz çelik bir menteşeyle bağlandığı bir cihaz. Mutfak tezgâhına, komodine ya da yan sehpaya konabiliyor. Ekran, menteşe sayesinde her yükseklikteki masada rahat görülecek şekilde eğilebiliyor."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "Evdeki herkes tarafından paylaşılmak için tasarlandı, ama her kullanıcıya tamamen kişisel hissettiriyor.",
+    "who": "Greg Joswiak · Apple, Kıdemli Başkan Yardımcısı (çeviri)"
+   },
+   "say": "Apple'ın pazarlamadan sorumlu kıdemli başkan yardımcısı Greg Joswiak'a göre HomeView evdeki herkes tarafından paylaşılıyor ama her kullanıcıya tamamen kişisel hissettiriyor. Yüzünüzü tanıyınca ortak ev ekranından sizin kişisel deneyiminize geçiyor."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-colors",
+    "layout": "side",
+    "kicker": "Renkler",
+    "title": "4 renk",
+    "label": "Gümüş, yıldız ışığı, gül pembesi ve uzay grisi · kablo da aynı renkte"
+   },
+   "say": "Dört renk seçeneği var: gümüş, yıldız ışığı, gül pembesi ve uzay grisi. Kablosu da cihazla aynı renkte geliyor. Ayrıca duvara monte edilen bir model de var. O model, Schneider Home'un tasarladığı üç farklı duvar bağlantısıyla takılıyor."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "500 → 0,3 nit",
+    "label": "Ekran parlaklığı, güneşli odadan karanlık yatak odasına kendini ayarlıyor",
+    "foot": "True Tone · mesafeye göre değişen arayüz"
+   },
+   "say": "Ekran parlaklığı, güneş alan bir odada beş yüz nite kadar çıkıyor, gece komodinde ise 0,3 nite kadar iniyor. Arayüz de size olan mesafeye göre değişiyor: uzaktan bakınca sade bilgiler, yaklaştıkça daha fazla ayrıntı görüyorsunuz."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-personal",
+    "layout": "side",
+    "kicker": "Yüz tanıma",
+    "title": "6 kişiye kadar",
+    "label": "Herkesin kendi ana ekranı; kişisel içerik diğerlerinden gizli"
+   },
+   "say": "HomeView'un en ilginç özelliği yüz tanıma. Evdeki altı kişiye kadar herkesi yüzünden tanıyor ve her birine kendi ana ekranını gösteriyor. Mesajlarınız, takviminiz ya da hatırlatıcılarınız sadece siz ekranın önündeyken görünüyor. Ortak fotoğraf albümleri ve müzik ise herkesle paylaşılabiliyor."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-knowledge",
+    "layout": "side",
+    "kicker": "Siri AI",
+    "title": "Sohbet eden Siri",
+    "label": "Geniş dünya bilgisi · iPhone'daki kişisel bağlamınız"
+   },
+   "say": "HomeView, Siri AI ile geliyor. Apple'a göre yeni Siri çok daha yetenekli ve sohbet edebiliyor. Neredeyse her konuda soru sorabiliyorsunuz. Uyumlu bir iPhone ya da iPad ile eşleşince de mesajlarınızdan ve takviminizden bilgi çekerek size özel cevaplar verebiliyor. HomeView'da başlayan bir sohbete iPhone'da devam etmek de mümkün."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-dining",
+    "kicker": "Saat yüzleri",
+    "title": "Canlı fotoğraf çerçevesi",
+    "label": "Fotoğraflar, Akış ve Snoopy yüzleri"
+   },
+   "say": "Ekranı kişiselleştirmek için farklı saat yüzleri var. Fotoğraflar yüzü, anılarınızı portre derinlik efektiyle canlandırıyor. Ortak bir albüm seçtiğinizde HomeView, uzaktaki aile üyelerinin de fotoğraf ekleyebildiği canlı bir çerçeveye dönüşüyor. Akış adlı yüz hareketinize tepki veren etkileşimli bir sanat eserine dönüşüyor. Ve Snoopy de var: günün saatine, havaya ve spor maçlarına göre değişen animasyonlarla."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-acoustic",
+    "kicker": "Ses",
+    "title": "Odayı dolduran ses",
+    "label": "Ekranda 2 hoparlör · tabanda woofer ve 2 pasif radyatör"
+   },
+   "say": "Ses tarafında, ekranın içinde iki tam aralıklı hoparlör, tabanda ise aşağı bakan bir woofer ve iki pasif radyatör bulunuyor. Uzamsal ses destekleniyor. Birden fazla HomeView, HomePod ya da AirPlay hoparlörüyle evin tamamında aynı anda müzik çalınabiliyor."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-music",
+    "layout": "side",
+    "kicker": "Eğlence",
+    "title": "Müzik ve sözler",
+    "label": "iPhone'u ekrana yaklaştırınca şarkı kaldığı yerden devam eder"
+   },
+   "say": "Apple Music'te hareketli albüm kapakları ve şarkı sözleri gösteriliyor. Podcastler, Apple News ve Apple TV uygulaması da var. Bir de güzel bir ayrıntı: arabada ya da yürüyüşte dinlediğiniz şarkıya, iPhone'unuzu HomeView ekranının önüne tutarak evde kaldığınız yerden devam edebiliyorsunuz."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-facetime",
+    "layout": "side",
+    "kicker": "İletişim",
+    "title": "FaceTime ve interkom",
+    "label": "Center Stage ile odada dolaşırken bile kadrajda kalırsınız"
+   },
+   "say": "FaceTime görüşmelerinde Center Stage özelliği, odada dolaşsanız bile sizi kadrajda tutuyor. İnterkom ile tek bir odaya ya da bütün eve kısa bir sesli mesaj gönderebiliyorsunuz. Bul uygulamasıyla da konumunu paylaşan aile üyelerinizi ya da kayıp iPhone'unuzu görebiliyorsunuz."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-cooking",
+    "layout": "side",
+    "kicker": "Mutfakta",
+    "title": "Adım adım tarif",
+    "label": "İnternetteki tarifleri adım adım talimata çevirir, zamanlayıcıyı sesle yönetir"
+   },
+   "say": "Apple, HomeView'u mutfakta bir yardımcı şef olarak da konumluyor. İnternetteki tarifleri adım adım talimatlara çeviriyor, zamanlayıcıları elinizi kullanmadan, sesinizle yönetmenizi sağlıyor."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-touch",
+    "layout": "side",
+    "kicker": "Akıllı ev",
+    "title": "Ev kontrol paneli",
+    "label": "Kameralar, termostat, ışıklar, kilitler · aynı anda 9 kamera"
+   },
+   "say": "Asıl iddia ise akıllı ev tarafında. HomeView'dan kameraları izleyebiliyor, termostatı ve ışıkları ayarlayabiliyor, kapıları kilitleyebiliyorsunuz. Kamera ekranı aynı anda dokuz kamera görüntüsünü gösterebiliyor. Duman ya da karbon monoksit alarmının sesini duyduğunda da telefonunuza bildirim gönderiyor."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Kamerada akıllı tanıma",
+    "items": [
+     "İnsan, tanıdık yüz, evcil hayvan, paket, araç",
+     "Uçtan uca şifreli",
+     "Kayıtların yazılı özeti"
+    ],
+    "note": "iCloud+ aboneliği gerekiyor"
+   },
+   "say": "Uygun bir iCloud artı aboneliğiyle, uyumlu kameralar insanları, tanıdık yüzleri, evcil hayvanları, paketleri ve araçları uçtan uca şifreli şekilde tanıyabiliyor. Biri kapıya geldiği anda evdekilere bildirim gidiyor. Kamera kayıtları için de yazılı özetler sunuluyor; böylece videoyu izlemeden ne olduğunu anlayabiliyorsunuz."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hv-collection",
+    "kicker": "Apple Home Collection",
+    "title": "Yeni akıllı ev ürünleri",
+    "label": "LG Electronics ve Schneider Electric ile: kamera, termostat, kilit"
+   },
+   "say": "Apple bununla birlikte Apple Home Collection adlı yeni bir ürün ailesi de duyurdu. LG Electronics ve Schneider Electric ile birlikte tasarlanan kameralar, termostatlar ve bir kapı kilidinden oluşuyor. Bu ürünler aralıkta, bir kısmı da 2027'nin başında gelecek."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Gizlilik iddiaları",
+    "items": [
+     "A18 çip ve Secure Exclaves: kamera ve mikrofon verisi ayrı işlenir",
+     "Kişisel içerik sadece yüzünüz tanınınca görünür",
+     "Siri istekleri cihazda ya da Private Cloud Compute ile"
+    ],
+    "note": "Apple'ın açıklamasına göre"
+   },
+   "say": "Gizlilik tarafında Apple, A18 çipindeki korumalı bölümlerin kamera ve mikrofon verisini sistemin geri kalanından ayrı işlediğini söylüyor. Bu verilere ne uygulamaların, ne kullanıcının, ne de Apple'ın erişebildiğini iddia ediyor. Siri istekleri ya cihazda ya da Apple'ın Private Cloud Compute adını verdiği sunucularda işleniyor."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Çevre",
+    "items": [
+     "Taban kasasında %100 geri dönüştürülmüş alüminyum",
+     "Mıknatıslarda %100 geri dönüştürülmüş nadir toprak elementleri",
+     "Elyaf bazlı ambalaj"
+    ],
+    "note": "Apple'ın açıklamasına göre"
+   },
+   "say": "Çevre tarafında Apple, HomeView'un taban kasasında yüzde yüz geri dönüştürülmüş alüminyum, tüm mıknatıslarında yüzde yüz geri dönüştürülmüş nadir toprak elementleri kullanıldığını söylüyor. Ambalajı da tamamen elyaf bazlı."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "299 $",
+    "label": "HomeView ABD fiyatı · duvar modeli de 299 dolar",
+    "foot": "Türkiye'de ve Avrupa Birliği'nde satılmıyor"
+   },
+   "say": "HomeView'un fiyatı Amerika'da 299 dolar, duvar modeli de aynı fiyatta. Ancak Türkiye'de satılmayacak. Avrupa Birliği'nde de satılmıyor, çünkü Apple'a göre Siri AI şu anda Avrupa Birliği'nde kullanılamıyor."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 2,
+    "title": "HomePod mini 2",
+    "sub": "Küçük hoparlör, yeni renkler, Siri AI"
+   },
+   "say": "İkinci bölüm: HomePod mini 2."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hp-colors",
+    "kicker": "HomePod mini 2",
+    "title": "5 yeni renk",
+    "label": "Pembe, yeşil, mavi, beyaz ve gece yarısı"
+   },
+   "say": "HomePod mini 2, pembe, yeşil, mavi, beyaz ve gece yarısı olmak üzere beş renkte geliyor. İçinde Apple'ın S10 çipi var. Apple'a göre bu çip müziği gerçek zamanlı analiz ederek ses seviyesini ve dinamikleri ayarlıyor."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "HomePod mini 2; Siri AI'yi, göz alıcı yeni renkleri ve etkileyici sesi bir araya getiriyor.",
+    "who": "Kaiann Drance · Apple, Başkan Yardımcısı (çeviri)"
+   },
+   "say": "Apple'ın ev ürünleri pazarlamasından sorumlu başkan yardımcısı Kaiann Drance ise HomePod mini 2'yi şöyle özetliyor: Siri AI, yeni renkler ve etkileyici sesi bir araya getiriyor. Tek başına bir odayı dolduruyor, stereo çift ya da çok odalı kurulumda ise ses daha da büyüyor."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Siri AI, ama sonra",
+    "items": [
+     "Siri AI ileride yazılım güncellemesiyle gelecek",
+     "Sadece İngilizce ve belirli ülkelerde",
+     "Evdeki 6 kişiyi sesinden tanır"
+    ]
+   },
+   "say": "HomePod mini 2'nin de en büyük özelliği Siri AI. Ama burada önemli bir ayrıntı var: Siri AI, hoparlör satışa çıktığında değil, ileride bir yazılım güncellemesiyle gelecek. Geldiğinde de sadece İngilizce olacak. Hoparlör, evdeki altı kişiye kadar herkesi sesinden tanıyabiliyor."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "Sound Glow",
+    "label": "Hoparlörün üstü müziğin ritmiyle ışıldıyor",
+    "foot": "Renkler çalan şarkının albüm kapağından seçiliyor"
+   },
+   "say": "Yeni bir görsel özellik de var: Sound Glow. Hoparlörün üst yüzeyi, müziğin bas ve tizlerine göre ışıldıyor. Renkler, çalan şarkının albüm kapağından seçiliyor. Yağmur gibi bir ses manzarası seçtiğinizde de ona uygun animasyonlar oynuyor."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hp-mac",
+    "layout": "side",
+    "kicker": "Yeni",
+    "title": "Mac hoparlörü",
+    "label": "Wi-Fi 6E destekli Mac'lerle film, oyun ve görüntülü görüşme"
+   },
+   "say": "HomePod mini artık bir Mac hoparlörü olarak da kullanılabiliyor. Wi-Fi 6E destekli Mac'lerde filmler, oyunlar ve görüntülü görüşmeler için masaüstü hoparlörü işlevi görüyor."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "hp-home",
+    "layout": "side",
+    "kicker": "Akıllı ev",
+    "title": "Ev merkezi",
+    "label": "Sesle kilit, panjur, termostat · duman alarmını duyunca bildirim"
+   },
+   "say": "HomePod mini 2 de bir akıllı ev merkezi. Sesinizle kapıyı kilitleyebilir, panjurları indirebilir, termostatı ayarlayabilirsiniz. Duman ya da karbon monoksit alarmının sesini duyduğunda telefonunuza bildirim gönderiyor."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Kapıda kim var?",
+    "items": [
+     "Görüntülü kapı ziliyle yüz tanıma",
+     "Kapıdakini sesli duyurur",
+     "Uzaktan evi dinleyip konuşma"
+    ]
+   },
+   "say": "HomePod mini 2, Apple Home Collection'daki görüntülü kapı zilleri ve kameralarla da çalışıyor ve yüz tanıma sayesinde kapıda kimin olduğunu sesli olarak söylüyor. Ev uygulaması üzerinden de HomePod mini aracılığıyla evi dinleyip içerideki biriyle konuşabiliyorsunuz."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "9.999 TL",
+    "label": "HomePod mini 2 Türkiye fiyatı · 30 Ekim'de satışta",
+    "foot": "ABD fiyatı: 149 dolar · Apple Türkiye mağazası, 13 Ekim 2026"
+   },
+   "say": "HomePod mini 2'nin Türkiye fiyatı 9.999 lira. Amerika'daki fiyatı ise 149 dolar. Ön siparişler başladı, satışlar 30 Ekim'de."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 3,
+    "title": "Apple TV 4K",
+    "sub": "4. nesil · A19 çip · Siri AI"
+   },
+   "say": "Üçüncü bölüm: yeni Apple TV 4K."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "tv-hero",
+    "kicker": "Apple TV 4K · 4. nesil",
+    "title": "A19 çip",
+    "label": "Önceki nesle göre işlemcide %50'ye, grafikte 2 kata kadar hızlı"
+   },
+   "say": "Dördüncü nesil Apple TV 4K, iPhone'lardan tanıdığımız A19 çipiyle geliyor. Apple'a göre önceki nesle kıyasla işlemci performansı yüzde elliye kadar, grafik performansı ise iki kata kadar daha yüksek."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Neler yeni?",
+    "items": [
+     "3 dahili mikrofon: kumandaya uzanmadan Siri",
+     "Siri AI: ne izleyeceğinizi bulmanıza yardım",
+     "128 GB depolama",
+     "Dolby Vision, HDR10+ ve Dolby Atmos"
+    ]
+   },
+   "say": "En büyük yenilik, cihazın içine yerleştirilen üç mikrofon. Artık kumandaya uzanmadan, sadece sesinizle Siri'yi kullanabiliyorsunuz. Siri AI, aile için bir aksiyon filmi bulmak ya da bir arkadaşınızın önerdiği diziyi açmak gibi isteklere cevap verebiliyor. Cihazda 128 gigabayt depolama var ve Dolby Vision, HDR10 artı ile Dolby Atmos destekleniyor."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Televizyondan fazlası",
+    "items": [
+     "Apple TV, Netflix, Disney+, Prime Video",
+     "Fitness+ ve Apple Arcade",
+     "Apple Music Sing: iPhone mikrofon olur",
+     "FaceTime büyük ekranda"
+    ]
+   },
+   "say": "Apple TV 4K'da Apple TV uygulamasının yanı sıra Netflix, Disney artı, Prime Video gibi servisler de var. Apple Fitness artı ile dört ka antrenmanlar, Apple Arcade ile oyunlar oynayabiliyorsunuz; PlayStation ve Xbox kumandaları da destekleniyor. Apple Music Sing ile iPhone'unuzu mikrofon gibi kullanıp karaoke yapabiliyorsunuz. FaceTime görüşmeleri de iPhone kamerası üzerinden televizyona taşınabiliyor."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Küçük ama kullanışlı",
+    "items": [
+     "Kayıp kumandayı Bul ile bulma",
+     "Aynı anda iki AirPods, ayrı ses seviyesi"
+    ]
+   },
+   "say": "Siri kumandası kaybolursa Bul uygulamasıyla ya da Siri'ye kumandayı bul diyerek ses çıkarmasını sağlayabiliyorsunuz. İki ayrı AirPods'u aynı anda bağlayıp, ayrı ses seviyeleriyle birlikte film izlemek de mümkün."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "tv-hardware",
+    "layout": "side",
+    "kicker": "Ev merkezi",
+    "title": "Akıllı ev ve Matter",
+    "label": "HomeKit ve Matter aksesuarlarını uzaktan yönetir"
+   },
+   "say": "Apple TV 4K de bir akıllı ev merkezi. HomeKit ve Matter uyumlu aksesuarları evden uzaktayken bile yönetmenizi sağlıyor. Ekranda konuşulanları öne çıkaran bir diyalog geliştirme özelliği de var. Böylece fısıltılar bile net duyuluyor."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "22.499 TL",
+    "label": "Apple TV 4K Türkiye fiyatı · 13 Kasım'da satışta",
+    "foot": "Apple Türkiye mağazası, 13 Ekim 2026"
+   },
+   "say": "Yeni Apple TV 4K'nın Türkiye fiyatı 22.499 lira. Satışlar 13 Kasım'da başlıyor."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 4,
+    "title": "Ev sineması",
+    "sub": "4 HomePod mini + Apple TV 4K"
+   },
+   "say": "Dördüncü bölüm: ev sineması."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "tv-theater",
+    "kicker": "İlk kez",
+    "title": "4 hoparlörlü surround ses",
+    "label": "Apple TV 4K hoparlörlerin yerini algılayıp sesi odaya göre ayarlar"
+   },
+   "say": "Bu duyuruların birleştiği yer ev sineması. İlk kez, dört HomePod mini 2 ile yeni Apple TV 4K bir araya gelip dört hoparlörlü bir surround ses sistemi oluşturabiliyor. Apple TV 4K, her hoparlörün odadaki yerini algılayıp ses zamanlamasını ve seviyesini otomatik olarak ayarlıyor. Apple bunu, şimdiye kadarki en etkileyici ev sineması deneyimi olarak tanıtıyor."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "62.495 TL",
+    "label": "4 HomePod mini 2 + 1 Apple TV 4K, Türkiye fiyatlarıyla",
+    "foot": "4 × 9.999 TL + 22.499 TL · televizyon hariç"
+   },
+   "say": "Peki bu kurulum Türkiye'de kaça mal oluyor? Dört HomePod mini 2, kırk bin liraya yakın. Üstüne Apple TV 4K eklenince toplam 62.495 lira. Ve bu hesaba televizyon dahil değil."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Küçük yazılar",
+    "items": [
+     "Hoparlörler ön ve arka çiftler halinde olmalı",
+     "HomePod mini 2 ya da HomePod 2. nesil",
+     "Apple TV 4K'nın 4. nesil olması şart"
+    ]
+   },
+   "say": "Apple'ın dipnotlarına göre bunun için hoparlörlerin ön ve arka olarak eşleşmiş çiftler halinde olması gerekiyor. Ya dört HomePod mini 2, ya da dört ikinci nesil HomePod. Apple TV 4K'nın da yeni, dördüncü nesil olması şart. Yani eski Apple TV'niz varsa bu özelliği kullanamıyorsunuz."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Whole Room Audio",
+    "items": [
+     "Sesi 4 hoparlöre eşit dağıtır",
+     "Partiler ve maç günleri için",
+     "Odanın her yerinde net ses"
+    ]
+   },
+   "say": "Bir de Whole Room Audio, yani tüm oda sesi özelliği var. Bu mod, sesi dört HomePod hoparlöre eşit olarak dağıtıyor. Apple bunu partiler ve maç günleri için öneriyor; odanın neresinde olursanız olun müzik ya da maç anlatımı net duyuluyor."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 5,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 5,
+    "title": "Mantık sorgusu",
+    "sub": "Duyurularda ne anlatılmıyor?"
+   },
+   "say": "Şimdi gelelim kanalımızın imzasına: mantık sorgusu."
+  },
+  {
+   "scene": "sorgu",
+   "story": 0,
+   "chapter": 5,
+   "key": "",
+   "q": 0,
+   "say": "Birinci soru: Türkçe konuşmayan bir Siri'ye Türkiye fiyatı mı ödüyoruz? Üç ürünün de tanıtımında yıldız özellik Siri AI. Ama Apple'ın kendi dipnotlarına göre Siri AI şimdilik sadece İngilizce ve sadece belirli ülkelerde çalışıyor. HomePod mini 2'de ise satışta bile yok, ileride gelecek. Yani Türkiye'de 9.999 liralık bir HomePod mini 2 alan biri, tanıtımın en büyük özelliğini Türkçe kullanamayacak. Türkçe desteğin ne zaman geleceğine dair de bir tarih verilmemiş. Üstelik kişisel bilgilerinizi kullanan Siri özellikleri için, Apple Intelligence destekli bir iPhone ya da iPad'iniz olması gerekiyor. Yani bu ürünlerin vaat ettiği deneyim, aslında yeni bir iPhone'u da varsayıyor."
+  },
+  {
+   "scene": "sorgu",
+   "story": 0,
+   "chapter": 5,
+   "key": "",
+   "q": 1,
+   "say": "İkinci soru: dünyanın en gizli dijital asistanı. Bu cümle iki duyuruda da geçiyor. Peki bunu kim ölçtü? Apple'ın kendisi. Bağımsız bir denetimden söz edilmiyor. Bir de dipnotlarda küçük bir ayrıntı var: sunucuda çalışan bazı yapay zekâ özelliklerinde günlük kullanım sınırı olacağı ve daha fazla kullanımın ileride ücretli sunulacağı yazıyor. Yani bugün ücretsiz olan Siri'nin bazı yetenekleri, ileride paralı olabilir."
+  },
+  {
+   "scene": "sorgu",
+   "story": 0,
+   "chapter": 5,
+   "key": "",
+   "q": 2,
+   "say": "Üçüncü soru: ev sineması kaça mal oluyor? Apple dört hoparlörlü surround sistemi en etkileyici deneyim olarak tanıtıyor. Ama Türkiye fiyatlarıyla bu kurulum 62.495 lira, üstelik televizyon hariç. Bu parayla bir soundbar ve iyi bir televizyon almak da mümkün. Yani bu sistem, zaten Apple ekosisteminde olanlar için mantıklı. Sıfırdan başlayan biri için ise pahalı bir giriş kapısı."
+  },
+  {
+   "scene": "verdict",
+   "story": 0,
+   "chapter": 6,
+   "key": "",
+   "q": -1,
+   "say": "Kararımız: önce Türkçe Siri. Donanım tarafında güçlü ve şık ürünler var. Ama hepsini birbirine bağlayan asıl özellik, yani Siri AI, Türkiye'de henüz çalışmıyor. Türkçe desteği gelene kadar acele etmeyin."
+  },
+  {
+   "scene": "outro",
+   "story": -1,
+   "chapter": 6,
+   "key": "",
+   "q": -1,
+   "say": "Bugünlük bu kadar. Fiyatlar ve kaynakların hepsi açıklamada. Sizce Türkçe Siri olmadan bu ürünler alınır mı? Yorumlarda yazın. BosNRoll kanalına abone olmayı unutmayın, görüşmek üzere."
+  }
+ ],
+ "tts_engine": "ema"
+}
