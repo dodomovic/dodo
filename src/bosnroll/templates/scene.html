@@ -429,6 +429,21 @@ const DIAGRAMS = {
       <line x1="120" y1="${base}" x2="1740" y2="${base}" stroke="rgba(255,255,255,.4)" stroke-width="3"/>${cols}`);
   },
 
+  // Yatay çubuk grafik. d.items: [{label, v}], d.unit, d.ref: {label, v} (kesikli referans çizgisi)
+  bars: (d) => {
+    const items = d.items || [], max = Math.max(...items.map(i => i.v), d.ref ? d.ref.v : 0) * 1.08;
+    const x0 = 430, W = 1180, rh = Math.min(84, 560 / items.length);
+    const rows = items.map((it, i) => {
+      const y = 40 + i * rh, w = it.v / max * W, hot = i === 0;
+      return `${T(x0 - 24, y + rh * .62, it.label, { a: "end", s: Math.min(32, rh * .45), c: hot ? HOT : "#f4efe9" })}
+        <rect x="${x0}" y="${y + rh * .15}" width="${w}" height="${rh * .62}" rx="8" fill="${hot ? NEON : "rgba(127,214,255,.55)"}" ${hot ? 'filter="url(#glow)"' : ""}/>
+        ${T(x0 + w + 16, y + rh * .62, `${it.v.toLocaleString("tr-TR")} ${d.unit || ""}`, { a: "start", s: Math.min(30, rh * .42), c: hot ? HOT : "#f4efe9" })}`;
+    }).join("");
+    const ref = d.ref ? (() => { const x = x0 + d.ref.v / max * W; return `<line x1="${x}" y1="20" x2="${x}" y2="${50 + items.length * rh}" stroke="#ffcc00" stroke-width="4" stroke-dasharray="12 10"/>
+      ${T(x + 12, 34, d.ref.label, { a: "start", s: 26, c: "#ffcc00" })}`; })() : "";
+    return svg(rows + ref);
+  },
+
   // Kuvvetli sağanağın oluşumu: ılık deniz + nem + yukarıda soğuk hava → yükselme → dev bulut
   storm: (d) => {
     const hl = d.highlight || "all", dim = k => hl !== "all" && hl !== k ? 'class="dim"' : "";
@@ -455,7 +470,8 @@ const DIAGRAMS = {
       ${T(x + 410, 80, title, { s: 34, c: HOT })}
       <rect x="${x + 20}" y="400" width="780" height="170" rx="12" fill="${ground}"/>
       <line x1="${x + 160}" y1="390" x2="${x + 160}" y2="160" stroke="${MUTED}" stroke-width="5" marker-end="url(#arrM)"/>${T(x + 160, 140, `Buharlaşma %${et}`, { s: 28 })}
-      <line x1="${x + 330}" y1="390" x2="${x + 780}" y2="390" stroke="${ICE}" stroke-width="${4 + ro / 4}" marker-end="url(#arrI)" filter="url(#glow)"/>${T(x + 560, 360, `Yüzey akışı %${ro}`, { s: 32, c: ICE })}
+      <line x1="${x + 330}" y1="380" x2="${x + 760}" y2="380" stroke="${ICE}" stroke-width="${Math.min(4 + ro / 6, 12)}" filter="url(#glow)"/>
+      <path d="M${x + 760},${380 - 10 - ro / 4} L${x + 800},380 L${x + 760},${380 + 10 + ro / 4} Z" fill="${ICE}"/>${T(x + 540, 340, `Yüzey akışı %${ro}`, { s: 32, c: ICE })}
       <line x1="${x + 330}" y1="420" x2="${x + 330}" y2="480" stroke="${HOT}" stroke-width="5" marker-end="url(#arr)"/>${T(x + 350, 470, `Sığ sızma %${sh}`, { a: "start", s: 26 })}
       <line x1="${x + 600}" y1="420" x2="${x + 600}" y2="540" stroke="${HOT}" stroke-width="5" marker-end="url(#arr)"/>${T(x + 620, 535, `Derin sızma %${dp}`, { a: "start", s: 26 })}`;
     return svg(panel(20, "Doğal zemin", 40, 10, 25, 25, "#2d3a22") + panel(920, "Şehir · %75–100 beton/asfalt", 30, 55, 10, 5, "#3a3a42"));

@@ -147,7 +147,8 @@ def voice_key(episode: dict, cfg: dict) -> str:
     tts_cfg = {**cfg["tts"], "engine": episode.get("tts_engine", cfg["tts"]["engine"])}
     h = hashlib.sha256()
     h.update(json.dumps([b["say"] for b in episode["beats"]], ensure_ascii=False).encode())
-    h.update(json.dumps({"tts": tts_cfg, "lexicon": cfg.get("lexicon", {})}, sort_keys=True).encode())
+    h.update(json.dumps({"tts": tts_cfg, "lexicon": cfg.get("lexicon", {}), "ep_lexicon": episode.get("lexicon", {}),
+                         "spell": episode.get("spell_numbers", False)}, sort_keys=True).encode())
     if tts_cfg["engine"] == "voxcpm":
         for k in ("reference_wav", "reference_text"):
             h.update((ROOT / tts_cfg["voxcpm"][k]).read_bytes())
@@ -163,8 +164,10 @@ def synthesize(episode: dict, cfg: dict, out_wav: Path) -> list[Line]:
     sentences: list[tuple[int, str]] = [
         (i, s) for i, beat in enumerate(episode["beats"]) for s in split_sentences(beat["say"])
     ]
+    # Bölüme özel okunuşlar (ör. kısaltmalar) genel sözlüğün üstüne yazılır
+    lexicon = {**lexicon, **episode.get("lexicon", {})}
     texts = [apply_lexicon(s, lexicon) for _, s in sentences]
-    if tts_cfg["engine"] == "voxcpm":
+    if tts_cfg["engine"] == "voxcpm" or episode.get("spell_numbers"):
         texts = [spell_numbers(t) for t in texts]
     if tts_cfg["engine"] == "voxcpm":
         audios = _voxcpm(texts, tts_cfg)

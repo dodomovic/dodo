@@ -1,0 +1,1234 @@
+{
+ "date": "2026-10-15",
+ "format": "doc",
+ "tts_engine": "ema",
+ "spell_numbers": true,
+ "lexicon": {
+  "İBB": "i be be",
+  "AKOM": "akom",
+  "MGM": "me ge me",
+  "AFAD": "afad",
+  "İTÜ": "i te ü",
+  "NASA": "nasa",
+  "EPA": "e pe a",
+  "USGS": "yu es ci es",
+  "MODIS": "modis",
+  "TAMP": "tamp",
+  "AA": "a a",
+  "km": "kilometre",
+  "Clausius-Clapeyron": "Klauzius Klapeyron"
+ },
+ "title": "İSTANBUL'DA 84 YILIN REKOR YAĞIŞI: SEL NEDEN OLDU? BİLİMSEL AÇIKLAMA",
+ "thumbnail_text": "İstanbul'da rekor yağış",
+ "chapters": [
+  "Ne oldu?",
+  "Saat saat",
+  "Rakamlar",
+  "Neden bu kadar yağdı?",
+  "Neden sel oldu?",
+  "Uzmanlar ne diyor?",
+  "Şimdi ne olacak?"
+ ],
+ "stories": [
+  {
+   "kicker": "İSTANBUL · SEL",
+   "headline": "İstanbul'da rekor yağış ve sel",
+   "sources": [
+    {
+     "name": "İstanbul Valiliği",
+     "url": "https://www.istanbul.gov.tr/basin-aciklamasi-2026-69"
+    },
+    {
+     "name": "Meteoroloji Genel Müdürlüğü",
+     "url": "https://mgm.gov.tr/tahmin/uyari-goster.aspx?sN=26010509y"
+    },
+    {
+     "name": "İBB AKOM",
+     "url": "https://akom.ibb.istanbul/haberler/akomda-gece-boyu-mesai/"
+    }
+   ]
+  }
+ ],
+ "photo_credits": {
+  "nasa-terra-1013": {
+   "file": "sel/nasa-terra-1013.jpg",
+   "line": "Görsel: NASA Worldview / GIBS · MODIS Terra · 13.10.2026"
+  },
+  "nasa-terra-1014": {
+   "file": "sel/nasa-terra-1014.jpg",
+   "line": "Görsel: NASA Worldview / GIBS · MODIS Terra · 14.10.2026"
+  },
+  "nasa-viirs-1014": {
+   "file": "sel/nasa-viirs-1014.jpg",
+   "line": "Görsel: NASA Worldview / GIBS · VIIRS SNPP · 14.10.2026"
+  },
+  "nasa-terra-1015": {
+   "file": "sel/nasa-terra-1015.jpg",
+   "line": "Görsel: NASA Worldview / GIBS · MODIS Terra · 15.10.2026"
+  },
+  "nasa-marmara-1010": {
+   "file": "sel/nasa-marmara-1010.jpg",
+   "line": "Görsel: NASA Worldview / GIBS · MODIS Terra · 10.10.2026"
+  },
+  "nasa-marmara-1014": {
+   "file": "sel/nasa-marmara-1014.jpg",
+   "line": "Görsel: NASA Worldview / GIBS · MODIS Terra · 14.10.2026"
+  },
+  "nasa-marmara-1015": {
+   "file": "sel/nasa-marmara-1015.jpg",
+   "line": "Görsel: NASA Worldview / GIBS · MODIS Terra · 15.10.2026"
+  },
+  "nasa-sst-1013": {
+   "file": "sel/nasa-sst-1013.jpg",
+   "line": "Görsel: NASA Worldview / GIBS · GHRSST MUR deniz yüzeyi sıcaklığı · 13.10.2026"
+  },
+  "nasa-2009": {
+   "file": "sel/nasa-2009.png",
+   "line": "Görsel: NASA Earth Observatory · Eylül 2009 İstanbul yağış haritası (arşiv)"
+  },
+  "kagithane-deresi": {
+   "file": "sel/kagithane-deresi.jpg",
+   "line": "Fotoğraf: Allen Turner · CC BY-SA 3.0 · Wikimedia Commons · olay öncesi arşiv"
+  },
+  "sadabad-deresi": {
+   "file": "sel/sadabad-deresi.jpg",
+   "line": "Fotoğraf: Allen Turner · CC BY-SA 3.0 · Wikimedia Commons · olay öncesi arşiv"
+  },
+  "sariyer-sahil": {
+   "file": "sel/sariyer-sahil.jpg",
+   "line": "Fotoğraf: Hamdigumus · CC0 · Wikimedia Commons · olay öncesi arşiv"
+  },
+  "kagithane-tarihi": {
+   "file": "sel/kagithane-tarihi.jpg",
+   "line": "Fotoğraf: Bain News Service · Kamu malı · Library of Congress"
+  },
+  "doc-mgm509": {
+   "file": "sel/doc-mgm509.jpg",
+   "line": "Belge: Meteoroloji Genel Müdürlüğü · Uyarı No 509 · 13.10.2026 14.15"
+  },
+  "doc-mgm518": {
+   "file": "sel/doc-mgm518.jpg",
+   "line": "Belge: Meteoroloji Genel Müdürlüğü · Uyarı No 518 · 15.10.2026"
+  },
+  "doc-valilik69a": {
+   "file": "sel/doc-valilik69a.jpg",
+   "line": "Belge: İstanbul Valiliği · Basın Açıklaması 2026-69 · 15.10.2026"
+  },
+  "doc-valilik69b": {
+   "file": "sel/doc-valilik69b.jpg",
+   "line": "Belge: İstanbul Valiliği · Basın Açıklaması 2026-69 · 15.10.2026"
+  }
+ },
+ "beats": [
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "nasa-terra-1014",
+    "kicker": "İstanbul · 14 Ekim 2026",
+    "value": "1942'den beri",
+    "title": "en yüksek yağış"
+   },
+   "say": "İstanbul, Meteoroloji'nin ölçümlere başladığı 1942 yılından bu yana kaydedilen en yüksek yağışı yaşadı."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "261 kg/m²",
+    "label": "Beykoz'da metrekareye düşen yağış",
+    "foot": "İstanbul Valiliği, 15.10.2026 · İBB verilerine göre 277 kg/m²'ye kadar"
+   },
+   "say": "Valilik'in açıklamasına göre Beykoz'da metrekareye 261 kilogram yağış düştü. Bu, İstanbul'da Ekim ayının tamamında normalde düşen yağışın yaklaşık dört katı."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "3 can kaybı · 4 kayıp",
+    "label": "15 Ekim 2026 itibarıyla resmi bilanço",
+    "foot": "İstanbul Valiliği, Basın Açıklaması 2026-69"
+   },
+   "say": "Ve en acı tarafı: Valilik'in 15 Ekim tarihli açıklamasına göre 3 kişi hayatını kaybetti, 4 kişi ise hâlâ aranıyor."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "storm",
+    "caption": "Bu videoda: ne oldu, saat saat neler yaşandı ve bilimsel olarak neden oldu"
+   },
+   "say": "Bu videoda yalnızca resmi açıklamalara dayanarak ne olduğunu anlatacağız. Sonra da en önemli soruya geçeceğiz: Bu kadar yağmur neden düştü ve neden bu kadar büyük bir sele dönüştü?"
+  },
+  {
+   "scene": "title",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "BosNRoll",
+    "sub": "İstanbul seli · resmi kaynaklar ve bilimsel açıklama",
+    "logo": true
+   },
+   "say": "BosNRoll kanalına hoş geldiniz. Önce hayatını kaybedenlerin yakınlarına başsağlığı, yaralılara acil şifalar diliyoruz."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 1,
+    "title": "Ne oldu?",
+    "sub": "Resmi açıklamalarla olayın özeti"
+   },
+   "say": "Birinci bölüm: Ne oldu?"
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "doc-mgm509",
+    "layout": "side",
+    "kicker": "13 Ekim · 14.15",
+    "title": "Uyarı No 509",
+    "label": "Meteoroloji: İstanbul'da kuvvetli, yer yer çok kuvvetli yağış"
+   },
+   "say": "Her şey 13 Ekim Salı günü öğleden sonra başladı. Meteoroloji Genel Müdürlüğü, 509 numaralı uyarısını yayımladı."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "14.10.2026 Çarşamba günü sabah saatlerinden itibaren İstanbul'da kuvvetli (21-50 kg/m²), Avrupa Yakası'nın batısında yer yer çok kuvvetli (51-75 kg/m²)…",
+    "who": "Meteoroloji Genel Müdürlüğü · Uyarı No 509"
+   },
+   "say": "Uyarıya göre Çarşamba sabahından itibaren İstanbul'da metrekareye 21 ile 50 kilogram, Avrupa Yakası'nın batısında yer yer 75 kilograma kadar yağış bekleniyordu. Uyarıda sel, su baskını ve yıldırım riski de açıkça yazıyordu."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Uyarılarda beklenen",
+    "items": [
+     "MGM: 21–50 kg/m², yer yer 75",
+     "AKOM: kuzey ve orta ilçelerde 40–70 kg/m²",
+     "Rüzgâr: 50–80 km/s"
+    ],
+    "note": "Gerçekleşen: Beykoz'da 261 kg/m² (Valilik)"
+   },
+   "say": "İstanbul Büyükşehir Belediyesi'nin afet koordinasyon merkezi AKOM da kuzey ve orta ilçeler için 40 ile 70 kilogram arasında yağış öngörmüştü. Gerçekleşen yağış ise bazı istasyonlarda bu tahminlerin çok üzerine çıktı."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "kagithane-deresi",
+    "kicker": "Etkilenen bölgeler",
+    "title": "Avrupa Yakası'nın kuzeyi ve ortası",
+    "label": "Sarıyer · Eyüpsultan · Kağıthane · Beykoz"
+   },
+   "say": "En yoğun yağış Avrupa Yakası'nın kuzeyinde ve ortasında, Boğaz çevresinde ve Beykoz'da görüldü. Göktürk, Kemerburgaz ve Ayazağa'da dereler yükseldi."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "2.722",
+    "label": "kişi botlar ve farklı araçlarla kurtarıldı",
+    "foot": "İstanbul Valiliği, 15.10.2026 · İçişleri Bakanı'nın açıklamasında: 2.727 kişi tahliye edildi"
+   },
+   "say": "Valilik'e göre il genelinde 2 bin 722 kişi botlar ve farklı araçlarla kurtarıldı. İçişleri Bakanı Mustafa Çiftçi ise aynı gün yaptığı açıklamada 2 bin 727 kişinin tahliye edildiğini söyledi."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "46.597",
+    "label": "personel sahada",
+    "foot": "8.597 arama kurtarma + 38.000 destek personeli · İstanbul Valiliği"
+   },
+   "say": "Çalışmalarda 8 bin 597'si arama kurtarma personeli olmak üzere toplam 46 bin 597 kişi görev aldı."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "doc-valilik69a",
+    "layout": "side",
+    "kicker": "15 Ekim 2026",
+    "title": "Valilik açıklaması",
+    "label": "Basın Açıklaması 2026-69"
+   },
+   "say": "Türkiye Afet Müdahale Planı kapsamında 19 afet çalışma grubu kuruldu. Sahada AFAD, İstanbul Büyükşehir Belediyesi, ilçe belediyeleri, Birinci Ordu, Emniyet, Jandarma, Sahil Güvenlik ve Kızılay ekipleri birlikte çalıştı."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Can kayıpları · resmi açıklamalar",
+    "items": [
+     "Fatih: elektrik akımına kapılan bir çocuk · Valilik soruşturma başlattı",
+     "Sarıyer: suya düşen bir vatandaş · İBB açıklaması",
+     "Kağıthane: Sadabat Parkı yanında bir ceset · kimlik tespiti sürüyor"
+    ],
+    "note": "Kayıp 4 kişi için arama çalışmaları sürüyor"
+   },
+   "say": "Can kayıplarına ilişkin resmi bilgiler şöyle. Valilik'e göre Fatih'te bir çocuk, su birikintisine girdiğinde elektrik akımına kapılarak hayatını kaybetti ve olayla ilgili soruşturma başlatıldı. İstanbul Büyükşehir Belediyesi'nin açıklamasına göre Sarıyer'de bir vatandaş suya düşerek hayatını kaybetti. Valilik, Kağıthane'de Sadabat Parkı yanında bir erkek cesedi bulunduğunu, kimlik tespit işlemlerinin sürdüğünü açıkladı."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "doc-valilik69b",
+    "layout": "side",
+    "kicker": "Resmi bilanço",
+    "title": "3 can kaybı · 4 kayıp",
+    "label": "\"Kayıp şahıs sayısı an itibariyle 4'tür\""
+   },
+   "say": "Valilik'in ifadesiyle yağış nedeniyle hayatını kaybedenlerin sayısı 3'e yükseldi, kayıp kişi sayısı ise an itibarıyla 4. Bu rakamlar arama çalışmaları sürdükçe değişebilir. Biz de yalnızca resmi açıklamaları aktarıyoruz."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Alınan kararlar",
+    "items": [
+     "Okullar 15 ve 16 Ekim'de tatil",
+     "Motosiklet ve iki tekerlekli araçlara trafik yasağı",
+     "39 ilçede barınma ihtiyacı olanlar güvenli alanlara yerleştirildi",
+     "Hasar tespit komisyonları çalışmaya başladı"
+    ],
+    "note": "Kaynak: İstanbul Valiliği, 2026-66 ve 2026-69"
+   },
+   "say": "Valilik, okullarda yüz yüze eğitime 15 ve 16 Ekim'de ara verdi. Motosiklet ve iki tekerlekli araçların trafiğe çıkması ikinci bir talimata kadar yasaklandı. 39 ilçede barınma ihtiyacı olan vatandaşlar güvenli alanlara yerleştirildi. Zararların tespiti için komisyonlar da çalışmaya başladı."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "51 sefer",
+    "label": "İstanbul Havalimanı'nda alternatif havalimanlarına yönlendirildi",
+    "foot": "19 sefer iptal · 16 yol kapandı, ana arter yok · İstanbul Valiliği"
+   },
+   "say": "Ulaşım da etkilendi. İstanbul Havalimanı'nda 51 uçuş alternatif havalimanlarına yönlendirildi, 19 sefer iptal edildi. Valilik'e göre 16 yol trafiğe kapandı, ancak bunların arasında ana arter yoktu."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 2,
+    "title": "Saat saat",
+    "sub": "Uyarıdan arama kurtarmaya"
+   },
+   "say": "İkinci bölüm: Saat saat neler yaşandı? Birazdan uydu görüntülerinde bu sistemin İstanbul'u nasıl kapladığını da göreceğiz."
+  },
+  {
+   "scene": "timeline",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "active": 0,
+    "items": [
+     {
+      "year": "13 Ekim",
+      "text": "MGM uyarısı · 14.15"
+     },
+     {
+      "year": "13 Ekim gece",
+      "text": "Yağış başladı"
+     },
+     {
+      "year": "14 Ekim",
+      "text": "En yoğun yağış"
+     },
+     {
+      "year": "14 Ekim akşam",
+      "text": "Kurtarma çalışmaları"
+     },
+     {
+      "year": "15 Ekim",
+      "text": "Resmi bilanço · yeni uyarı"
+     }
+    ]
+   },
+   "say": "13 Ekim saat 14 15'te Meteoroloji uyarısını yayımladı. Bir saat sonra da İstanbul ve Marmara için saatte 80 kilometreye varan rüzgâr uyarısı geldi."
+  },
+  {
+   "scene": "timeline",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "active": 1
+   },
+   "say": "AKOM'a göre yağış 13 Ekim gecesi saat 22 civarında başladı ve gece boyunca şiddetlendi."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "nasa-terra-1014",
+    "kicker": "NASA uydu görüntüsü · 14 Ekim",
+    "title": "Balkanlar'dan Anadolu'ya bulut örtüsü",
+    "label": "MODIS Terra · gerçek renk"
+   },
+   "say": "Bu, NASA'nın Terra uydusunun 14 Ekim'de çektiği görüntü. Balkanlar'dan Marmara'ya ve Karadeniz'e uzanan dev bir bulut örtüsü bölgeyi tamamen kaplamış durumda."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "nasa-marmara-1010",
+    "kicker": "Önce · 10 Ekim",
+    "title": "Marmara ve İstanbul",
+    "label": "Açık havada İstanbul ve Boğaz"
+   },
+   "say": "Karşılaştırmak için, dört gün önce, 10 Ekim'de aynı bölge böyle görünüyordu."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "nasa-marmara-1014",
+    "kicker": "Sonra · 14 Ekim",
+    "title": "İstanbul bulutların altında",
+    "label": "Kalın bulut katmanı · şiddetli sağanak"
+   },
+   "say": "14 Ekim'de ise İstanbul'un tamamı kalın bir bulut katmanının altında. Şehir uydudan hiç görünmüyor."
+  },
+  {
+   "scene": "timeline",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "active": 2
+   },
+   "say": "14 Ekim boyunca en yoğun yağış Avrupa Yakası'nın kuzeyinde ve ortasında, Boğaz çevresinde yaşandı. Dereler yükseldi, bazı vatandaşlar evlerde, iş yerlerinde ve okullarda mahsur kaldı."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "2.518 ihbar",
+    "label": "14 Ekim, 06.00 ile 20.00 arasında AFAD ve 112'ye",
+    "foot": "1.277 su baskını · 15 heyelan · 47 mahsur kalma · İstanbul Valiliği 2026-67"
+   },
+   "say": "Valilik'e göre sadece 14 Ekim sabah 6 ile akşam 8 arasında AFAD ve 112'ye 2 bin 518 ihbar ulaştı. Bunların 1277'si su baskını, 47'si mahsur kalma, 15'i heyelan ihbarıydı."
+  },
+  {
+   "scene": "timeline",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "active": 3
+   },
+   "say": "Akşam saatlerinde AFAD İstanbul Bölge Müdürlüğü'nde kriz masası kuruldu. Valilik, bodrum katlarda yaşayanların geceyi üst katlarda geçirmesini, dere yataklarından ve alt geçitlerden uzak durulmasını istedi."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "595 kişi",
+    "label": "İBB ekiplerince tahliye edildi",
+    "foot": "Göktürk, Kemerburgaz ve Ayazağa · İBB AKOM, 15.10.2026"
+   },
+   "say": "İstanbul Büyükşehir Belediyesi'ne göre yalnızca belediye ekipleri, özellikle derelerin yükseldiği Göktürk, Kemerburgaz ve Ayazağa'da 595 kişiyi tahliye etti."
+  },
+  {
+   "scene": "timeline",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "active": 4
+   },
+   "say": "15 Ekim sabahı yağış büyük ölçüde durdu. Öğleden sonra Valilik, can kaybının 3'e yükseldiğini ve 4 kişinin kayıp olduğunu açıkladı. Aynı gün Meteoroloji yeni bir uyarı yayımladı. Bu uyarıya videonun sonunda değineceğiz."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "nasa-marmara-1015",
+    "kicker": "15 Ekim",
+    "title": "Bulutlar dağılmaya başlıyor",
+    "label": "MODIS Terra · gerçek renk"
+   },
+   "say": "15 Ekim'de uydudan bakıldığında bulut örtüsü dağılmaya başlamıştı. Ama yerde, hasarın boyutu yeni yeni ortaya çıkıyordu."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "Olayla ilgili soruşturma başlatılmıştır.",
+    "who": "İstanbul Valiliği · Basın Açıklaması 2026-68"
+   },
+   "say": "Adalet Bakanı Akın Gürlek de adli soruşturmalar başlatıldığını, varsa ihmal ve kusurların tespit edileceğini açıkladı. Soruşturmalar sürdüğü için kimin sorumlu olduğuna dair bir yorum yapmıyoruz. Bu kararı yargı verecek."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 3,
+    "title": "Rakamlar",
+    "sub": "261 kilogram ne demek?"
+   },
+   "say": "Üçüncü bölüm: Rakamlar. Metrekareye 261 kilogram yağış tam olarak ne demek?"
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "rainmm",
+    "value": 261,
+    "label": "Beykoz, 14–15 Ekim",
+    "compare": [
+     {
+      "label": "Ekim normali",
+      "v": 66.3
+     },
+     {
+      "label": "MGM uyarısı üst sınır",
+      "v": 75
+     }
+    ],
+    "caption": "1 kg/m² = 1 litre/m² = 1 mm su yüksekliği"
+   },
+   "say": "Meteorolojide metrekareye 1 kilogram yağış, bir metrekarelik alana 1 litre su düşmesi demek. Bu da yerde 1 milimetre yüksekliğinde bir su tabakasına karşılık geliyor."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "rainmm",
+    "value": 261,
+    "label": "Beykoz, 14–15 Ekim",
+    "compare": [
+     {
+      "label": "Ekim normali",
+      "v": 66.3
+     },
+     {
+      "label": "MGM uyarısı üst sınır",
+      "v": 75
+     }
+    ],
+    "caption": "Su hiç akmasa ve toprağa hiç geçmeseydi: 26 cm"
+   },
+   "say": "Yani 261 kilogram, su hiç akmasa ve toprağa hiç geçmeseydi, yerde 26 santimetrelik bir su tabakası demek. Bir insanın dizine yakın bir yükseklik. Ve bu, yaklaşık bir buçuk gün içinde düştü."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "bars",
+    "unit": "kg/m²",
+    "ref": {
+     "label": "Ekim normali 66,3",
+     "v": 66.3
+    },
+    "items": [
+     {
+      "label": "Beykoz",
+      "v": 277.1
+     },
+     {
+      "label": "Sarıyer",
+      "v": 211.8
+     },
+     {
+      "label": "Eyüpsultan",
+      "v": 203.9
+     },
+     {
+      "label": "İTÜ Maslak",
+      "v": 191.8
+     },
+     {
+      "label": "Anadolu Feneri",
+      "v": 166.5
+     },
+     {
+      "label": "Şişli",
+      "v": 147.4
+     },
+     {
+      "label": "Arnavutköy",
+      "v": 146.1
+     }
+    ],
+    "caption": "İBB istasyon verileri · 15.10.2026 öğleden sonra"
+   },
+   "say": "İstanbul Büyükşehir Belediyesi'nin istasyon verileri de tabloyu gösteriyor. Beykoz'da 277, Sarıyer'de 212, Eyüpsultan'da 204, İTÜ Maslak'ta 192 kilogram. Kesikli çizgi ise İstanbul'un Ekim ayı normali: 66 kilogram."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Neden farklı rakamlar duyduk?",
+    "items": [
+     "Valilik (MGM verisi): Beykoz 261 kg/m²",
+     "İçişleri Bakanı: yer yer 272 kg/m²",
+     "İBB AKOM: Beykoz 242 → 255,8 → 273,1 → 277,1 kg/m²"
+    ],
+    "note": "Farklı istasyon ağları, farklı ölçüm aralıkları ve sürekli güncellenen veriler"
+   },
+   "say": "Haberlerde 242, 261, 272 ve 277 gibi farklı rakamlar duymuş olabilirsiniz. Bunun nedeni basit. Meteoroloji ve belediye farklı istasyon ağları kullanıyor, rakamlar farklı saat aralıklarını kapsıyor ve yağış sürdükçe güncelleniyor. Hiçbiri yanlış değil. Biz resmi rakam olarak Valilik'in açıkladığı 261 kilogramı kullanıyoruz."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "bars",
+    "unit": "kg/m²",
+    "items": [
+     {
+      "label": "Aşırı yağış",
+      "v": 100
+     },
+     {
+      "label": "Şiddetli",
+      "v": 76
+     },
+     {
+      "label": "Çok kuvvetli",
+      "v": 51
+     },
+     {
+      "label": "Kuvvetli",
+      "v": 21
+     },
+     {
+      "label": "Orta kuvvette",
+      "v": 6
+     }
+    ],
+    "caption": "MGM yağış şiddeti sınıfları · 12 saatlik eşik değerleri"
+   },
+   "say": "Meteoroloji'nin kendi sınıflandırmasında 12 saatte metrekareye 100 kilogramın üzeri aşırı yağış sayılıyor. İstanbul'un kuzeyi bu eşiği rahatlıkla aştı."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "%38 → %45,22",
+    "label": "Barajların doluluk oranı tek yağışla arttı",
+    "foot": "İBB, 15.10.2026"
+   },
+   "say": "Bir de olumlu sayılabilecek tek rakam var. İstanbul Büyükşehir Belediyesi'ne göre barajların doluluk oranı yüzde 38'den yüzde 45'e çıktı."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "129,6 kg/m²",
+    "label": "Kandilli Rasathanesi: 1911'den bu yana en yüksek üçüncü günlük yağış",
+    "foot": "Anadolu Ajansı'nın aktardığı Kandilli verisi"
+   },
+   "say": "Kandilli Rasathanesi'nin 1911'den beri tuttuğu kayıtlarda da bu yağış, en yüksek üçüncü günlük yağış olarak geçti."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 4,
+    "title": "Neden bu kadar yağdı?",
+    "sub": "Meteorolojinin açıklaması"
+   },
+   "say": "Dördüncü bölüm, ve videonun en önemli sorusu: Bu kadar yağmur neden düştü?"
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "storm",
+    "caption": "Kuvvetli sağanak için üç şey gerekir: nem, yükselme ve dengesiz bir atmosfer"
+   },
+   "say": "Bir yerde çok kısa sürede çok fazla yağmur düşmesi için atmosferde üç şeyin bir araya gelmesi gerekiyor: bol nem, havayı yukarı iten bir mekanizma ve dengesiz bir atmosfer. 14 Ekim'de İstanbul'un üzerinde üçü de vardı."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "storm",
+    "highlight": "cold",
+    "caption": "AKOM: Balkanlar üzerinden gelen soğuk hava + Orta Akdeniz kaynaklı yağışlı sistem"
+   },
+   "say": "AKOM'un açıklamasına göre İstanbul'a Balkanlar üzerinden soğuk hava geldi. Aynı sırada Orta Akdeniz üzerinden gelen yağışlı bir sistem bölgeye ulaştı. Yukarıda soğuk, aşağıda ılık ve nemli hava. Bu, atmosferi dengesiz hale getiren klasik bir kombinasyon."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "nasa-terra-1013",
+    "kicker": "NASA · 13 Ekim",
+    "title": "Sistem bölgeye yaklaşıyor",
+    "label": "Balkanlar üzerinde yoğunlaşan bulutlar"
+   },
+   "say": "NASA'nın 13 Ekim görüntüsünde, sistemin Balkanlar ve Ege üzerinden bölgeye yaklaştığı görülüyor."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "storm",
+    "highlight": "sea",
+    "caption": "Ilık deniz = bol buharlaşma = havada daha fazla su"
+   },
+   "say": "İkinci unsur deniz. İTÜ'den iklim bilimci Profesör Doktor Mikdat Kadıoğlu, Anadolu Ajansı'na yaptığı açıklamada Karadeniz'in yüzey sıcaklığının 19,5 ile 20 derece civarında olduğunu söyledi. Ekim ayı için ılık bir deniz bu."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "nasa-sst-1013",
+    "kicker": "NASA · deniz yüzeyi sıcaklığı · 13 Ekim",
+    "title": "Karadeniz ve Marmara",
+    "label": "Sarı ve turuncu tonlar daha ılık suyu gösterir"
+   },
+   "say": "Bu, NASA'nın deniz yüzeyi sıcaklığı haritası. Ilık deniz daha fazla buharlaşma demek. Fizikte bunun bir kuralı var: Havanın sıcaklığı her 1 derece arttığında, taşıyabileceği su buharı yaklaşık yüzde 7 artıyor. Buna Clausius-Clapeyron ilişkisi deniyor."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "storm",
+    "highlight": "wind",
+    "caption": "Kadıoğlu: nemi taşıyan kuzeydoğulu rüzgâr, yani poyraz"
+   },
+   "say": "Üçüncü unsur rüzgâr. Kadıoğlu'na göre kuzeydoğudan esen poyraz, Karadeniz'in üzerindeki nemli havayı doğrudan İstanbul'un kuzeyine taşıdı."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "storm",
+    "highlight": "cloud",
+    "caption": "Yükselen nemli hava soğur, yoğuşur ve dev konvektif bulutlar oluşur"
+   },
+   "say": "Nemli hava karaya çıkınca yükseliyor. Yükseldikçe soğuyor, içindeki su buharı yoğuşuyor ve yoğuşurken ısı açığa çıkıyor. Bu ısı havayı daha da yükseltiyor. Böylece kilometrelerce yüksekliğe uzanan dev sağanak bulutları oluşuyor."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "storm",
+    "highlight": "rain",
+    "caption": "Neden kuzey ilçeler? Karadeniz'den gelen nemli havanın ilk çarptığı yer"
+   },
+   "say": "Peki neden en çok Beykoz, Sarıyer ve Eyüpsultan? Çünkü Karadeniz'den gelen nemli hava karaya ilk bu kuzey ilçelerde çarpıyor. Bölgedeki tepeler de havayı yukarı iterek yağışı artırabiliyor. Güneydeki Bakırköy'de ise 14 Ekim akşamı ölçülen yağış yalnızca 7 kilogramdı."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "İklim değişikliği tehlikeyi bir miktar büyütüyor, afeti biz büyütüyoruz.",
+    "who": "Prof. Dr. Mikdat Kadıoğlu · İTÜ · Anadolu Ajansı'na açıklama, 15.10.2026"
+   },
+   "say": "Peki bu iklim değişikliği mi? Kadıoğlu burada dikkatli bir ayrım yapıyor. Tek bir olayı, ayrı bir bilimsel atıf çalışması yapılmadan doğrudan iklim değişikliğine bağlamak mümkün değil. Ama ısınan denizler, bu tür aşırı yağışların olasılığını artırıyor. Kadıoğlu'nun ifadesiyle: İklim değişikliği tehlikeyi bir miktar büyütüyor, afeti biz büyütüyoruz."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "nasa-2009",
+    "kicker": "Arşiv · Eylül 2009",
+    "title": "İstanbul bunu daha önce de yaşadı",
+    "label": "NASA uydu yağış haritası · 2009 İstanbul seli"
+   },
+   "say": "İstanbul bunu ilk kez yaşamıyor. NASA'nın arşivindeki bu harita, Eylül 2009'daki büyük İstanbul selinin yağış haritası. O dönemde de en çok etkilenen yerler dere yataklarıydı."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 5,
+    "title": "Neden sel oldu?",
+    "sub": "Kentin suyla imtihanı"
+   },
+   "say": "Beşinci bölüm: Yağmur neden sele dönüştü? Bu bölümde, Kadıoğlu'nun afeti biz büyütüyoruz sözünün bilimsel karşılığını göreceğiz."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "runoff",
+    "caption": "ABD Çevre Koruma Ajansı (EPA): geçirimsiz yüzey arttıkça yüzey akışı katlanır"
+   },
+   "say": "Doğal bir arazide yağmur suyunun büyük bölümü toprağa sızıyor ya da buharlaşıyor. ABD Çevre Koruma Ajansı'nın verilerine göre doğal zeminde yağışın yalnızca yaklaşık yüzde 10'u yüzeyden akıp gidiyor."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "runoff",
+    "caption": "Beton ve asfalt suyu emmez: yağışın yarıdan fazlası yüzeyden akar"
+   },
+   "say": "Ama yüzeyin yüzde 75 ile 100'ünün beton ve asfaltla kaplı olduğu bir şehirde bu oran yüzde 55'e çıkıyor. Yani aynı yağmurdan sokaklara akan su, beş katından fazla oluyor."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "hydrograph",
+    "caption": "Aynı yağış · iki farklı havza tepkisi (USGS)"
+   },
+   "say": "İkinci etki zamanlama. ABD Jeoloji Araştırmaları Kurumu USGS'nin anlattığı gibi, şehirde su toprağa geçemediği için derelere çok daha hızlı ulaşıyor. Bu grafikte gri çizgi doğal bir havzayı, turuncu çizgi ise şehirleşmiş bir havzayı gösteriyor."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "hydrograph",
+    "caption": "Daha erken, daha yüksek tepe: kısa sürede çok su"
+   },
+   "say": "Şehirde dere debisi hem daha erken hem de çok daha yüksek bir tepe yapıyor. Yani kısa sürede derelere taşıyabileceklerinden çok daha fazla su geliyor."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "kagithane-deresi",
+    "kicker": "Kağıthane Deresi · arşiv",
+    "title": "Derelerin kapasitesi",
+    "label": "Olay öncesi fotoğraf"
+   },
+   "say": "İşte burada dereler devreye giriyor. Bu, olaydan yıllar önce çekilmiş bir Kağıthane Deresi fotoğrafı. Kağıthane havzası 58 kilometrekareden büyük bir alanın suyunu topluyor."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "culvert",
+    "caption": "Gelen su, dere kesitinin taşıyabileceğinden fazlaysa dere taşar"
+   },
+   "say": "Her dere yatağının bir kapasitesi var. Belli bir dönüş süresine, örneğin elli ya da yüz yılda bir görülebilecek bir yağışa göre tasarlanıyor. Gelen su bu kapasiteyi aştığında dere taşıyor ve sokaklar dere yatağına dönüşüyor."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "sadabad-deresi",
+    "kicker": "Sadabad Deresi · arşiv",
+    "title": "Daraltılan ve üstü kapatılan dereler",
+    "label": "Olay öncesi fotoğraf"
+   },
+   "say": "Uzmanların yıllardır dikkat çektiği bir konu da üstü kapatılan ya da daraltılan dereler. Bir derenin üstü kapatıldığında, kesiti sabitleniyor. Yağış o kesitin taşıyabileceğinden fazlaysa, suyun gidecek başka yeri kalmıyor."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "Üstü kapatılarak yol, otopark ve konut alanlarına dönüştürülen dereler yeniden açılmalı.",
+    "who": "Prof. Dr. Mikdat Kadıoğlu · İTÜ · 15.10.2026"
+   },
+   "say": "Kadıoğlu da açıklamasında, üstü kapatılarak yola, otoparka ya da konut alanına dönüştürülen derelerin yeniden açılması gerektiğini söyledi."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "Yağmur suyu ve atık su hatları birbirinden ayrılmalı.",
+    "who": "Prof. Dr. Mikdat Kadıoğlu · İTÜ · 15.10.2026"
+   },
+   "say": "Kadıoğlu'nun bir diğer önerisi ise yağmur suyu ve atık su hatlarının birbirinden ayrılması. Çünkü ortak hatlar, aşırı yağışta kapasiteyi daha da hızlı dolduruyor."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Özetle: yağmur sele nasıl dönüştü?",
+    "items": [
+     "Çok kısa sürede rekor yağış",
+     "Beton ve asfalt suyu emmedi",
+     "Su derelere çok hızlı ulaştı",
+     "Dere kesitlerinin kapasitesi aşıldı"
+    ],
+    "note": "Bilimsel genel çerçeve · sorumluluk tespiti yargının işidir"
+   },
+   "say": "Özetlersek: Çok kısa sürede rekor yağış düştü. Betonlaşmış yüzeyler suyu emmedi. Su derelere çok hızlı ulaştı ve dere kesitlerinin kapasitesi aşıldı. Bu, kent hidrolojisinin genel çerçevesi. Somut olaylarda kimin sorumlu olduğunu ise soruşturmalar ortaya koyacak."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 4,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "kagithane-tarihi",
+    "kicker": "Kağıthane · 20. yüzyıl başı",
+    "title": "Avrupa'nın Tatlı Suları",
+    "label": "Derenin çevresi bir zamanlar geniş çayırlardı"
+   },
+   "say": "Tarihe bakınca da ilginç bir tablo çıkıyor. Yüz yıl önce Kağıthane Deresi'nin çevresi, Avrupa'nın Tatlı Suları diye anılan geniş çayırlardı. Bu çayırlar, taşkın sularının yayılabileceği doğal alanlardı."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 5,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 6,
+    "title": "Uzmanlar ne diyor?",
+    "sub": "Kurumların açıklamaları"
+   },
+   "say": "Altıncı bölüm: Kurumlar ve uzmanlar ne diyor?"
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 5,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "Meteoroloji Genel Müdürlüğü'nün 1942 yılında ölçümlere başlamasından bu yana İstanbul'da kaydedilen en yüksek yağış miktarına ulaşıldı.",
+    "who": "İstanbul Valiliği · 15.10.2026"
+   },
+   "say": "İstanbul Valiliği, yağışın Meteoroloji'nin 1942'de ölçümlere başlamasından bu yana İstanbul'da kaydedilen en yüksek değer olduğunu açıkladı."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 5,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "Son 45 yılın en yüksek yağışı.",
+    "who": "Nuri Aslan · İBB Başkan Vekili · 15.10.2026"
+   },
+   "say": "İstanbul Büyükşehir Belediyesi Başkan Vekili Nuri Aslan ise belediyenin kendi kayıtlarına göre bunun son 45 yılın en yüksek yağışı olduğunu söyledi. İki açıklama farklı veri setlerine dayandığı için farklı yıl aralıkları veriyor."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 5,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "8.815 ihbar",
+    "label": "İstanbul'dan · İçişleri Bakanlığı",
+    "foot": "Uyarı verilen illerde toplam 9.588 ihbar · Bakan Mustafa Çiftçi, 15.10.2026"
+   },
+   "say": "İçişleri Bakanı Mustafa Çiftçi, uyarı verilen illerde toplam 9 bin 588 ihbar alındığını, bunların 8 bin 815'inin İstanbul'dan geldiğini açıkladı."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 5,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Diğer illerde de alarm",
+    "items": [
+     "42 ilde sarı, 6 ilde turuncu uyarı",
+     "Kocaeli, Zonguldak, Sakarya, Düzce, Yalova'da okullar tatil",
+     "Takviye ekipler: Afyonkarahisar, Tokat, Muğla, Kütahya"
+    ],
+    "note": "Kaynak: İçişleri Bakanı Mustafa Çiftçi, 15.10.2026"
+   },
+   "say": "Yağış yalnızca İstanbul'u değil, bütün Marmara'yı etkiledi. Bakan'ın açıklamasına göre 42 ilde sarı, 6 ilde turuncu uyarı verildi. Kocaeli, Zonguldak, Sakarya, Düzce ve Yalova'da da okullar tatil edildi. İstanbul'a Afyonkarahisar, Tokat, Muğla ve Kütahya'dan takviye ekipler gönderildi."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 5,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "2.288 araç · 14 bot",
+    "label": "İstanbul'da sahadaki ekipman",
+    "foot": "İçişleri Bakanlığı, 15.10.2026"
+   },
+   "say": "İstanbul'da 2 bin 288 araç ve 14 bot görev yaptı. Belediye de kendi ekiplerinden 8 bin 564 personel ve 2 bin 325 araçla sahada olduğunu açıkladı."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 6,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 7,
+    "title": "Şimdi ne olacak?",
+    "sub": "Yeni uyarı ve korunma yolları"
+   },
+   "say": "Son bölüm: Şimdi ne olacak? Bu bölüm çok önemli, çünkü tehlike henüz geçmedi."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 6,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "doc-mgm518",
+    "layout": "side",
+    "kicker": "15 Ekim · Uyarı No 518",
+    "title": "Yağışlar yeniden kuvvetleniyor",
+    "label": "16 Ekim 09.00 – 17 Ekim 23.59"
+   },
+   "say": "Meteoroloji Genel Müdürlüğü 15 Ekim'de 518 numaralı yeni bir uyarı yayımladı. Uyarının başlığı: İstanbul'da yağışlar yeniden kuvvetleniyor. 16 Ekim sabahından 17 Ekim gece yarısına kadar, özellikle kuzey ve Avrupa Yakası ilçelerinde kuvvetli yağış bekleniyor."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 6,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "14 Ekim tarihinde gerçekleşen şiddetli yağışların sebep olduğu olumsuz şartların halen devam ettiği göz önüne alındığında…",
+    "who": "Meteoroloji Genel Müdürlüğü · Uyarı No 518"
+   },
+   "say": "Meteoroloji uyarısında, 14 Ekim'deki yağışların yarattığı olumsuz koşulların hâlâ sürdüğünü özellikle vurguluyor. Yani toprak suya doymuş durumda ve daha az bir yağış bile yeni su baskınlarına yol açabilir."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 6,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Resmi uyarılara göre yapılması gerekenler",
+    "items": [
+     "Dere yataklarından ve alt geçitlerden uzak durun",
+     "Bodrum katlardaysanız üst katlara çıkın",
+     "Su birikintilerine, özellikle elektrik direği ve kablo yakınındakilere girmeyin",
+     "Su dolmuş yollardan araçla geçmeyin",
+     "Acil durumda 112'yi arayın"
+    ],
+    "note": "İstanbul Valiliği uyarıları ve AFAD'ın genel sel güvenliği önerileri"
+   },
+   "say": "Resmi uyarılara göre yapılması gerekenler şunlar. Dere yataklarından ve alt geçitlerden uzak durun. Bodrum katlarda yaşıyorsanız yağış sırasında üst katlara çıkın. Su birikintilerine, özellikle elektrik direklerinin ve kabloların yakınındakilere girmeyin. Su dolmuş yollardan araçla geçmeye çalışmayın. Acil bir durumda 112'yi arayın."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 6,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "Pazartesi",
+    "label": "Hasar tespiti ve tazminat için açıklama bekleniyor",
+    "foot": "İstanbul Valiliği, 15.10.2026"
+   },
+   "say": "Valilik, zararların pazartesi gününe kadar tespit edilmesini ve tazminatla ilgili somut bir açıklama yapılmasını hedeflediğini duyurdu. Zarar gördüyseniz, kaymakamlıkların ve belediyelerin duyurularını takip edin."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 6,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "sariyer-sahil",
+    "kicker": "İstanbul",
+    "title": "Geçmiş olsun İstanbul",
+    "label": "Hayatını kaybedenlere rahmet · kayıplar için umut"
+   },
+   "say": "Hayatını kaybeden üç kişiye Allah'tan rahmet, yakınlarına sabır diliyoruz. Kayıp dört kişinin bir an önce bulunmasını umuyoruz."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 6,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Bu videonun kaynakları",
+    "items": [
+     "İstanbul Valiliği basın açıklamaları 2026-66 → 2026-69",
+     "Meteoroloji Genel Müdürlüğü uyarıları 509, 510, 518",
+     "İBB AKOM açıklamaları · İçişleri Bakanlığı açıklaması",
+     "NASA Worldview uydu görüntüleri · EPA · USGS"
+    ],
+    "note": "Tüm bağlantılar açıklamada · rakamlar 15.10.2026 itibarıyladır"
+   },
+   "say": "Bu videodaki bütün rakamlar 15 Ekim 2026 itibarıyla resmi kurumların açıklamalarına dayanıyor. Kaynakların tamamı açıklamada. Arama çalışmaları sürdüğü için bilanço değişebilir. Güncel bilgi için lütfen Valilik ve AFAD açıklamalarını takip edin."
+  },
+  {
+   "scene": "outro",
+   "story": -1,
+   "chapter": 6,
+   "key": "",
+   "q": -1,
+   "say": "Sizin bölgenizde durum nasıldı? Yorumlarda paylaşın. Güvende kalın. BosNRoll kanalına abone olmayı unutmayın, görüşmek üzere."
+  }
+ ],
+ "thumbnail": {
+  "photo": "nasa-terra-1014",
+  "chip": "İSTANBUL · 14 EKİM 2026",
+  "big": "84 yılın rekor yağışı",
+  "sub": "Sel neden oldu? Bilimsel açıklama",
+  "foot": "Resmi kaynaklar: Valilik · Meteoroloji · NASA"
+ }
+}
