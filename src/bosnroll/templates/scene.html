@@ -403,6 +403,89 @@ const DIAGRAMS = {
     ${[620, 680, 1080, 1140].map(x => `<line x1="${x}" y1="620" x2="${x + (880 - x) * 0.35}" y2="560" stroke="${MUTED}" stroke-width="4" marker-end="url(#arrM)"/>`).join("")}
     ${T(420, 560, "Atmosferden gelen", { s: 28, c: MUTED })}${T(420, 596, "müonlar ayıklanır", { s: 28, c: MUTED })}`),
 
+  // ---------- Sel / hidroloji ----------
+  // 1 kg/m² = 1 mm su: düşen yağışı bir insan boyuyla karşılaştırır. d.value: mm, d.compare: [{label, v}]
+  rainmm: (d) => {
+    const base = 560, px = 1.6, v = d.value || 0, cmp = d.compare || [];
+    const bars = [...cmp, { label: d.label || "Bu yağış", v, hot: true }];
+    const bw = 170, x0 = 760;
+    const cols = bars.map((b, i) => {
+      const x = x0 + i * (bw + 70), h = b.v * px;
+      return `<rect x="${x}" y="${base - h}" width="${bw}" height="${h}" rx="8" fill="${b.hot ? ICE : "rgba(127,214,255,.35)"}" ${b.hot ? 'filter="url(#glow)"' : ""}/>
+        ${T(x + bw / 2, base - h - 18, `${b.v.toLocaleString("tr-TR")} mm`, { s: 34, c: b.hot ? ICE : "#f4efe9" })}
+        ${T(x + bw / 2, base + 44, b.label, { s: 26, c: MUTED })}`;
+    }).join("");
+    // ölçek: insan 175 cm = 1750 mm → 1750*px çok büyük; insanı ayrı ölçekte çiz, su seviyesini cm ile göster
+    const H = 470, man = (y) => `<g transform="translate(330,${y})" fill="none" stroke="#f4efe9" stroke-width="7" stroke-linecap="round">
+      <circle cx="0" cy="0" r="30"/><line x1="0" y1="30" x2="0" y2="250"/><line x1="0" y1="80" x2="-60" y2="170"/><line x1="0" y1="80" x2="60" y2="170"/>
+      <line x1="0" y1="250" x2="-45" y2="${H - 30}"/><line x1="0" y1="250" x2="45" y2="${H - 30}"/></g>`;
+    const wl = (v / 1750) * H;
+    return svg(`${man(base - H + 30)}
+      <rect x="160" y="${base - wl}" width="340" height="${wl}" fill="${ICE}" fill-opacity=".45" stroke="${ICE}" stroke-width="3"/>
+      ${T(330, base + 44, `175 cm insan · ${(v / 10).toLocaleString("tr-TR")} cm su`, { s: 26, c: MUTED })}
+      <line x1="540" y1="${base}" x2="540" y2="${base - wl}" stroke="${HOT}" stroke-width="4" marker-start="url(#arr)" marker-end="url(#arr)"/>
+      ${T(560, base - wl / 2 + 10, `${(v / 10).toLocaleString("tr-TR")} cm`, { a: "start", s: 30, c: HOT })}
+      ${T(1180, 60, "1 kg/m² yağış = 1 mm su yüksekliği", { s: 34, c: HOT })}
+      <line x1="120" y1="${base}" x2="1740" y2="${base}" stroke="rgba(255,255,255,.4)" stroke-width="3"/>${cols}`);
+  },
+
+  // Kuvvetli sağanağın oluşumu: ılık deniz + nem + yukarıda soğuk hava → yükselme → dev bulut
+  storm: (d) => {
+    const hl = d.highlight || "all", dim = k => hl !== "all" && hl !== k ? 'class="dim"' : "";
+    const drops = Array.from({ length: 26 }, (_, i) => { const x = 980 + (i % 13) * 34, y = 420 + Math.floor(i / 13) * 50 + (i % 3) * 12;
+      return `<line x1="${x}" y1="${y}" x2="${x - 12}" y2="${y + 36}" stroke="${ICE}" stroke-width="4" stroke-linecap="round"/>`; }).join("");
+    return svg(`
+      <g ${dim("sea")}><rect x="0" y="540" width="760" height="80" fill="#0e3b55"/>${T(380, 600, "Ilık deniz yüzeyi", { s: 30, c: HOT })}
+        ${[120, 260, 400, 540, 680].map(x => `<path d="M${x},530 C${x - 20},480 ${x + 20},450 ${x},400" fill="none" stroke="${HOT}" stroke-width="4" stroke-dasharray="8 8" marker-end="url(#arr)"/>`).join("")}
+        ${T(380, 380, "buharlaşma · bol nem", { s: 28 })}</g>
+      <g ${dim("wind")}><line x1="420" y1="300" x2="860" y2="300" stroke="${HOT}" stroke-width="6" marker-end="url(#arr)" filter="url(#glow)"/>${T(640, 280, "nemli hava karaya taşınır", { s: 28, c: HOT })}</g>
+      <g ${dim("cloud")}><path d="M900,400 C860,330 900,250 990,250 C1000,150 1120,90 1210,140 C1270,60 1420,80 1430,180 C1520,190 1540,300 1470,340 C1520,390 1460,420 1400,410 L940,410 C900,410 880,400 900,400 Z" fill="#3a4250" stroke="#8d97a8" stroke-width="3"/>
+        ${T(1200, 300, "Dev konvektif bulut", { s: 30 })}</g>
+      <g ${dim("cold")}><rect x="900" y="20" width="840" height="60" rx="12" fill="rgba(127,214,255,.12)" stroke="${ICE}" stroke-width="2"/>${T(1320, 60, "Yukarıda soğuk hava · alçak basınç", { s: 28, c: ICE })}
+        <line x1="1200" y1="400" x2="1200" y2="110" stroke="${ICE}" stroke-width="5" marker-end="url(#arrI)"/>${T(1250, 230, "hızla yükselir", { a: "start", s: 24, c: ICE })}</g>
+      <g ${dim("rain")}>${drops}<rect x="900" y="540" width="860" height="80" fill="#1a1a20"/>
+        ${[940, 1010, 1080, 1160, 1250, 1330, 1420, 1520, 1610, 1690].map((x, i) => `<rect x="${x}" y="${470 - (i % 4) * 30}" width="50" height="${70 + (i % 4) * 30}" fill="#262630"/>`).join("")}
+        ${T(1330, 600, "Kısa sürede çok yağış", { s: 30, c: HOT })}</g>`);
+  },
+
+  // Doğal zemin ve şehirde yağmur suyunun gidişi (ABD Çevre Koruma Ajansı, EPA)
+  runoff: (d) => {
+    const panel = (x, title, et, ro, sh, dp, ground) => `
+      <rect x="${x}" y="30" width="820" height="560" rx="22" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.1)"/>
+      ${T(x + 410, 80, title, { s: 34, c: HOT })}
+      <rect x="${x + 20}" y="400" width="780" height="170" rx="12" fill="${ground}"/>
+      <line x1="${x + 160}" y1="390" x2="${x + 160}" y2="160" stroke="${MUTED}" stroke-width="5" marker-end="url(#arrM)"/>${T(x + 160, 140, `Buharlaşma %${et}`, { s: 28 })}
+      <line x1="${x + 330}" y1="390" x2="${x + 780}" y2="390" stroke="${ICE}" stroke-width="${4 + ro / 4}" marker-end="url(#arrI)" filter="url(#glow)"/>${T(x + 560, 360, `Yüzey akışı %${ro}`, { s: 32, c: ICE })}
+      <line x1="${x + 330}" y1="420" x2="${x + 330}" y2="480" stroke="${HOT}" stroke-width="5" marker-end="url(#arr)"/>${T(x + 350, 470, `Sığ sızma %${sh}`, { a: "start", s: 26 })}
+      <line x1="${x + 600}" y1="420" x2="${x + 600}" y2="540" stroke="${HOT}" stroke-width="5" marker-end="url(#arr)"/>${T(x + 620, 535, `Derin sızma %${dp}`, { a: "start", s: 26 })}`;
+    return svg(panel(20, "Doğal zemin", 40, 10, 25, 25, "#2d3a22") + panel(920, "Şehir · %75–100 beton/asfalt", 30, 55, 10, 5, "#3a3a42"));
+  },
+
+  // Aynı yağışa doğal ve kentsel havzanın tepkisi (hidrograf)
+  hydrograph: () => {
+    const ox = 140, oy = 540, w = 1540;
+    const rain = Array.from({ length: 8 }, (_, i) => `<rect x="${ox + 60 + i * 34}" y="40" width="26" height="${[40, 90, 150, 120, 70, 40, 20, 10][i]}" fill="${ICE}" opacity=".8"/>`).join("");
+    const curve = (peakX, peakY, spread) => { let d = `M${ox},${oy}`; for (let x = 0; x <= w; x += 10) { const y = oy - peakY * Math.exp(-Math.pow((x - peakX) / spread, 2)); d += ` L${ox + x},${y}`; } return d; };
+    return svg(`${rain}${T(ox + 200, 30, "yağış", { s: 26, c: ICE })}
+      <line x1="${ox}" y1="${oy}" x2="${ox + w}" y2="${oy}" stroke="rgba(255,255,255,.5)" stroke-width="3"/><line x1="${ox}" y1="${oy}" x2="${ox}" y2="200" stroke="rgba(255,255,255,.5)" stroke-width="3"/>
+      ${T(ox + w - 60, oy + 44, "zaman →", { s: 26, c: MUTED })}${T(ox - 20, 230, "debi", { a: "end", s: 26, c: MUTED })}
+      <path d="${curve(780, 140, 340)}" fill="none" stroke="${MUTED}" stroke-width="6"/>${T(1220, 420, "Doğal havza: geç ve düşük tepe", { s: 28, c: MUTED })}
+      <path d="${curve(420, 320, 150)}" fill="none" stroke="${NEON}" stroke-width="7" filter="url(#glow)"/>${T(720, 220, "Şehir: erken ve yüksek tepe", { s: 30, c: HOT })}`);
+  },
+
+  // Dere kapasitesi: gelen su > kesitin taşıyabileceği → taşkın
+  culvert: () => svg(`
+    <rect x="40" y="60" width="780" height="520" rx="22" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.1)"/>
+    <rect x="940" y="60" width="780" height="520" rx="22" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.1)"/>
+    ${T(430, 110, "Normal yağış", { s: 34 })}${T(1330, 110, "Aşırı yağış", { s: 34, c: HOT })}
+    <path d="M140,250 L240,480 L620,480 L720,250" fill="none" stroke="#f4efe9" stroke-width="6"/>
+    <path d="M200,390 L250,480 L610,480 L660,390 Z" fill="${ICE}" fill-opacity=".55"/>${T(430, 540, "su kesitin içinde kalır", { s: 26, c: MUTED })}
+    <rect x="980" y="380" width="700" height="140" fill="${ICE}" fill-opacity=".35"/>
+    <path d="M1040,250 L1140,480 L1520,480 L1620,250" fill="none" stroke="#f4efe9" stroke-width="6"/>
+    <path d="M1060,300 L1140,480 L1520,480 L1600,300 Z" fill="${ICE}" fill-opacity=".7"/>
+    ${[1000, 1650].map(x => `<line x1="${x + (x < 1300 ? 60 : -60)}" y1="290" x2="${x}" y2="360" stroke="${HOT}" stroke-width="5" marker-end="url(#arr)"/>`).join("")}
+    ${T(1330, 210, "gelen su > kesitin kapasitesi", { s: 30, c: HOT })}${T(1330, 560, "dere taşar, sokaklar dere yatağına döner", { s: 26, c: MUTED })}`),
+
   blazar: () => svg(`
     <ellipse cx="300" cy="310" rx="230" ry="70" fill="rgba(255,140,60,.15)" stroke="rgba(255,140,60,.4)"/>
     <circle cx="300" cy="310" r="40" fill="url(#coreG)" filter="url(#glow)"/>
