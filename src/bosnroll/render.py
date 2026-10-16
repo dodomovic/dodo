@@ -162,7 +162,8 @@ def render_frames(
                 clip = {
                     "file": str(ASSETS / "clips" / ep["clips"][data["clip"]]["file"]),
                     "box": [int(round(v * scale / 2)) * 2 for v in box] if box else None,
-                    "offset": start - beat_start[key],
+                    # "start": kesitin kaçıncı saniyesinden başlanacağı (aynı videonun farklı anları için)
+                    "offset": data.get("start", 0) + start - beat_start[key],
                 }
             # Tam ekran kesitte kare saydam çekilir; kesit arkadan görünür
             page.screenshot(path=str(path), omit_background=bool(clip and clip["box"] is None))

@@ -444,6 +444,40 @@ const DIAGRAMS = {
     return svg(rows + ref);
   },
 
+  // Araç altı emiş fanı: alttaki hava dışarı atılır, üstteki atmosfer basıncı aracı zemine bastırır
+  fansuction: (d) => {
+    const inv = d.highlight === "upside";
+    const car = `<path d="M560,250 L700,200 L1060,190 L1220,230 L1240,300 L540,300 Z" fill="#d8d8de" stroke="#fff" stroke-width="3"/>
+      <rect x="600" y="300" width="580" height="18" fill="#2a2a32"/>
+      <circle cx="660" cy="320" r="42" fill="#15151a" stroke="#888" stroke-width="5"/><circle cx="1130" cy="320" r="42" fill="#15151a" stroke="#888" stroke-width="5"/>
+      ${[800, 900, 1000].map(x => `<circle cx="${x}" cy="309" r="16" fill="${NEON}" filter="url(#glow)"/>`).join("")}`;
+    return svg(`<g transform="${inv ? "translate(0,620) scale(1,-1)" : ""}">
+      <rect x="380" y="362" width="1040" height="14" fill="#555"/>${car}
+      <rect x="690" y="318" width="420" height="44" fill="${ICE}" fill-opacity=".18"/>
+      ${[[700, 340, 560, 340], [1100, 340, 1250, 340]].map(([a, b, c, e]) => `<line x1="${a}" y1="${b}" x2="${c}" y2="${e}" stroke="${ICE}" stroke-width="6" marker-end="url(#arrI)"/>`).join("")}
+      ${[640, 760, 880, 1000, 1120].map(x => `<line x1="${x}" y1="80" x2="${x}" y2="170" stroke="${HOT}" stroke-width="6" marker-end="url(#arr)" filter="url(#glow)"/>`).join("")}</g>
+      ${T(900, inv ? 590 : 60, "Atmosfer basıncı aracı zemine bastırır", { s: 30, c: HOT })}
+      ${T(900, inv ? 70 : 440, "Fanlar alttaki havayı dışarı atar → altta düşük basınç", { s: 30, c: ICE })}
+      ${T(1600, 310, "~2 G", { s: 64, c: HOT })}${T(1600, 360, "Tesla: emiş kuvveti", { s: 26, c: MUTED })}`);
+  },
+
+  // Soğuk gaz itici: tank → valf → daralan-genişleyen nozul → ses üstü jet → itki (Newton'un 3. yasası)
+  coldgas: (d) => {
+    const hl = d.highlight || "all", dim = k => hl !== "all" && hl !== k ? 'class="dim"' : "";
+    const diamonds = [0, 1, 2, 3].map(i => `<ellipse cx="${1320 + i * 95}" cy="310" rx="18" ry="${34 - i * 5}" fill="#fff" opacity="${.85 - i * .17}" filter="url(#glow)"/>`).join("");
+    return svg(`
+      <g ${dim("tank")}><rect x="40" y="200" width="420" height="220" rx="110" fill="rgba(127,214,255,.12)" stroke="${ICE}" stroke-width="5"/>
+        ${T(250, 300, "2 karbon kaplı tank", { s: 30 })}${T(250, 345, "600 L · ~250 kg hava", { s: 30, c: ICE })}${T(250, 470, "araç tankı kendisi doldurur", { s: 24, c: MUTED })}</g>
+      <g ${dim("valve")}><rect x="460" y="290" width="200" height="40" fill="#444"/><rect x="540" y="250" width="40" height="120" rx="6" fill="${NEON}"/>${T(560, 220, "valf", { s: 26 })}</g>
+      <g ${dim("nozzle")}><path d="M660,250 L860,290 L900,290 L1100,200 L1100,420 L900,330 L860,330 L660,370 Z" fill="#2c2c34" stroke="#f4efe9" stroke-width="4"/>
+        ${T(880, 450, "daralan → genişleyen nozul", { s: 26 })}${T(880, 490, "hava ses hızını aşar", { s: 26, c: HOT })}</g>
+      <g ${dim("jet")}><path d="M1100,230 L1720,260 L1720,360 L1100,390 Z" fill="${ICE}" fill-opacity=".22"/>${diamonds}
+        ${T(1450, 200, "Mach elmasları", { s: 28, c: ICE })}</g>
+      <g ${dim("thrust")}><line x1="620" y1="560" x2="200" y2="560" stroke="${HOT}" stroke-width="10" marker-end="url(#arr)" filter="url(#glow)"/>${T(410, 535, "itki (Newton'un 3. yasası)", { s: 28, c: HOT })}
+        <line x1="1150" y1="560" x2="1600" y2="560" stroke="${ICE}" stroke-width="8" marker-end="url(#arrI)"/>${T(1375, 535, "hava geriye fırlar", { s: 28, c: ICE })}</g>
+      ${T(880, 80, "Soğuk gaz itici: yakıt yok, yanma yok, sadece basınçlı hava", { s: 32 })}`);
+  },
+
   // Kuvvetli sağanağın oluşumu: ılık deniz + nem + yukarıda soğuk hava → yükselme → dev bulut
   storm: (d) => {
     const hl = d.highlight || "all", dim = k => hl !== "all" && hl !== k ? 'class="dim"' : "";

@@ -1,0 +1,550 @@
+{
+ "date": "2026-10-16",
+ "format": "doc",
+ "tts_engine": "ema",
+ "spell_numbers": true,
+ "lexicon": {
+  "SpaceX": "Speys eks",
+  "Roadster'ı": "Rodstırı",
+  "Roadster": "Rodstır",
+  "Elon Musk": "İlon Mask",
+  "Musk'ın": "Mask'ın",
+  "Musk'a": "Mask'a",
+  "Musk": "Mask",
+  "Franz von Holzhausen": "Frenz fon Holzhauzın",
+  "Lars Moravy": "Lars Moravi",
+  "McGregor": "Mek Gregır",
+  "SR-71": "es ar yetmiş bir",
+  "F-35": "ef otuz beş",
+  "Brabham BT46B": "Brebım bi ti kırk altı bi",
+  "Formula 1'de": "Formula birde",
+  "G'ye": "ciye",
+  "G'nin": "cinin",
+  "G tutunma": "ci tutunma",
+  "Performance": "Pörformıns",
+  "Thrust": "Trast",
+  "Rocket": "Rakıt",
+  "Mach": "Mak",
+  "kickflip'e": "kikflipe"
+ },
+ "title": "TESLA'NIN UÇAN ARABASI NASIL ÇALIŞIYOR? ROADSTER'IN SIRRI",
+ "thumbnail_text": "Tesla uçan araba",
+ "chapters": [
+  "Ne oldu?",
+  "Nasıl çalışıyor?",
+  "Gerçekten uçuyor mu?",
+  "Fiyat ve tarih"
+ ],
+ "stories": [
+  {
+   "kicker": "TESLA · ROADSTER",
+   "headline": "Tesla'nın uçan arabası",
+   "sources": [
+    {
+     "name": "Tesla",
+     "url": "https://x.com/Tesla/status/2110788059008819215"
+    }
+   ]
+  }
+ ],
+ "photo_credits": {
+  "wheel": {
+   "file": "tesla/wheel.jpg",
+   "line": "Görsel: Tesla"
+  },
+  "nozzles": {
+   "file": "tesla/nozzles.jpg",
+   "line": "Görsel: Tesla"
+  },
+  "rear": {
+   "file": "tesla/rear.jpg",
+   "line": "Görsel: Tesla"
+  },
+  "top": {
+   "file": "tesla/top.jpg",
+   "line": "Görsel: Tesla"
+  },
+  "seats": {
+   "file": "tesla/seats.jpg",
+   "line": "Görsel: Tesla"
+  },
+  "cockpit": {
+   "file": "tesla/cockpit.jpg",
+   "line": "Görsel: Tesla"
+  },
+  "side": {
+   "file": "tesla/side.jpg",
+   "line": "Görsel: Tesla"
+  },
+  "ramp-hud": {
+   "file": "tesla/ramp-hud.jpg",
+   "line": "Görsel: Tesla"
+  },
+  "ramp-jet": {
+   "file": "tesla/ramp-jet.jpg",
+   "line": "Görsel: Tesla"
+  },
+  "hero": {
+   "file": "tesla/hero.jpg",
+   "line": "Görsel: Tesla"
+  }
+ },
+ "clips": {
+  "rampjump": {
+   "file": "tesla/rampjump.mp4",
+   "line": "Video: Tesla"
+  },
+  "tech": {
+   "file": "tesla/tech.mp4",
+   "line": "Video: Tesla"
+  },
+  "ramp": {
+   "file": "tesla/ramp.mp4",
+   "line": "Video: Tesla"
+  },
+  "thrusters": {
+   "file": "tesla/thrusters.mp4",
+   "line": "Video: Tesla"
+  },
+  "kickflip": {
+   "file": "tesla/kickflip.mp4",
+   "line": "Video: Tesla"
+  },
+  "final": {
+   "file": "tesla/final.mp4",
+   "line": "Video: Tesla"
+  },
+  "zero60": {
+   "file": "tesla/zero60.mp4",
+   "line": "Video: Tesla"
+  },
+  "design": {
+   "file": "tesla/design.mp4",
+   "line": "Video: Tesla"
+  },
+  "trackmode": {
+   "file": "tesla/trackmode.mp4",
+   "line": "Video: Tesla"
+  }
+ },
+ "thumbnail": {
+  "photo": "hero",
+  "chip": "TESLA · 15 EKİM 2026",
+  "big": "Uçan Tesla",
+  "sub": "Roadster nasıl uçuyor?",
+  "foot": "Fanlar, basınçlı hava ve SpaceX iticileri"
+ },
+ "beats": [
+  {
+   "scene": "clip",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "clip": "rampjump",
+    "start": 6,
+    "kicker": "Tesla · 15 Ekim 2026",
+    "title": "Roadster havalandı"
+   },
+   "say": "Bu bir uçak değil, bir otomobil. Tesla'nın yeni Roadster'ı, bir rampanın tepesinden ters dönerek havaya fırladı ve iticileriyle yere süzüldü."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "0,81 sn",
+    "label": "0–60 mph (0–97 km/s) · canlı yayında ölçülen",
+    "foot": "Tesla Roadster tanıtım yayını, 15.10.2026"
+   },
+   "say": "Aynı gece sıfırdan saatte 60 mile, yani yaklaşık 97 kilometreye, canlı yayında 0,81 saniyede çıktı. Peki bu araba gerçekten nasıl uçuyor? Bu videoda tamamen Tesla'nın resmi açıklamalarından anlatıyoruz."
+  },
+  {
+   "scene": "title",
+   "story": -1,
+   "chapter": -1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "BosNRoll",
+    "sub": "Tesla Roadster · nasıl uçuyor?",
+    "logo": true
+   },
+   "say": "BosNRoll kanalına hoş geldiniz."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 1,
+    "title": "Ne oldu?",
+    "sub": "Teksas'taki roket test sahasında tanıtım"
+   },
+   "say": "Birinci bölüm: Ne oldu?"
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "side",
+    "kicker": "McGregor, Teksas · SpaceX test merkezi",
+    "title": "İkinci nesil Roadster"
+   },
+   "say": "Tesla, ikinci nesil Roadster'ı 15 Ekim gecesi Teksas'ın McGregor kasabasındaki SpaceX roket test merkezinde tanıttı. Sahnede Elon Musk, tasarım şefi Franz von Holzhausen ve araç mühendisliğinden sorumlu başkan yardımcısı Lars Moravy vardı."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "Başarı garanti değil… ama heyecan yüzde yüz garanti.",
+    "who": "Elon Musk · Tesla Roadster tanıtımı (çeviri)"
+   },
+   "say": "Musk aracı, dünyanın en iyi otomobil şirketiyle en iyi roket şirketinin ortak işi olarak tanıttı. Bir de uyarı yaptı: Başarı garanti değil, ama heyecan yüzde yüz garanti."
+  },
+  {
+   "scene": "clip",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "clip": "design",
+    "start": 0,
+    "kicker": "Tasarım",
+    "title": "SR-71 ve F-35'ten ilham"
+   },
+   "say": "Roadster iki kişilik bir spor otomobil. Tasarım ekibine göre ilham kaynakları SR-71 keşif uçağı ve F-35 savaş uçağı."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 0,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "cockpit",
+    "kicker": "İç mekân",
+    "title": "Tel ile kumanda",
+    "label": "Koltuklar şasiye kalıplanmış · yoke direksiyon"
+   },
+   "say": "Ağırlığı azaltmak için koltuklar doğrudan şasiye kalıplanmış. Direksiyon, fren ve gaz tamamen elektronik; yani tel ile kumanda sistemi kullanılıyor."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 2,
+    "title": "Nasıl çalışıyor?",
+    "sub": "Fanlar, basınçlı hava ve iticiler"
+   },
+   "say": "İkinci bölüm: Nasıl çalışıyor?"
+  },
+  {
+   "scene": "clip",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "clip": "tech",
+    "start": 2,
+    "kicker": "Tesla animasyonu",
+    "title": "Üç parçalı sistem"
+   },
+   "say": "Roadster'ı havaya kaldıran sistem üç parçadan oluşuyor: aracın altındaki emiş fanları, basınçlı hava tankları ve itici nozullar."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "fansuction",
+    "caption": "Fan emiş sistemi · Tesla: 2 G'ye kadar"
+   },
+   "say": "İlk parça fan sistemi. Aracın altındaki fanlar, zeminle araç arasındaki havayı hızla dışarı atıyor. Altta basınç düşüyor ve üstteki atmosfer basıncı aracı zemine bastırıyor. Tesla'ya göre bu sistem 2 G'ye kadar kuvvet üretebiliyor; yani aracın kendi ağırlığının iki katı."
+  },
+  {
+   "scene": "clip",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "clip": "ramp",
+    "start": 16,
+    "kicker": "Rampa gösterisi",
+    "title": "Ters asılı kaldı"
+   },
+   "say": "İşte bu yüzden araç, rampada tamamen ters dönüp asılı kalabildi. Musk'ın esprili ifadesiyle: Bu araba gerçekten çok iyi emiyor."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "bars",
+    "unit": "G",
+    "items": [
+     {
+      "label": "Fan sistemiyle",
+      "v": 2
+     },
+     {
+      "label": "Sadece lastikler",
+      "v": 1.26
+     }
+    ],
+    "caption": "Tutunma kuvveti · Tesla tanıtım yayını"
+   },
+   "say": "Bu sadece bir gösteri numarası değil. Tesla mühendislerine göre lastikler tek başına tipik olarak 1,26 G tutunma sağlıyor. Fan sistemi bunu virajda 2 G'nin üzerine çıkarıyor. Fikir aslında yeni değil: 1978'de Formula 1'de Brabham BT46B adlı otomobil de fanla piste yapışıyordu ve tek yarışından sonra geri çekildi."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "coldgas",
+    "highlight": "tank",
+    "caption": "Karbon kaplı basınç tankları · 600 litre · ~250 kg hava"
+   },
+   "say": "İkinci parça SpaceX'ten gelen teknoloji: soğuk gaz iticiler. Araçta karbon kaplı iki yüksek basınç tankı var. Tesla'nın açıkladığına göre toplam hacimleri 600 litre ve içlerinde yaklaşık 250 kilogram hava taşıyorlar."
+  },
+  {
+   "scene": "photo",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "photo": "nozzles",
+    "kicker": "10 nozul",
+    "title": "4 ana itici + yön kontrolü",
+    "label": "Arka difüzördeki itici çıkışları"
+   },
+   "say": "Bu hava 10 nozuldan dışarı püskürtülüyor. Arkada dört ana itici var; gövdedeki küçük iticiler ise aracın yönünü ve dönüşünü kontrol ediyor. Tıpkı bir roketin yön kontrol sistemi gibi."
+  },
+  {
+   "scene": "diagram",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "name": "coldgas",
+    "highlight": "all",
+    "caption": "Etki = tepki · Newton'un 3. yasası"
+   },
+   "say": "Fiziği aslında basit. Sıkıştırılmış hava, önce daralıp sonra genişleyen bir nozuldan geçerken ses hızının üzerine çıkıyor. Newton'un üçüncü yasasına göre hava geriye fırladıkça araç ileri ya da yukarı itiliyor. Yakıt yok, yanma yok; sadece basınçlı hava."
+  },
+  {
+   "scene": "clip",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "clip": "thrusters",
+    "start": 2,
+    "kicker": "Arka iticiler",
+    "title": "Mach elmasları"
+   },
+   "say": "Bu görüntüde dört arka iticinin ateşlendiğini görüyorsunuz. Egzozdaki parlak halkalara Mach elmasları deniyor; gazın ses hızının üzerinde aktığını gösteriyor. Tesla'ya göre bu iticiler 80 kilonewtonun üzerinde itki üretiyor."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 1,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "80+ kN",
+    "label": "4 arka iticinin toplam itkisi",
+    "foot": "≈ 8 tonluk ağırlığı kaldıracak kuvvet · Tesla tanıtım yayını"
+   },
+   "say": "Karşılaştırmak gerekirse 80 kilonewton, yaklaşık 8 tonluk bir ağırlığı kaldırmaya yetecek kadar kuvvet. Tankları doldurmak için özel bir yakıta da gerek yok; Tesla'ya göre araç tanklarını kendisi yeniden doldurabiliyor."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 3,
+    "title": "Gerçekten uçuyor mu?",
+    "sub": "Mantık sorgusu"
+   },
+   "say": "Üçüncü bölüm: Gerçekten uçuyor mu?"
+  },
+  {
+   "scene": "clip",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "clip": "kickflip",
+    "start": 0,
+    "kicker": "Kickflip",
+    "title": "Araçların üzerinden atladı"
+   },
+   "say": "Gösteride araç, rampadan fırlayıp havada takla attı ve park halindeki Tesla araçlarının üzerinden atladı. Tesla bu hareketi kaykaydaki kickflip'e benzetti."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "≈ 2 saniye",
+    "label": "250 kg havayla tam güçte itki süresi",
+    "foot": "BosNRoll kaba hesabı · basınçlı hava için özgül itki ≈ 60 sn varsayımıyla"
+   },
+   "say": "Peki bu araba helikopter gibi dakikalarca uçabilir mi? Kısa cevap: Hayır. Kaba bir hesap yapalım. Basınçlı hava iticileri roket yakıtlarına göre çok daha az verimli. 250 kilogram havayla, 80 kilonewtonluk tam güçte itki ancak birkaç saniye sürebilir. Bizim hesabımıza göre yaklaşık 2 saniye."
+  },
+  {
+   "scene": "clip",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "clip": "final",
+    "start": 46,
+    "kicker": "Final gösterisi",
+    "title": "Uçmak değil, sıçramak"
+   },
+   "say": "Yani bu bir uçak ya da helikopter değil. Kısa sıçramalar, havada takla ve yumuşak inişler için tasarlanmış, roket destekli bir otomobil."
+  },
+  {
+   "scene": "quote",
+   "story": -1,
+   "chapter": 2,
+   "key": "",
+   "q": -1,
+   "data": {
+    "text": "Bu, güvenlik için optimize edilmiş bir araba değil.",
+    "who": "Elon Musk · Tesla Roadster tanıtımı (çeviri)"
+   },
+   "say": "Musk da sahnede bunu açıkça söyledi: Bu araba güvenlik için optimize edilmiş bir araba değil. Bu özelliklerin her ülkede yasal olacağından emin olmadığını da ekledi. Gösterideki araç ise kimse yaralanmasın diye sürücüsüz kullanıldı."
+  },
+  {
+   "scene": "chapter",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "num": 4,
+    "title": "Fiyat ve tarih",
+    "sub": "Ne zaman, kaça?"
+   },
+   "say": "Dördüncü bölüm: Fiyat ve tarih."
+  },
+  {
+   "scene": "clip",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "clip": "zero60",
+    "start": 3,
+    "kicker": "0–60 mph",
+    "title": "0,81 saniye",
+    "label": "En yüksek hız: 230 mph (≈ 370 km/s) üzeri"
+   },
+   "say": "Canlı yayında Roadster, sıfırdan saatte 60 mile 0,81 saniyede çıktı. Musk, en yüksek hızın saatte 230 milin, yani yaklaşık 370 kilometrenin üzerinde olacağını söyledi."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "Rezervasyon seçenekleri",
+    "items": [
+     "Performance · 50.000 $ depozito",
+     "Thrust · fan + iticiler · 250.000 $ depozito",
+     "Rocket · tek kişilik, tam uçuş sistemi · sadece davetle"
+    ],
+    "note": "Satış fiyatı açıklanmadı · Tesla rezervasyon sayfası (Fox Business'ın aktardığı)"
+   },
+   "say": "Tesla rezervasyonda üç seçenek sunuyor. Performance sürümü için 50 bin dolar, iticili Thrust sürümü için 250 bin dolar depozito isteniyor. Tam uçuş sistemine sahip tek kişilik Rocket sürümü ise sadece davetle satılacak. Satış fiyatı henüz açıklanmadı."
+  },
+  {
+   "scene": "stat",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "value": "2028",
+    "label": "Seri üretim hedefi",
+    "foot": "İlk tanıtım 2017 · ilk teslimat hedefi 2020'ydi"
+   },
+   "say": "Seri üretimin 2028'de başlaması planlanıyor. Hatırlatalım: Roadster ilk kez 2017'de tanıtılmış ve teslimatların 2020'de başlayacağı söylenmişti."
+  },
+  {
+   "scene": "clip",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "clip": "trackmode",
+    "start": 0,
+    "kicker": "Pist modu",
+    "title": "Son en iyi sürücü otomobili"
+   },
+   "say": "Musk'a göre Roadster, Tesla'nın sürücüsüz araçlara yönelen ürün yelpazesindeki tek manuel sürülen otomobil olacak. Tesla'nın deyişiyle: son en iyi sürücü otomobili."
+  },
+  {
+   "scene": "list",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "data": {
+    "title": "BosNRoll yorumu",
+    "items": [
+     "\"Uçan araba\" abartılı: birkaç saniyelik sıçrama",
+     "Mühendislik gerçek: fan emişi + basınçlı hava iticileri",
+     "Yasal durum belirsiz · üretim 2028"
+    ]
+   },
+   "say": "Bizim yorumumuz şu: Uçan araba ifadesi biraz pazarlama. Bu araç uçmuyor, birkaç saniyeliğine sıçrıyor. Ama arkasındaki mühendislik gerçek ve fizik kurallarına uygun. Asıl soru, bunun yollarda yasal olup olmayacağı."
+  },
+  {
+   "scene": "outro",
+   "story": -1,
+   "chapter": 3,
+   "key": "",
+   "q": -1,
+   "say": "Siz bu arabaya binmek ister miydiniz? Yorumlarda yazın. BosNRoll kanalına abone olmayı unutmayın, görüşmek üzere."
+  }
+ ]
+}
