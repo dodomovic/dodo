@@ -1,0 +1,307 @@
+1
+00:00:00,400 --> 00:00:02,400
+This isn't a plane, it's a car.
+
+2
+00:00:02,750 --> 00:00:08,470
+Tesla's new Roadster launched off the top of a ramp upside down and glided back to the ground on its thrusters.
+
+3
+00:00:09,270 --> 00:00:16,510
+That same night, on the livestream, it went from zero to 60 mph, about 97 km/h, in 0.81 seconds.
+
+4
+00:00:16,860 --> 00:00:19,100
+So how does this car actually fly?
+
+5
+00:00:19,450 --> 00:00:22,850
+In this video we explain it entirely from Tesla's official statements.
+
+6
+00:00:23,650 --> 00:00:25,450
+Welcome to BosNRoll.
+
+7
+00:00:26,250 --> 00:00:27,770
+Part one: What happened?
+
+8
+00:00:28,570 --> 00:00:35,046
+Tesla unveiled the second-generation Roadster on the night of October 15 at SpaceX's rocket test site
+
+9
+00:00:35,046 --> 00:00:35,530
+in McGregor, Texas.
+
+10
+00:00:35,880 --> 00:00:41,807
+On stage were Elon Musk, chief designer Franz von Holzhausen and Lars Moravy,
+
+11
+00:00:41,807 --> 00:00:42,520
+vice president of vehicle engineering.
+
+12
+00:00:43,320 --> 00:00:48,920
+Musk presented the car as a joint effort between the world's best car company and the best rocket company.
+
+13
+00:00:49,270 --> 00:00:53,390
+He also gave a warning: success is not guaranteed, but excitement is 100 percent guaranteed.
+
+14
+00:00:54,190 --> 00:00:56,350
+The Roadster is a two-seat sports car.
+
+15
+00:00:56,700 --> 00:01:02,100
+According to the design team, its inspirations are the SR-71 reconnaissance plane and the F-35 fighter jet.
+
+16
+00:01:02,900 --> 00:01:06,220
+To save weight, the seats are molded directly into the chassis.
+
+17
+00:01:06,570 --> 00:01:11,290
+Steering, brakes and throttle are fully electronic: a steer-by-wire system.
+
+18
+00:01:12,090 --> 00:01:13,850
+Part two: How does it work?
+
+19
+00:01:14,650 --> 00:01:19,309
+The system that lifts the Roadster has three parts: suction fans under the car,
+
+20
+00:01:19,309 --> 00:01:21,530
+high-pressure air tanks and thruster nozzles.
+
+21
+00:01:22,330 --> 00:01:27,930
+The first part is the fan system. Fans under the car rapidly push out the air between the car and the ground.
+
+22
+00:01:28,280 --> 00:01:32,320
+Pressure underneath drops, and the atmospheric pressure above presses the car onto the surface.
+
+23
+00:01:32,670 --> 00:01:38,190
+According to Tesla, this system can generate up to 2 G, twice the car's own weight.
+
+24
+00:01:38,990 --> 00:01:42,750
+That's why the car could hang completely upside down on the ramp.
+
+25
+00:01:43,100 --> 00:01:46,700
+In Musk's joking words: this car really sucks.
+
+26
+00:01:47,500 --> 00:01:49,540
+This isn't just a stunt.
+
+27
+00:01:49,890 --> 00:01:55,410
+According to Tesla's engineers, tires alone typically provide about 1.26 G of grip.
+
+28
+00:01:55,760 --> 00:01:58,640
+The fan system pushes that above 2 G in corners.
+
+29
+00:01:58,990 --> 00:02:06,347
+The idea isn't new: in 1978, the Brabham BT46B Formula 1 car also used a fan to stick to the track,
+
+30
+00:02:06,347 --> 00:02:08,390
+and was withdrawn after a single race.
+
+31
+00:02:09,190 --> 00:02:12,830
+The second part is technology from SpaceX: cold-gas thrusters.
+
+32
+00:02:13,180 --> 00:02:16,100
+The car carries two carbon-overwrapped high-pressure tanks.
+
+33
+00:02:16,450 --> 00:02:22,890
+According to Tesla, they hold 600 liters in total and about 250 kilograms of air.
+
+34
+00:02:23,690 --> 00:02:26,090
+That air is blasted out through 10 nozzles.
+
+35
+00:02:26,440 --> 00:02:31,760
+There are four main thrusters at the rear; smaller thrusters on the body control the car's direction and rotation.
+
+36
+00:02:32,110 --> 00:02:34,470
+Just like a rocket's attitude control system.
+
+37
+00:02:35,270 --> 00:02:40,928
+The physics is simple. As compressed air passes through a nozzle that narrows and then widens,
+
+38
+00:02:40,928 --> 00:02:41,790
+it speeds up past the speed of sound.
+
+39
+00:02:42,140 --> 00:02:46,700
+By Newton's third law, as air shoots backward, the car is pushed forward or upward.
+
+40
+00:02:47,050 --> 00:02:49,650
+No fuel, no combustion: just compressed air.
+
+41
+00:02:50,450 --> 00:02:53,650
+In this shot you can see the four rear thrusters firing.
+
+42
+00:02:54,000 --> 00:02:59,240
+The bright rings in the exhaust are called Mach diamonds; they show the gas is moving faster than sound.
+
+43
+00:02:59,590 --> 00:03:03,310
+According to Tesla, these thrusters produce more than 80 kilonewtons of thrust.
+
+44
+00:03:04,110 --> 00:03:10,070
+For comparison, 80 kilonewtons is enough force to lift roughly 8 tonnes.
+
+45
+00:03:10,420 --> 00:03:15,769
+No special fuel is needed to fill the tanks; according to Tesla, the car can
+
+46
+00:03:15,769 --> 00:03:16,580
+refill them by itself.
+
+47
+00:03:17,380 --> 00:03:19,380
+Part three: Does it really fly?
+
+48
+00:03:20,180 --> 00:03:25,860
+In the demo, the car launched off a ramp, flipped in mid-air and jumped over a row of parked Teslas.
+
+49
+00:03:26,210 --> 00:03:28,930
+Tesla compared the move to a skateboard kickflip.
+
+50
+00:03:29,730 --> 00:03:32,890
+So could this car fly for minutes like a helicopter?
+
+51
+00:03:33,240 --> 00:03:35,720
+Short answer: no. Let's do a rough calculation.
+
+52
+00:03:36,070 --> 00:03:39,630
+Compressed-air thrusters are far less efficient than rocket propellants.
+
+53
+00:03:39,980 --> 00:03:45,420
+With 250 kilograms of air, full thrust of 80 kilonewtons can only last a few seconds.
+
+54
+00:03:45,770 --> 00:03:48,130
+By our estimate, about 2 seconds.
+
+55
+00:03:48,930 --> 00:03:51,170
+So this is not a plane or a helicopter.
+
+56
+00:03:51,520 --> 00:03:56,800
+It's a rocket-assisted car designed for short hops, mid-air flips and soft landings.
+
+57
+00:03:57,600 --> 00:04:02,840
+Musk said it plainly on stage: this is not a safety-optimized car.
+
+58
+00:04:03,190 --> 00:04:06,990
+He added that he isn't sure these features will be legal in every jurisdiction.
+
+59
+00:04:07,340 --> 00:04:10,900
+The car in the demo was driven autonomously, so nobody would get hurt.
+
+60
+00:04:11,700 --> 00:04:13,540
+Part four: Price and timing.
+
+61
+00:04:14,340 --> 00:04:19,300
+On the livestream, the Roadster went from zero to 60 mph in 0.81 seconds.
+
+62
+00:04:19,650 --> 00:04:26,250
+Musk said the top speed will be over 230 mph, about 370 km/h.
+
+63
+00:04:27,050 --> 00:04:29,410
+Tesla offers three options for reservations.
+
+64
+00:04:29,760 --> 00:04:35,680
+A $50,000 deposit for the Performance version and $250,000 for the Thrust version with thrusters.
+
+65
+00:04:36,030 --> 00:04:40,550
+The single-seat Rocket version with the full flight system will be sold by invitation only.
+
+66
+00:04:40,900 --> 00:04:42,700
+The sale price hasn't been announced yet.
+
+67
+00:04:43,500 --> 00:04:46,700
+Series production is planned to start in 2028.
+
+68
+00:04:47,050 --> 00:04:53,530
+A reminder: the Roadster was first unveiled in 2017, with deliveries promised for 2020.
+
+69
+00:04:54,330 --> 00:05:00,108
+According to Musk, the Roadster will be the only manually driven car in Tesla's increasingly driverless
+
+70
+00:05:00,108 --> 00:05:00,490
+lineup.
+
+71
+00:05:00,840 --> 00:05:03,720
+In Tesla's words: the last best driver's car.
+
+72
+00:05:04,520 --> 00:05:07,800
+Our take: calling it a flying car is a bit of marketing.
+
+73
+00:05:08,150 --> 00:05:10,870
+This car doesn't fly, it jumps for a few seconds.
+
+74
+00:05:11,220 --> 00:05:14,540
+But the engineering behind it is real and follows the laws of physics.
+
+75
+00:05:14,890 --> 00:05:17,610
+The real question is whether it will be street legal.
+
+76
+00:05:18,410 --> 00:05:20,410
+Would you ride in this car?
+
+77
+00:05:20,760 --> 00:05:24,840
+Tell us in the comments. Don't forget to subscribe to BosNRoll. See you next time.
