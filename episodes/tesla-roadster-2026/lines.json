@@ -1,0 +1,422 @@
+[
+ {
+  "beat": 0,
+  "text": "Bu bir uçak değil, bir otomobil.",
+  "start": 0.4,
+  "end": 2.4
+ },
+ {
+  "beat": 0,
+  "text": "Tesla'nın yeni Roadster'ı, bir rampanın tepesinden ters dönerek havaya fırladı ve iticileriyle yere süzüldü.",
+  "start": 2.75,
+  "end": 8.469999999999999
+ },
+ {
+  "beat": 1,
+  "text": "Aynı gece sıfırdan saatte 60 mile, yani yaklaşık 97 kilometreye, canlı yayında 0,81 saniyede çıktı.",
+  "start": 9.27,
+  "end": 16.509999999999998
+ },
+ {
+  "beat": 1,
+  "text": "Peki bu araba gerçekten nasıl uçuyor?",
+  "start": 16.86,
+  "end": 19.1
+ },
+ {
+  "beat": 1,
+  "text": "Bu videoda tamamen Tesla'nın resmi açıklamalarından anlatıyoruz.",
+  "start": 19.45,
+  "end": 22.849999999999998
+ },
+ {
+  "beat": 2,
+  "text": "BosNRoll kanalına hoş geldiniz.",
+  "start": 23.65,
+  "end": 25.45
+ },
+ {
+  "beat": 3,
+  "text": "Birinci bölüm: Ne oldu?",
+  "start": 26.25,
+  "end": 27.77
+ },
+ {
+  "beat": 4,
+  "text": "Tesla, ikinci nesil Roadster'ı 15 Ekim gecesi Teksas'ın McGregor kasabasındaki SpaceX roket test merkezinde tanıttı.",
+  "start": 28.57,
+  "end": 35.53
+ },
+ {
+  "beat": 4,
+  "text": "Sahnede Elon Musk, tasarım şefi Franz von Holzhausen ve araç mühendisliğinden sorumlu başkan yardımcısı Lars Moravy vardı.",
+  "start": 35.88,
+  "end": 42.52
+ },
+ {
+  "beat": 5,
+  "text": "Musk aracı, dünyanın en iyi otomobil şirketiyle en iyi roket şirketinin ortak işi olarak tanıttı.",
+  "start": 43.32,
+  "end": 48.92
+ },
+ {
+  "beat": 5,
+  "text": "Bir de uyarı yaptı: Başarı garanti değil, ama heyecan yüzde yüz garanti.",
+  "start": 49.27,
+  "end": 53.39
+ },
+ {
+  "beat": 6,
+  "text": "Roadster iki kişilik bir spor otomobil.",
+  "start": 54.190000000000005,
+  "end": 56.35000000000001
+ },
+ {
+  "beat": 6,
+  "text": "Tasarım ekibine göre ilham kaynakları SR-71 keşif uçağı ve F-35 savaş uçağı.",
+  "start": 56.7,
+  "end": 62.1
+ },
+ {
+  "beat": 7,
+  "text": "Ağırlığı azaltmak için koltuklar doğrudan şasiye kalıplanmış.",
+  "start": 62.900000000000006,
+  "end": 66.22
+ },
+ {
+  "beat": 7,
+  "text": "Direksiyon, fren ve gaz tamamen elektronik; yani tel ile kumanda sistemi kullanılıyor.",
+  "start": 66.57000000000001,
+  "end": 71.29
+ },
+ {
+  "beat": 8,
+  "text": "İkinci bölüm: Nasıl çalışıyor?",
+  "start": 72.09,
+  "end": 73.85000000000001
+ },
+ {
+  "beat": 9,
+  "text": "Roadster'ı havaya kaldıran sistem üç parçadan oluşuyor: aracın altındaki emiş fanları, basınçlı hava tankları ve itici nozullar.",
+  "start": 74.65,
+  "end": 81.53
+ },
+ {
+  "beat": 10,
+  "text": "İlk parça fan sistemi. Aracın altındaki fanlar, zeminle araç arasındaki havayı hızla dışarı atıyor.",
+  "start": 82.33000000000001,
+  "end": 87.93
+ },
+ {
+  "beat": 10,
+  "text": "Altta basınç düşüyor ve üstteki atmosfer basıncı aracı zemine bastırıyor.",
+  "start": 88.28000000000002,
+  "end": 92.32000000000002
+ },
+ {
+  "beat": 10,
+  "text": "Tesla'ya göre bu sistem 2 G'ye kadar kuvvet üretebiliyor; yani aracın kendi ağırlığının iki katı.",
+  "start": 92.67000000000002,
+  "end": 98.19000000000001
+ },
+ {
+  "beat": 11,
+  "text": "İşte bu yüzden araç, rampada tamamen ters dönüp asılı kalabildi.",
+  "start": 98.99000000000001,
+  "end": 102.75000000000001
+ },
+ {
+  "beat": 11,
+  "text": "Musk'ın esprili ifadesiyle: Bu araba gerçekten çok iyi emiyor.",
+  "start": 103.10000000000001,
+  "end": 106.7
+ },
+ {
+  "beat": 12,
+  "text": "Bu sadece bir gösteri numarası değil.",
+  "start": 107.50000000000001,
+  "end": 109.54000000000002
+ },
+ {
+  "beat": 12,
+  "text": "Tesla mühendislerine göre lastikler tek başına tipik olarak 1,26 G tutunma sağlıyor.",
+  "start": 109.89000000000001,
+  "end": 115.41000000000001
+ },
+ {
+  "beat": 12,
+  "text": "Fan sistemi bunu virajda 2 G'nin üzerine çıkarıyor.",
+  "start": 115.76000000000002,
+  "end": 118.64000000000001
+ },
+ {
+  "beat": 12,
+  "text": "Fikir aslında yeni değil: 1978'de Formula 1'de Brabham BT46B adlı otomobil de fanla piste yapışıyordu ve tek yarışından sonra geri çekildi.",
+  "start": 118.99000000000002,
+  "end": 128.39000000000001
+ },
+ {
+  "beat": 13,
+  "text": "İkinci parça SpaceX'ten gelen teknoloji: soğuk gaz iticiler.",
+  "start": 129.19000000000003,
+  "end": 132.83
+ },
+ {
+  "beat": 13,
+  "text": "Araçta karbon kaplı iki yüksek basınç tankı var.",
+  "start": 133.18000000000004,
+  "end": 136.10000000000002
+ },
+ {
+  "beat": 13,
+  "text": "Tesla'nın açıkladığına göre toplam hacimleri 600 litre ve içlerinde yaklaşık 250 kilogram hava taşıyorlar.",
+  "start": 136.45000000000005,
+  "end": 142.89000000000004
+ },
+ {
+  "beat": 14,
+  "text": "Bu hava 10 nozuldan dışarı püskürtülüyor.",
+  "start": 143.69000000000005,
+  "end": 146.09000000000006
+ },
+ {
+  "beat": 14,
+  "text": "Arkada dört ana itici var; gövdedeki küçük iticiler ise aracın yönünü ve dönüşünü kontrol ediyor.",
+  "start": 146.44000000000005,
+  "end": 151.76000000000005
+ },
+ {
+  "beat": 14,
+  "text": "Tıpkı bir roketin yön kontrol sistemi gibi.",
+  "start": 152.11000000000004,
+  "end": 154.47000000000006
+ },
+ {
+  "beat": 15,
+  "text": "Fiziği aslında basit. Sıkıştırılmış hava, önce daralıp sonra genişleyen bir nozuldan geçerken ses hızının üzerine çıkıyor.",
+  "start": 155.27000000000004,
+  "end": 161.79000000000005
+ },
+ {
+  "beat": 15,
+  "text": "Newton'un üçüncü yasasına göre hava geriye fırladıkça araç ileri ya da yukarı itiliyor.",
+  "start": 162.14000000000004,
+  "end": 166.70000000000005
+ },
+ {
+  "beat": 15,
+  "text": "Yakıt yok, yanma yok; sadece basınçlı hava.",
+  "start": 167.05000000000004,
+  "end": 169.65000000000003
+ },
+ {
+  "beat": 16,
+  "text": "Bu görüntüde dört arka iticinin ateşlendiğini görüyorsunuz.",
+  "start": 170.45000000000005,
+  "end": 173.65000000000003
+ },
+ {
+  "beat": 16,
+  "text": "Egzozdaki parlak halkalara Mach elmasları deniyor; gazın ses hızının üzerinde aktığını gösteriyor.",
+  "start": 174.00000000000006,
+  "end": 179.24000000000007
+ },
+ {
+  "beat": 16,
+  "text": "Tesla'ya göre bu iticiler 80 kilonewtonun üzerinde itki üretiyor.",
+  "start": 179.59000000000006,
+  "end": 183.31000000000006
+ },
+ {
+  "beat": 17,
+  "text": "Karşılaştırmak gerekirse 80 kilonewton, yaklaşık 8 tonluk bir ağırlığı kaldırmaya yetecek kadar kuvvet.",
+  "start": 184.11000000000007,
+  "end": 190.07000000000008
+ },
+ {
+  "beat": 17,
+  "text": "Tankları doldurmak için özel bir yakıta da gerek yok; Tesla'ya göre araç tanklarını kendisi yeniden doldurabiliyor.",
+  "start": 190.42000000000007,
+  "end": 196.58000000000007
+ },
+ {
+  "beat": 18,
+  "text": "Üçüncü bölüm: Gerçekten uçuyor mu?",
+  "start": 197.38000000000008,
+  "end": 199.38000000000008
+ },
+ {
+  "beat": 19,
+  "text": "Gösteride araç, rampadan fırlayıp havada takla attı ve park halindeki Tesla araçlarının üzerinden atladı.",
+  "start": 200.1800000000001,
+  "end": 205.8600000000001
+ },
+ {
+  "beat": 19,
+  "text": "Tesla bu hareketi kaykaydaki kickflip'e benzetti.",
+  "start": 206.2100000000001,
+  "end": 208.9300000000001
+ },
+ {
+  "beat": 20,
+  "text": "Peki bu araba helikopter gibi dakikalarca uçabilir mi?",
+  "start": 209.7300000000001,
+  "end": 212.8900000000001
+ },
+ {
+  "beat": 20,
+  "text": "Kısa cevap: Hayır. Kaba bir hesap yapalım.",
+  "start": 213.2400000000001,
+  "end": 215.72000000000008
+ },
+ {
+  "beat": 20,
+  "text": "Basınçlı hava iticileri roket yakıtlarına göre çok daha az verimli.",
+  "start": 216.0700000000001,
+  "end": 219.6300000000001
+ },
+ {
+  "beat": 20,
+  "text": "250 kilogram havayla, 80 kilonewtonluk tam güçte itki ancak birkaç saniye sürebilir.",
+  "start": 219.9800000000001,
+  "end": 225.4200000000001
+ },
+ {
+  "beat": 20,
+  "text": "Bizim hesabımıza göre yaklaşık 2 saniye.",
+  "start": 225.7700000000001,
+  "end": 228.1300000000001
+ },
+ {
+  "beat": 21,
+  "text": "Yani bu bir uçak ya da helikopter değil.",
+  "start": 228.9300000000001,
+  "end": 231.1700000000001
+ },
+ {
+  "beat": 21,
+  "text": "Kısa sıçramalar, havada takla ve yumuşak inişler için tasarlanmış, roket destekli bir otomobil.",
+  "start": 231.5200000000001,
+  "end": 236.8000000000001
+ },
+ {
+  "beat": 22,
+  "text": "Musk da sahnede bunu açıkça söyledi: Bu araba güvenlik için optimize edilmiş bir araba değil.",
+  "start": 237.6000000000001,
+  "end": 242.84000000000012
+ },
+ {
+  "beat": 22,
+  "text": "Bu özelliklerin her ülkede yasal olacağından emin olmadığını da ekledi.",
+  "start": 243.1900000000001,
+  "end": 246.99000000000012
+ },
+ {
+  "beat": 22,
+  "text": "Gösterideki araç ise kimse yaralanmasın diye sürücüsüz kullanıldı.",
+  "start": 247.34000000000012,
+  "end": 250.90000000000012
+ },
+ {
+  "beat": 23,
+  "text": "Dördüncü bölüm: Fiyat ve tarih.",
+  "start": 251.70000000000013,
+  "end": 253.54000000000013
+ },
+ {
+  "beat": 24,
+  "text": "Canlı yayında Roadster, sıfırdan saatte 60 mile 0,81 saniyede çıktı.",
+  "start": 254.34000000000012,
+  "end": 259.3000000000001
+ },
+ {
+  "beat": 24,
+  "text": "Musk, en yüksek hızın saatte 230 milin, yani yaklaşık 370 kilometrenin üzerinde olacağını söyledi.",
+  "start": 259.6500000000001,
+  "end": 266.2500000000001
+ },
+ {
+  "beat": 25,
+  "text": "Tesla rezervasyonda üç seçenek sunuyor.",
+  "start": 267.05000000000007,
+  "end": 269.4100000000001
+ },
+ {
+  "beat": 25,
+  "text": "Performance sürümü için 50 bin dolar, iticili Thrust sürümü için 250 bin dolar depozito isteniyor.",
+  "start": 269.76000000000005,
+  "end": 275.68000000000006
+ },
+ {
+  "beat": 25,
+  "text": "Tam uçuş sistemine sahip tek kişilik Rocket sürümü ise sadece davetle satılacak.",
+  "start": 276.03000000000003,
+  "end": 280.55
+ },
+ {
+  "beat": 25,
+  "text": "Satış fiyatı henüz açıklanmadı.",
+  "start": 280.90000000000003,
+  "end": 282.70000000000005
+ },
+ {
+  "beat": 26,
+  "text": "Seri üretimin 2028'de başlaması planlanıyor.",
+  "start": 283.50000000000006,
+  "end": 286.70000000000005
+ },
+ {
+  "beat": 26,
+  "text": "Hatırlatalım: Roadster ilk kez 2017'de tanıtılmış ve teslimatların 2020'de başlayacağı söylenmişti.",
+  "start": 287.05000000000007,
+  "end": 293.5300000000001
+ },
+ {
+  "beat": 27,
+  "text": "Musk'a göre Roadster, Tesla'nın sürücüsüz araçlara yönelen ürün yelpazesindeki tek manuel sürülen otomobil olacak.",
+  "start": 294.33000000000004,
+  "end": 300.49000000000007
+ },
+ {
+  "beat": 27,
+  "text": "Tesla'nın deyişiyle: son en iyi sürücü otomobili.",
+  "start": 300.84000000000003,
+  "end": 303.72
+ },
+ {
+  "beat": 28,
+  "text": "Bizim yorumumuz şu: Uçan araba ifadesi biraz pazarlama.",
+  "start": 304.52000000000004,
+  "end": 307.8
+ },
+ {
+  "beat": 28,
+  "text": "Bu araç uçmuyor, birkaç saniyeliğine sıçrıyor.",
+  "start": 308.15000000000003,
+  "end": 310.87000000000006
+ },
+ {
+  "beat": 28,
+  "text": "Ama arkasındaki mühendislik gerçek ve fizik kurallarına uygun.",
+  "start": 311.22,
+  "end": 314.54
+ },
+ {
+  "beat": 28,
+  "text": "Asıl soru, bunun yollarda yasal olup olmayacağı.",
+  "start": 314.89000000000004,
+  "end": 317.61000000000007
+ },
+ {
+  "beat": 29,
+  "text": "Siz bu arabaya binmek ister miydiniz?",
+  "start": 318.41,
+  "end": 320.41
+ },
+ {
+  "beat": 29,
+  "text": "Yorumlarda yazın. BosNRoll kanalına abone olmayı unutmayın, görüşmek üzere.",
+  "start": 320.76000000000005,
+  "end": 324.84000000000003
+ }
+]
