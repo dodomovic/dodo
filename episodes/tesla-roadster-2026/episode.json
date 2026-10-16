@@ -365,7 +365,7 @@
    "q": -1,
    "data": {
     "clip": "thrusters",
-    "start": 2,
+    "start": 10,
     "kicker": "Arka iticiler",
     "title": "Mach elmasları"
    },
@@ -405,7 +405,7 @@
    "q": -1,
    "data": {
     "clip": "kickflip",
-    "start": 0,
+    "start": 3,
     "kicker": "Kickflip",
     "title": "Araçların üzerinden atladı"
    },
